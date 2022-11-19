@@ -16,15 +16,16 @@ discordBot.client.on("messageCreate", (message) => {
   }
 })
 
-mcBot.client.on("messagestr", (message) => {
+mcBot.client.on("messagestr", async (message) => {
   const messageGroups = message.match(guildMessageRegex)?.groups
   if (messageGroups != null && messageGroups.name != process.env.MC_USERNAME) {
-    discordBot.chat(messageGroups.name, messageGroups.hypixelRank, messageGroups.guildRank, messageGroups.content)
+    await discordBot.chat(messageGroups.name, messageGroups.hypixelRank, messageGroups.guildRank, messageGroups.content)
   }
   if (joinedLobbyRegex.test(message)) {
     mcBot.limbo()
   }
 })
+
 
 
 

@@ -22,7 +22,7 @@ INSERT OR REPLACE INTO Skins
 VALUES (:username, :skin, :lastUpdated)
 `)
 
-async function skin(username) {
+export async function skin(username) {
   const result = cachedSkinSelect.get(username)
   if (result == null || (Date.now() - result.lastUpdated) > 600000) {
     try {
@@ -56,4 +56,3 @@ async function skin(username) {
     return result.skin
   }
 }
-console.log(await skin("DeathByRedstone"))
