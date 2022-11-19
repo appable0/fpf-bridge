@@ -9,7 +9,7 @@ export class DiscordBot {
     this.client.login(token)
   }
 
-  sendMinecraftMessage(name, hypixelRank, guildRank, content) {
+  chat(name, hypixelRank, guildRank, content) {
     if (!this.client.isReady) return
     const channel = this.client.channels.cache.get(this.channelId)
     channel.send(`[${hypixelRank ?? "NON"}] ${name} [${guildRank ?? "None"}]: ${content}`)
