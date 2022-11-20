@@ -11,14 +11,18 @@ export class DiscordBot {
     this.client.login(token)
   }
 
-  async chat(name, hypixelRank, guildRank, content) {
+  async chat(hypixelRank, name, guildRank, content) {
+    let author = `[${hypixelRank}] ${name}`
+    if (guildRank != null) {
+      author += ` [${guildRank}]`
+    }
     if (!this.client.isReady) return
-    const channel = this.client.channels.cache.get(this.channelId)
-    const skinUpscaled = await sharp(await skin(name)).resize(128, 128, {kernel: sharp.kernel.nearest}).toBuffer()
-    const file = new AttachmentBuilder(skinUpscaled, {name: "attachment.png"})
-    const embed = new EmbedBuilder()
+    var channel = this.client.channels.cache.get(this.channelId)
+    var skinUpscaled = await sharp(await skin(name)).resize(128, 128, {kernel: sharp.kernel.nearest}).toBuffer()
+    var file = new AttachmentBuilder(skinUpscaled, {name: "attachment.png"})
+    var embed = new EmbedBuilder()
       .setAuthor({
-        name: (guildRank != null) ? `${name} (${guildRank})` : `${name}`,
+        name: author,
         iconURL: "attachment://attachment.png"
       })
       .setDescription(content)

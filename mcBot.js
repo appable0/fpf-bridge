@@ -18,7 +18,7 @@ export class MinecraftBot {
     this.client = mineflayer.createBot({
       host: "mc.hypixel.net",
       port: 25565,
-      username: "Fishre",
+      username: process.env.MC_USERNAME,
       auth: "microsoft",
       version: "1.17.1"
     })
@@ -31,27 +31,20 @@ export class MinecraftBot {
 
   processQueue() {
     if (this.messageQueue.length == 0) return
-    if ((Date.now() - this.lastSentTime) > timeout) {
-      this.lastSentTime = Date.now()
-      const message = this.messageQueue.shift()
-      this.client.chat(message)
-    }
+    if (Date.now() - this.lastSentTime < timeout) return
+    this.lastSentTime = Date.now()
+    const message = this.messageQueue.shift()
+    this.client.chat(message)
   }
 
   limbo() {
     this.messageQueue.push("§")
   }
-  
+
   chat(name, message) {
     this.messageQueue.push(`/gc ${name}: ${message}`)
   }
-
-
 }
-
-
-
-
 
 /*
 setTimeout(() => {
