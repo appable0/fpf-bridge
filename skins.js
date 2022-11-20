@@ -53,6 +53,6 @@ export async function skin(username) {
       return result?.skin
     }
   } else {
-    return result.skin
+    return result?.skin
   }
 }

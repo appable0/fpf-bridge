@@ -4,6 +4,17 @@ const timeout = 1000
 
 export class MinecraftBot {
   constructor() {
+    this.messageQueue = []
+    this.lastSentTime = Date.now()
+    this.queueLimiter = setInterval(() => {
+      this.processQueue()
+    }, 50)
+    this.connect()
+    this.retries = 0
+  }
+
+  connect() {
+    this.messageQueue = []
     this.client = mineflayer.createBot({
       host: "mc.hypixel.net",
       port: 25565,
@@ -11,12 +22,6 @@ export class MinecraftBot {
       auth: "microsoft",
       version: "1.17.1"
     })
-    this.messageQueue = []
-    this.lastSentTime = Date.now()
-
-    this.queueLimiter = setInterval(() => {
-      this.processQueue()
-    }, 50)
   }
 
   close() {
@@ -34,7 +39,7 @@ export class MinecraftBot {
   }
 
   limbo() {
-    this.messageQueue.push("/ac §")
+    this.messageQueue.push("§")
   }
   
   chat(name, message) {
