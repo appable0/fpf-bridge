@@ -11,16 +11,28 @@ export class DiscordBot {
     this.client.login(token)
   }
 
-  async chat(hypixelRank, name, guildRank, content) {
-    let author = `[${hypixelRank}] ${name}`
-    if (guildRank != null) {
-      author += ` [${guildRank}]`
+  async onMcJoined(member) {
+    this.sendEmbed(member, member, "**joined.**")
+  }
+
+  async onMcLeft(member) {
+    this.sendEmbed(member, member, "**left.**")
+  }
+
+  async onGuildChat(message) {
+    let author = `[${message.hypixelRank}] ${message.name}`
+    if (message.guildRank != null) {
+      author += ` [${message.guildRank}]`
     }
+    this.sendEmbed(message.name, author, message.content)
+  }
+
+  async sendEmbed(username, author, content) {
     if (!this.client.isReady) return
-    var channel = this.client.channels.cache.get(this.channelId)
-    var skinUpscaled = await sharp(await skin(name)).resize(128, 128, {kernel: sharp.kernel.nearest}).toBuffer()
-    var file = new AttachmentBuilder(skinUpscaled, {name: "attachment.png"})
-    var embed = new EmbedBuilder()
+    let channel = this.client.channels.cache.get(this.channelId)
+    let skinUpscaled = await sharp(await skin(username)).resize(128, 128, {kernel: sharp.kernel.nearest}).toBuffer()
+    let file = new AttachmentBuilder(skinUpscaled, {name: "attachment.png"})
+    let embed = new EmbedBuilder()
       .setAuthor({
         name: author,
         iconURL: "attachment://attachment.png"

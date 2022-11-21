@@ -1,11 +1,10 @@
 import * as dotenv from "dotenv"
-import { DiscordBot } from "./discordBot.js"
-import { MinecraftBot } from "./mcBot.js"
-import { guildMessageRegex, joinedLobbyRegex } from "./reggies.js"
+import { DiscordBot } from "./DiscordBot.js"
+import { MinecraftController } from "./MinecraftController.js"
 dotenv.config()
 
 const discordBot = new DiscordBot(process.env.DISCORD_TOKEN, process.env.GUILD_CHANNEL_ID)
-const minecraftBot = new MinecraftBot(process.env.MC_EMAIL, process.env.MC_PASSWORD)
+const minecraftBot = new MinecraftController()
 
 discordBot.client.on("messageCreate", (message) => {
   if (message.author.bot) return
@@ -18,26 +17,24 @@ discordBot.client.on("messageCreate", (message) => {
     content += ` ${attachment.url}`
   }
 
-  minecraftBot.chat(nick, content)
-})
-
-minecraftBot.client.on("messagestr", async (message) => {
-  if (joinedLobbyRegex.test(message)) {
-    minecraftBot.client.retries = 0
-    minecraftBot.limbo()
+  if (content == "d.rlb") {
+    minecraftBot.bot.disconnect()
+  } else {
+    minecraftBot.chat(nick, content)
   }
-
-  const messageGroups = message.match(guildMessageRegex)?.groups
-  if (messageGroups == null || messageGroups.name == process.env.MC_USERNAME) return
-
-  await discordBot.chat(messageGroups.hypixelRank, messageGroups.name, messageGroups.guildRank, messageGroups.content)
 })
 
-minecraftBot.client.on("end", () => {
-  // Having a delay of 1 second by default (pow(2,0) == 1) is a good idea.
-  reconnectionDelay = Math.pow(2, minecraftBot.client.retries)
-  minecraftBot.client.retries++
-  setTimeout(() => {
-    minecraftBot.client.connect()
-  }, reconnectionDelay * 1000)
+minecraftBot.on("guildChatReceived", async (guildChatMessage) => {
+  await discordBot.onGuildChat(guildChatMessage)
 })
+
+minecraftBot.on("mcJoined", async (member) => {
+  await discordBot.onMcJoined(member)
+})
+
+minecraftBot.on("mcLeft", async (member) => {
+  await discordBot.onMcLeft(member)
+})
+
+
+
