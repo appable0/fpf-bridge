@@ -50,7 +50,7 @@ export class MinecraftController extends EventEmitter {
       setTimeout(() => {
         console.log(`${(new Date()).toISOString()} - CONTROLLER: Reconnecting (attempt #${this.retries})`)
         this.bot.connect()
-      }, Math.pow(2, this.retries) * 1000)
+      }, this.retries * 1000)
     }
   }
 
@@ -72,8 +72,12 @@ export class MinecraftController extends EventEmitter {
     this.messageQueue.push(message)
   }
 
-  chat(name, message) {
+  chatFromDiscord(name, message) {
     this.chatRaw(`/gc ${name}: ${message}`)
+  }
+
+  chatBot(message) {
+    this.chatRaw(`/gc ${message}`)
   }
 
   limbo() {

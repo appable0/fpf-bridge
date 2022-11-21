@@ -24,6 +24,7 @@ export class DiscordBot {
     if (message.guildRank != null) {
       author += ` [${message.guildRank}]`
     }
+
     this.sendEmbed(message.name, author, message.content)
   }
 

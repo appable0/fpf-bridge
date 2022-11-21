@@ -39,8 +39,3 @@ export class MinecraftBot {
   }
 }
 
-/*
-setTimeout(() => {
-  bot.quit()
-}, 20000)
-*/
