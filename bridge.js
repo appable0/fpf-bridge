@@ -14,14 +14,17 @@ discordBot.client.on("messageCreate", async (message) => {
   if (message.channel.id !== discordBot.channelId) return
 
   const nick = message.member.displayName
-  let content = message.content
+  let content = message.cleanContent
   const attachment = message.attachments.at(0)
   if (attachment != null) {
     content += ` ${attachment.url}`
   }
-
-  if (content.startsWith("d.")) {
+  if  (content.startsWith("d.")) {
     content = content.replace(/^.{2}/g, 'd_')
+  } else if (message.reference != null) {
+    const repliedTo = await message.fetchReference()
+    const repliedToMember = repliedTo.member?.displayName
+    content = `(to ${repliedToMember}) ${content}`
   }
   minecraftBot.chatFromDiscord(nick, content)
   const commandResponse = await prepareCommandResponse(content, "Comm" /*this is just for testing cuz we only have access, need to use discord role*/)
