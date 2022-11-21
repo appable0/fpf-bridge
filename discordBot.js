@@ -20,7 +20,10 @@ export class DiscordBot {
   }
 
   async onGuildChat(message) {
-    let author = `[${message.hypixelRank}] ${message.name}`
+    let author = `${message.name}`
+    if (message.hypixelRank != null) {
+      author = `[${message.hypixelRank}] ${author}`
+    }
     if (message.guildRank != null) {
       author += ` [${message.guildRank}]`
     }

@@ -57,6 +57,7 @@ export class MinecraftController extends EventEmitter {
   // queue management
   processQueue() {
     if (this.messageQueue.length == 0) return
+    if (this.messageQueue.length > 10) this.messageQueue.slice(0, 10)
     if (Date.now() - this.lastSentTime < timeout) return
     this.lastSentTime = Date.now()
     const message = this.messageQueue.shift()
