@@ -24,6 +24,10 @@ export class MinecraftBot {
       this.manager.onChat(message)
     })
 
+    this.client.on("spawn", () => {
+      this.manager.onSpawn()
+    })
+
     this.client.on("end", (reason) => {
       this.manager.onEnd(reason)
     })

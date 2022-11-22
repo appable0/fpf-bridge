@@ -1,5 +1,5 @@
 import { MinecraftBot } from "./MinecraftBot.js"
-import { joinedLobbyRegex, guildMessageRegex, mcJoinedRegex, mcLeftRegex } from "./reggies.js"
+import { limboRegex, guildMessageRegex, mcJoinedRegex, mcLeftRegex } from "./reggies.js"
 import { EventEmitter } from "events"
 
 const timeout = 1000
@@ -21,13 +21,11 @@ export class MinecraftController extends EventEmitter {
 
   async onChat(message) {
     console.log(`${(new Date()).toISOString()} - CONTROLLER: Chat message received: ${message}`)
-    if (joinedLobbyRegex.test(message)) {
+    if (limboRegex.test(message)) {
+      this.emit("botJoined")
       this.ready = true
       this.retries = 0
-      this.limbo()
-    }
-  
-    if (guildMessageRegex.test(message)) {
+    } else if (guildMessageRegex.test(message)) {
       const messageGroups = message.match(guildMessageRegex)?.groups
       if (messageGroups.name != process.env.MC_USERNAME) {
         this.emit("guildChatReceived", messageGroups)
@@ -39,7 +37,12 @@ export class MinecraftController extends EventEmitter {
     }
   }
 
+  onSpawn() {
+    this.limbo()
+  }
+
   onEnd(reason) {
+    this.emit("botLeft", reason)
     console.log(`${(new Date()).toISOString()} - CONTROLLER: Bot disconnected from server. Reason: ${reason}`)
     this.ready = false
     this.messageQueue = []

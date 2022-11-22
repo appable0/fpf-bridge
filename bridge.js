@@ -9,17 +9,14 @@ const minecraftBot = new MinecraftController()
 let cachedLowestBins = {}
 let lastBinUpdate = 0
 
-discordBot.client.on("messageCreate", async (message) => {
-  if (message.author.bot) return
-  if (message.channel.id !== discordBot.channelId) return
-
+discordBot.on("message", async (message) => {
   const nick = message.member.displayName
   let content = message.cleanContent
   const attachment = message.attachments.at(0)
   if (attachment != null) {
     content += ` ${attachment.url}`
   }
-  if  (content.startsWith("d.")) {
+  if (content.startsWith("d.")) {
     content = content.replace(/^.{2}/g, 'd_')
   } else if (message.reference != null) {
     const repliedTo = await message.fetchReference()
@@ -30,7 +27,7 @@ discordBot.client.on("messageCreate", async (message) => {
   const commandResponse = await prepareCommandResponse(content, "Comm" /*this is just for testing cuz we only have access, need to use discord role*/)
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
-    discordBot.sendEmbed(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
+    discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
   }
 })
 
@@ -39,7 +36,7 @@ minecraftBot.on("guildChatReceived", async (guildChatMessage) => {
   const commandResponse = await prepareCommandResponse(guildChatMessage.content, guildChatMessage.guildRank)
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
-    discordBot.sendEmbed(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
+    discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
   }
 })
 
@@ -50,6 +47,16 @@ minecraftBot.on("mcJoined", async (member) => {
 minecraftBot.on("mcLeft", async (member) => {
   await discordBot.onMcLeft(member)
 })
+
+minecraftBot.on("botLeft", (reason) => {
+  discordBot.onBotLeft(reason)
+})
+
+minecraftBot.on("botJoined", () => {
+  discordBot.onBotJoined()
+})
+
+
 
 async function prepareCommandResponse(content, rank) {
   const [command, ...args] = content.split(" ")
