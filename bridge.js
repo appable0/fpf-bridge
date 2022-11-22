@@ -1,4 +1,6 @@
 import * as dotenv from "dotenv"
+import auctionMappings from "./auction-data.json" assert {type: 'json'}
+import { numberFormatRegex } from "./reggies.js"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
 dotenv.config()
@@ -16,15 +18,20 @@ discordBot.on("message", async (message) => {
   if (attachment != null) {
     content += ` ${attachment.url}`
   }
+
   if (content.startsWith("d.")) {
     content = content.replace(/^.{2}/g, 'd_')
-  } else if (message.reference != null) {
+  }
+  
+  if (message.reference != null) {
     const repliedTo = await message.fetchReference()
     const repliedToMember = repliedTo.member?.displayName
     content = `(to ${repliedToMember}) ${content}`
   }
+
   minecraftBot.chatFromDiscord(nick, content)
   const commandResponse = await prepareCommandResponse(content, "Comm" /*this is just for testing cuz we only have access, need to use discord role*/)
+  
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
     discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
@@ -56,12 +63,10 @@ minecraftBot.on("botJoined", () => {
   discordBot.onBotJoined()
 })
 
-
-
 async function prepareCommandResponse(content, rank) {
   const [command, ...args] = content.split(" ")
 
-  if (!command.startsWith("d_") && !command.startsWith("d.")) return
+  if (!command.startsWith("d_")) return
 
   const commandName = command.substring(2)
   switch (commandName) {
@@ -74,29 +79,32 @@ async function prepareCommandResponse(content, rank) {
     }
 
     case "lbin": {
-      // need to improve this a lot
+      // ~need to improve this a lot~ i don't think we need to improve this anymore :)
       let name = args.join("_").toUpperCase()
+      let lbin = "unknown"
       if (Date.now() - lastBinUpdate > 60000) {
         try {
           const auctionResponse = await fetch(`https://moulberry.codes/lowestbin.json`)
           if (auctionResponse.status === 200) {
-            cachedLowestBins = await auctionResponse.json()
+            cachedLowestBins = remapLowestBins(await auctionResponse.json())
           }
         } catch (e) {
-          console.error("Error fetching lowest bins")
+          return "Error fetching data."
         }
       }
-      let lbin = cachedLowestBins[name] ?? "unknown"
-      if (lbin === "unknown") {
-        for (const [key, value] of Object.entries(cachedLowestBins)) {
-          if (key.includes(name)) {
+
+      for (const [key, value] of Object.entries(cachedLowestBins)) {
+        for (const alias of key.split(",")) {
+          if (alias.includes(name)) {
             name = key
             lbin = value
             break
           }
         }
       }
-      return `Lowest BIN for ${name} is ${lbin.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}`
+
+      if (lbin === "unknown") return "Item not found."
+      return `Lowest BIN for ${name} is ${lbin}`
     }
 
     case "rlb": {
@@ -112,4 +120,13 @@ async function prepareCommandResponse(content, rank) {
       return "Unknown command, try d_help"
     }
   }
+}
+
+function remapLowestBins(lbins) {
+  const remapped = {}
+  for (let [key, value] of Object.entries(lbins)) {
+    key = auctionMappings[key] ?? key
+    remapped[key] = value.toString().replace(numberFormatRegex, ",")
+  }
+  return remapped
 }
