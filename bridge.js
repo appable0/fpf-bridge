@@ -22,7 +22,7 @@ discordBot.on("message", async (message) => {
   if (content.startsWith("d.")) {
     content = content.replace(/^.{2}/g, 'd_')
   }
-  
+
   if (message.reference != null) {
     const repliedTo = await message.fetchReference()
     const repliedToMember = repliedTo.member?.displayName
@@ -31,7 +31,7 @@ discordBot.on("message", async (message) => {
 
   minecraftBot.chatFromDiscord(nick, content)
   const commandResponse = await prepareCommandResponse(content, "Comm" /*this is just for testing cuz we only have access, need to use discord role*/)
-  
+
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
     discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
@@ -107,6 +107,10 @@ async function prepareCommandResponse(content, rank) {
       return `Lowest BIN for ${name} is ${lbin}`
     }
 
+    case "rain": {
+      return getRainData()
+    }
+
     case "rlb": {
       if (rank === "Comm" || rank === "GM") {
         minecraftBot.bot.disconnect()
@@ -129,4 +133,38 @@ function remapLowestBins(lbins) {
     remapped[key] = value.toString().replace(numberFormatRegex, ",")
   }
   return remapped
+}
+
+// taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
+function secsToTime(num) {
+  var hours = Math.floor(num / 3600);
+  var minutes = Math.floor((num - (hours * 3600)) / 60);
+  var seconds = num - (hours * 3600) - (minutes * 60);
+  if (hours < 10) { hours = "0" + hours; }
+  if (minutes < 10) { minutes = "0" + minutes; }
+  if (seconds < 10) { seconds = "0" + seconds; }
+  return hours + ':' + minutes + ':' + seconds;
+}
+
+// taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
+function getRainData() {
+  const UTCPrevThunderstorm = 1668474356000;
+  const UTCNow = new Date().getTime();
+  const base = Math.floor((UTCNow - UTCPrevThunderstorm) / 1000);
+  const thunderstorm = base % ((3850 + 1000) * 4);
+  const rain = thunderstorm % (3850 + 1000);
+
+  let message = ""
+
+  if (rain <= 3850) {
+    message = `Raining: No, time until rain: ${secsToTime(3850 - rain)}`
+  } else {
+    message = `Raining: Yes, rain time left: ${secsToTime(3850 + 1000 - rain)}, time until rain: ${secsToTime(3850 + 1000 - rain + 3850)}`
+  }
+  if (thunderstorm < (3850 * 4 + 1000 * 3)) {
+    message += ` || Thundering: No, time until thunder: ${secsToTime(3850 * 4 + 1000 * 3 - thunderstorm)}`
+  } else {
+    message += ` || Thundering: Yes, thunder time left: ${secsToTime(3850 * 4 + 1000 * 4 - thunderstorm)}, time until thunder: ${secsToTime(3850 * 4 + 1000 * 4 - thunderstorm + 3850 * 4 + 1000 * 3)}`
+  }
+  return message
 }
