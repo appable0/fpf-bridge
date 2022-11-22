@@ -71,7 +71,7 @@ async function prepareCommandResponse(content, rank) {
   const commandName = command.substring(2)
   switch (commandName) {
     case "help": {
-      return "Available commands: d_help, d_ping, d_lbin, d_rlb(admin only)"
+      return "Available commands: d_help, d_ping, d_lbin, d_rain, d_rlb(admin only)"
     }
 
     case "ping": {
