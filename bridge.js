@@ -3,6 +3,8 @@ import auctionMappings from "./auction-data.json" assert {type: 'json'}
 import { numberFormatRegex } from "./reggies.js"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
+import fetch from "node-fetch"
+
 dotenv.config()
 
 const discordBot = new DiscordBot(process.env.DISCORD_TOKEN, process.env.GUILD_CHANNEL_ID)
@@ -89,6 +91,7 @@ async function prepareCommandResponse(content, rank) {
             cachedLowestBins = remapLowestBins(await auctionResponse.json())
           }
         } catch (e) {
+          console.error(e)
           return "Error fetching data."
         }
       }
