@@ -1,5 +1,6 @@
 import * as dotenv from "dotenv"
 import auctionMappings from "./auction-data.json" assert {type: 'json'}
+import bazaarMappings from "./bazaar-mappings.json" assert {type: 'json'}
 import { numberFormatRegex } from "./reggies.js"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
@@ -12,6 +13,9 @@ const minecraftBot = new MinecraftController()
 
 let cachedLowestBins = {}
 let lastBinUpdate = 0
+
+let cachedBazaarItems = {}
+let lastBazaarUpdate = 0
 
 discordBot.on("message", async (message) => {
   const nick = message.member.displayName
@@ -73,7 +77,7 @@ async function prepareCommandResponse(content, rank) {
   const commandName = command.substring(2)
   switch (commandName) {
     case "help": {
-      return "Available commands: d_help, d_ping, d_lbin, d_rain, d_rlb(admin only)"
+      return "Available commands: d_help, d_ping, d_lbin, d_bz, d_rain, d_rlb(admin only)"
     }
 
     case "ping": {
@@ -81,33 +85,13 @@ async function prepareCommandResponse(content, rank) {
     }
 
     case "lbin": {
-      // ~need to improve this a lot~ i don't think we need to improve this anymore :)
-      let name = args.join("_").toUpperCase()
-      let lbin = "unknown"
-      if (Date.now() - lastBinUpdate > 60000) {
-        try {
-          const auctionResponse = await fetch(`https://moulberry.codes/lowestbin.json`)
-          if (auctionResponse.status === 200) {
-            cachedLowestBins = remapLowestBins(await auctionResponse.json())
-          }
-        } catch (e) {
-          console.error(e)
-          return "Error fetching data."
-        }
-      }
+      if (args.length === 0) return "No item specified"
+      return getLowestBin(args)
+    }
 
-      for (const [key, value] of Object.entries(cachedLowestBins)) {
-        for (const alias of key.split(",")) {
-          if (alias.includes(name)) {
-            name = key
-            lbin = value
-            break
-          }
-        }
-      }
-
-      if (lbin === "unknown") return "Item not found."
-      return `Lowest BIN for ${name} is ${lbin}`
+    case "bz": {
+      if (args.length === 0) return "No item specified"
+      return getBazaarItemPrices(args)
     }
 
     case "rain": {
@@ -129,11 +113,62 @@ async function prepareCommandResponse(content, rank) {
   }
 }
 
+function getLowestBin(args) {
+  let name = args.join("_").toUpperCase()
+  let lbin = "unknown"
+
+  for (const [key, value] of Object.entries(cachedLowestBins)) {
+    for (const alias of key.split(",")) {
+      if (alias.includes(name)) {
+        name = key
+        lbin = value
+        break
+      }
+    }
+  }
+
+  if (lbin === "unknown") return "Item not found."
+  return `Lowest BIN for ${name} is ${lbin}`
+}
+
 function remapLowestBins(lbins) {
   const remapped = {}
   for (let [key, value] of Object.entries(lbins)) {
     key = auctionMappings[key] ?? key
     remapped[key] = value.toString().replace(numberFormatRegex, ",")
+  }
+  return remapped
+}
+
+function getBazaarItemPrices(args) {
+  let name = args.join("_").toUpperCase()
+  let prices = "unknown"
+
+  for (const [key, value] of Object.entries(cachedBazaarItems)) {
+    if (key.includes(name)) {
+      name = key
+      prices = value
+      break
+    }
+  }
+
+  if (prices === "unknown") return "Item not found."
+  return `Bazaar data for ${name}: ${prices}`
+}
+
+function remapBazaarItems(bazaarItems) {
+  const formatter = Intl.NumberFormat("en", { notation: "compact" })
+  const remapped = {}
+  for (let [key, value] of Object.entries(bazaarItems)) {
+    let mappedKey = bazaarMappings[key] ?? key
+    if (mappedKey === key) {
+      if (!key.includes("ENCHANTMENT_ULTIMATE_WISE") && key.includes("ENCHANTMENT_ULTIMATE_")) {
+        mappedKey = key.replace("ENCHANTMENT_ULTIMATE_", "")
+      } else if (key.includes("ENCHANTMENT_")) {
+        mappedKey = key.replace("ENCHANTMENT_", "")
+      }
+    }
+    remapped[mappedKey] = `Quick buy: ${formatter.format(value["quick_status"]["buyPrice"])} || Quick sell: ${formatter.format(value["quick_status"]["sellPrice"])}`
   }
   return remapped
 }
@@ -171,3 +206,47 @@ function getRainData() {
   }
   return message
 }
+
+(async function updateBinCache() {
+  const isFirstRun = lastBinUpdate === 0
+  const startTime = Date.now()
+  try {
+    // initializing last update time from hypixel api
+
+    const binResponse = await fetch(`https://api.hypixel.net/skyblock/auctions`)
+    if (binResponse.status === 200) {
+      const binJson = await binResponse.json()
+      lastBinUpdate = binJson["lastUpdated"]
+    }
+
+    const auctionResponse = await fetch(`https://moulberry.codes/lowestbin.json`)
+    if (auctionResponse.status === 200) {
+      cachedLowestBins = remapLowestBins(await auctionResponse.json())
+    }
+  } catch (e) {
+    console.error("Error fetching auction data.")
+    console.error(e)
+  }
+
+  // for the first time we check last update and set it to update during the next update run
+  const timeUntilNextUpdate = isFirstRun ? Date.now() - lastBinUpdate : 60000 - Date.now() - startTime
+  if (isFirstRun) setTimeout(updateBinCache, timeUntilNextUpdate)
+  else setTimeout(updateBinCache, 60000);
+})();
+
+(async function updateBazaarCache() {
+  try {
+    const bazaarResponse = await fetch(`https://api.hypixel.net/skyblock/bazaar`)
+    if (bazaarResponse.status !== 200) return
+
+    const bazaarJson = await bazaarResponse.json()
+    lastBazaarUpdate = bazaarJson["lastUpdated"]
+    cachedBazaarItems = remapBazaarItems(bazaarJson["products"])
+  } catch (e) {
+    console.error("Error fetching bazaar data.")
+    console.error(e)
+  }
+
+  const e = Date.now() - lastBazaarUpdate
+  setTimeout(updateBazaarCache, 60000 - e)
+})();
