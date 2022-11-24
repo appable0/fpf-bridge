@@ -1,0 +1,4854 @@
+[
+    {
+        "name": "Brown Mushroom",
+        "id": "BROWN_MUSHROOM",
+        "aliases": []
+    },
+    {
+        "name": "Cocoa Beans",
+        "id": "INK_SACK:3",
+        "aliases": []
+    },
+    {
+        "name": "Lapis Lazuli",
+        "id": "INK_SACK:4",
+        "aliases": []
+    },
+    {
+        "name": "Tarantula Web",
+        "id": "TARANTULA_WEB",
+        "aliases": []
+    },
+    {
+        "name": "Carrot",
+        "id": "CARROT_ITEM",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Potato",
+        "id": "ENCHANTED_POTATO",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Slimeball",
+        "id": "ENCHANTED_SLIME_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Red Mushroom",
+        "id": "ENCHANTED_RED_MUSHROOM",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Golden Carrot",
+        "id": "ENCHANTED_GOLDEN_CARROT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Rabbit Hide",
+        "id": "ENCHANTED_RABBIT_HIDE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Birch Wood",
+        "id": "ENCHANTED_BIRCH_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Gunpowder",
+        "id": "ENCHANTED_GUNPOWDER",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Melon",
+        "id": "ENCHANTED_MELON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sugar",
+        "id": "ENCHANTED_SUGAR",
+        "aliases": []
+    },
+    {
+        "name": "Cactus",
+        "id": "CACTUS",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Blaze Rod",
+        "id": "ENCHANTED_BLAZE_ROD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cake",
+        "id": "ENCHANTED_CAKE",
+        "aliases": []
+    },
+    {
+        "name": "Pumpkin",
+        "id": "PUMPKIN",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Brown Mushroom",
+        "id": "ENCHANTED_BROWN_MUSHROOM",
+        "aliases": []
+    },
+    {
+        "name": "Wheat",
+        "id": "WHEAT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Raw Salmon",
+        "id": "ENCHANTED_RAW_SALMON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Glistering Melon",
+        "id": "ENCHANTED_GLISTERING_MELON",
+        "aliases": []
+    },
+    {
+        "name": "Prismarine Shard",
+        "id": "PRISMARINE_SHARD",
+        "aliases": []
+    },
+    {
+        "name": "Protector Dragon Fragment",
+        "id": "PROTECTOR_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Emerald",
+        "id": "ENCHANTED_EMERALD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Spider Eye",
+        "id": "ENCHANTED_SPIDER_EYE",
+        "aliases": []
+    },
+    {
+        "name": "Red Mushroom",
+        "id": "RED_MUSHROOM",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Melon Block",
+        "id": "ENCHANTED_MELON_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Mutton",
+        "id": "MUTTON",
+        "aliases": []
+    },
+    {
+        "name": "Wise Dragon Fragment",
+        "id": "WISE_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Diamond",
+        "id": "DIAMOND",
+        "aliases": []
+    },
+    {
+        "name": "Cobblestone",
+        "id": "COBBLESTONE",
+        "aliases": []
+    },
+    {
+        "name": "Spider Eye",
+        "id": "SPIDER_EYE",
+        "aliases": []
+    },
+    {
+        "name": "Raw Fish",
+        "id": "RAW_FISH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Pufferfish",
+        "id": "ENCHANTED_PUFFERFISH",
+        "aliases": []
+    },
+    {
+        "name": "Potato",
+        "id": "POTATO_ITEM",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Brown Mushroom Block",
+        "id": "ENCHANTED_HUGE_MUSHROOM_1",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cobblestone",
+        "id": "ENCHANTED_COBBLESTONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Red Mushroom Block",
+        "id": "ENCHANTED_HUGE_MUSHROOM_2",
+        "aliases": []
+    },
+    {
+        "name": "Raw Porkchop",
+        "id": "PORK",
+        "aliases": []
+    },
+    {
+        "name": "Prismarine Crystals",
+        "id": "PRISMARINE_CRYSTALS",
+        "aliases": []
+    },
+    {
+        "name": "Ice",
+        "id": "ICE",
+        "aliases": []
+    },
+    {
+        "name": "Brown Mushroom Block",
+        "id": "HUGE_MUSHROOM_1",
+        "aliases": []
+    },
+    {
+        "name": "Red Mushroom Block",
+        "id": "HUGE_MUSHROOM_2",
+        "aliases": []
+    },
+    {
+        "name": "Ice Bait",
+        "id": "ICE_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Dark Oak Wood",
+        "id": "LOG_2:1",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Snow Block",
+        "id": "ENCHANTED_SNOW_BLOCK",
+        "aliases": ["Enchanted Snow"]
+    },
+    {
+        "name": "String",
+        "id": "STRING",
+        "aliases": []
+    },
+    {
+        "name": "Golden Tooth",
+        "id": "GOLDEN_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Rabbit's Foot",
+        "id": "RABBIT_FOOT",
+        "aliases": []
+    },
+    {
+        "name": "Redstone",
+        "id": "REDSTONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cactus Green",
+        "id": "ENCHANTED_CACTUS_GREEN",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Carrot On A Stick",
+        "id": "ENCHANTED_CARROT_ON_A_STICK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Lapis Block",
+        "id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cookie",
+        "id": "ENCHANTED_COOKIE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted End Stone",
+        "id": "ENCHANTED_ENDSTONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sand",
+        "id": "ENCHANTED_SAND",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted String",
+        "id": "ENCHANTED_STRING",
+        "aliases": []
+    },
+    {
+        "name": "Strong Dragon Fragment",
+        "id": "STRONG_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Slimeball",
+        "id": "SLIME_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Acacia Wood",
+        "id": "ENCHANTED_ACACIA_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Snowball",
+        "id": "SNOW_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Holy Dragon Fragment",
+        "id": "HOLY_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Egg",
+        "id": "ENCHANTED_EGG",
+        "aliases": []
+    },
+    {
+        "name": "Sand",
+        "id": "SAND",
+        "aliases": []
+    },
+    {
+        "name": "Raw Chicken",
+        "id": "RAW_CHICKEN",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Lapis Lazuli",
+        "id": "ENCHANTED_LAPIS_LAZULI",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Ghast Tear",
+        "id": "ENCHANTED_GHAST_TEAR",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cocoa Bean",
+        "id": "ENCHANTED_COCOA",
+        "aliases": []
+    },
+    {
+        "name": "Carrot Bait",
+        "id": "CARROT_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Seeds",
+        "id": "SEEDS",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Leather",
+        "id": "ENCHANTED_LEATHER",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sponge",
+        "id": "ENCHANTED_SPONGE",
+        "aliases": []
+    },
+    {
+        "name": "Hay Bale",
+        "id": "HAY_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Ink Sac",
+        "id": "INK_SACK",
+        "aliases": []
+    },
+    {
+        "name": "Flint",
+        "id": "FLINT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Rotten Flesh",
+        "id": "ENCHANTED_ROTTEN_FLESH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Spruce Wood",
+        "id": "ENCHANTED_SPRUCE_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Wolf Tooth",
+        "id": "WOLF_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Grilled Pork",
+        "id": "ENCHANTED_GRILLED_PORK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Nether Wart",
+        "id": "ENCHANTED_NETHER_STALK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Redstone Block",
+        "id": "ENCHANTED_REDSTONE_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Quartz Block",
+        "id": "ENCHANTED_QUARTZ_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Green Candy",
+        "id": "GREEN_CANDY",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Redstone",
+        "id": "ENCHANTED_REDSTONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Redstone Lamp",
+        "id": "ENCHANTED_REDSTONE_LAMP",
+        "aliases": []
+    },
+    {
+        "name": "Gravel",
+        "id": "GRAVEL",
+        "aliases": []
+    },
+    {
+        "name": "Melon",
+        "id": "MELON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Packed Ice",
+        "id": "ENCHANTED_PACKED_ICE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Lava Bucket",
+        "id": "ENCHANTED_LAVA_BUCKET",
+        "aliases": []
+    },
+    {
+        "name": "Pufferfish",
+        "id": "RAW_FISH:3",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Prismarine Shard",
+        "id": "ENCHANTED_PRISMARINE_SHARD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Iron Block",
+        "id": "ENCHANTED_IRON_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Carrot on a Stick",
+        "id": "ENCHANTED_CARROT_STICK",
+        "aliases": []
+    },
+    {
+        "name": "Recombobulator 3000",
+        "id": "RECOMBOBULATOR_3000",
+        "aliases": []
+    },
+    {
+        "name": "Bone",
+        "id": "BONE",
+        "aliases": []
+    },
+    {
+        "name": "Clownfish",
+        "id": "RAW_FISH:2",
+        "aliases": []
+    },
+    {
+        "name": "Raw Salmon",
+        "id": "RAW_FISH:1",
+        "aliases": []
+    },
+    {
+        "name": "Revenant Flesh",
+        "id": "REVENANT_FLESH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Glowstone",
+        "id": "ENCHANTED_GLOWSTONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Pork",
+        "id": "ENCHANTED_PORK",
+        "aliases": []
+    },
+    {
+        "name": "Feather",
+        "id": "FEATHER",
+        "aliases": []
+    },
+    {
+        "name": "Whale Bait",
+        "id": "WHALE_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Netherrack",
+        "id": "NETHERRACK",
+        "aliases": []
+    },
+    {
+        "name": "Sponge",
+        "id": "SPONGE",
+        "aliases": []
+    },
+    {
+        "name": "Blaze Rod",
+        "id": "BLAZE_ROD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Dark Oak Wood",
+        "id": "ENCHANTED_DARK_OAK_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Young Dragon Fragment",
+        "id": "YOUNG_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Clownfish",
+        "id": "ENCHANTED_CLOWNFISH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Gold",
+        "id": "ENCHANTED_GOLD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Raw Chicken",
+        "id": "ENCHANTED_RAW_CHICKEN",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Lily Pad",
+        "id": "ENCHANTED_WATER_LILY",
+        "aliases": []
+    },
+    {
+        "name": "Spruce Wood",
+        "id": "LOG:1",
+        "aliases": []
+    },
+    {
+        "name": "Catalyst",
+        "id": "CATALYST",
+        "aliases": []
+    },
+    {
+        "name": "Jungle Wood",
+        "id": "LOG:3",
+        "aliases": []
+    },
+    {
+        "name": "Birch Wood",
+        "id": "LOG:2",
+        "aliases": []
+    },
+    {
+        "name": "Blessed Bait",
+        "id": "BLESSED_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Glowstone Dust",
+        "id": "ENCHANTED_GLOWSTONE_DUST",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Ink Sac",
+        "id": "ENCHANTED_INK_SACK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cactus",
+        "id": "ENCHANTED_CACTUS",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sugar Cane",
+        "id": "ENCHANTED_SUGAR_CANE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cooked Salmon",
+        "id": "ENCHANTED_COOKED_SALMON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Seeds",
+        "id": "ENCHANTED_SEEDS",
+        "aliases": []
+    },
+    {
+        "name": "Oak Wood",
+        "id": "LOG",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Bone Block",
+        "id": "ENCHANTED_BONE_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Ghast Tear",
+        "id": "GHAST_TEAR",
+        "aliases": []
+    },
+    {
+        "name": "Unstable Dragon Fragment",
+        "id": "UNSTABLE_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Ender Pearl",
+        "id": "ENCHANTED_ENDER_PEARL",
+        "aliases": []
+    },
+    {
+        "name": "Purple Candy",
+        "id": "PURPLE_CANDY",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Fermented Spider Eye",
+        "id": "ENCHANTED_FERMENTED_SPIDER_EYE",
+        "aliases": []
+    },
+    {
+        "name": "Spiked Bait",
+        "id": "SPIKED_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Gold Block",
+        "id": "ENCHANTED_GOLD_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Jungle Wood",
+        "id": "ENCHANTED_JUNGLE_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Flint",
+        "id": "ENCHANTED_FLINT",
+        "aliases": []
+    },
+    {
+        "name": "Iron Ingot",
+        "id": "IRON_INGOT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Emerald Block",
+        "id": "ENCHANTED_EMERALD_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Clay",
+        "id": "ENCHANTED_CLAY_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Glowstone Dust",
+        "id": "GLOWSTONE_DUST",
+        "aliases": []
+    },
+    {
+        "name": "Gold Ingot",
+        "id": "GOLD_INGOT",
+        "aliases": []
+    },
+    {
+        "name": "Revenant Viscera",
+        "id": "REVENANT_VISCERA",
+        "aliases": []
+    },
+    {
+        "name": "Tarantula Silk",
+        "id": "TARANTULA_SILK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Mutton",
+        "id": "ENCHANTED_MUTTON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Iron",
+        "id": "ENCHANTED_IRON",
+        "aliases": []
+    },
+    {
+        "name": "Super Enchanted Egg",
+        "id": "SUPER_EGG",
+        "aliases": []
+    },
+    {
+        "name": "Super Compactor 3000",
+        "id": "SUPER_COMPACTOR_3000",
+        "aliases": []
+    },
+    {
+        "name": "Stock of Stonks",
+        "id": "STOCK_OF_STONKS",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Hay Bale",
+        "id": "ENCHANTED_HAY_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Paper",
+        "id": "ENCHANTED_PAPER",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Bone",
+        "id": "ENCHANTED_BONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Diamond Block",
+        "id": "ENCHANTED_DIAMOND_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Spooky Bait",
+        "id": "SPOOKY_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Superior Dragon Fragment",
+        "id": "SUPERIOR_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Emerald",
+        "id": "EMERALD",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Rabbit Foot",
+        "id": "ENCHANTED_RABBIT_FOOT",
+        "aliases": []
+    },
+    {
+        "name": "Light Bait",
+        "id": "LIGHT_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Hot Potato Book",
+        "id": "HOT_POTATO_BOOK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Ice",
+        "id": "ENCHANTED_ICE",
+        "aliases": []
+    },
+    {
+        "name": "Clay",
+        "id": "CLAY_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Old Dragon Fragment",
+        "id": "OLD_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Green Gift",
+        "id": "GREEN_GIFT",
+        "aliases": []
+    },
+    {
+        "name": "Packed Ice",
+        "id": "PACKED_ICE",
+        "aliases": []
+    },
+    {
+        "name": "Lily Pad",
+        "id": "WATER_LILY",
+        "aliases": []
+    },
+    {
+        "name": "Acacia Wood",
+        "id": "LOG_2",
+        "aliases": []
+    },
+    {
+        "name": "Hamster Wheel",
+        "id": "HAMSTER_WHEEL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Obsidian",
+        "id": "ENCHANTED_OBSIDIAN",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Coal",
+        "id": "ENCHANTED_COAL",
+        "aliases": []
+    },
+    {
+        "name": "Coal",
+        "id": "COAL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Quartz",
+        "id": "ENCHANTED_QUARTZ",
+        "aliases": []
+    },
+    {
+        "name": "Ender Pearl",
+        "id": "ENDER_PEARL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Block of Coal",
+        "id": "ENCHANTED_COAL_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Prismarine Crystals",
+        "id": "ENCHANTED_PRISMARINE_CRYSTALS",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Wet Sponge",
+        "id": "ENCHANTED_WET_SPONGE",
+        "aliases": []
+    },
+    {
+        "name": "End Stone",
+        "id": "ENDER_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Raw Fish",
+        "id": "ENCHANTED_RAW_FISH",
+        "aliases": []
+    },
+    {
+        "name": "Nether Quartz",
+        "id": "QUARTZ",
+        "aliases": []
+    },
+    {
+        "name": "Foul Flesh",
+        "id": "FOUL_FLESH",
+        "aliases": []
+    },
+    {
+        "name": "Raw Beef",
+        "id": "RAW_BEEF",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Eye of Ender",
+        "id": "ENCHANTED_EYE_OF_ENDER",
+        "aliases": []
+    },
+    {
+        "name": "Magma Cream",
+        "id": "MAGMA_CREAM",
+        "aliases": []
+    },
+    {
+        "name": "Sugar Cane",
+        "id": "SUGAR_CANE",
+        "aliases": []
+    },
+    {
+        "name": "Red Gift",
+        "id": "RED_GIFT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Raw Beef",
+        "id": "ENCHANTED_RAW_BEEF",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Feather",
+        "id": "ENCHANTED_FEATHER",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Slime Block",
+        "id": "ENCHANTED_SLIME_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Oak Wood",
+        "id": "ENCHANTED_OAK_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Rabbit Hide",
+        "id": "RABBIT_HIDE",
+        "aliases": []
+    },
+    {
+        "name": "White Gift",
+        "id": "WHITE_GIFT",
+        "aliases": []
+    },
+    {
+        "name": "Gunpowder",
+        "id": "SULPHUR",
+        "aliases": []
+    },
+    {
+        "name": "Raw Rabbit",
+        "id": "RABBIT",
+        "aliases": []
+    },
+    {
+        "name": "Nether Wart",
+        "id": "NETHER_STALK",
+        "aliases": []
+    },
+    {
+        "name": "Dark Bait",
+        "id": "DARK_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Carrot",
+        "id": "ENCHANTED_CARROT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Pumpkin",
+        "id": "ENCHANTED_PUMPKIN",
+        "aliases": []
+    },
+    {
+        "name": "Rotten Flesh",
+        "id": "ROTTEN_FLESH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cooked Fish",
+        "id": "ENCHANTED_COOKED_FISH",
+        "aliases": []
+    },
+    {
+        "name": "Obsidian",
+        "id": "OBSIDIAN",
+        "aliases": []
+    },
+    {
+        "name": "Minnow Bait",
+        "id": "MINNOW_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Magma Cream",
+        "id": "ENCHANTED_MAGMA_CREAM",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Firework Rocket",
+        "id": "ENCHANTED_FIREWORK_ROCKET",
+        "aliases": []
+    },
+    {
+        "name": "Leather",
+        "id": "LEATHER",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Cooked Mutton",
+        "id": "ENCHANTED_COOKED_MUTTON",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Raw Rabbit",
+        "id": "ENCHANTED_RABBIT",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Bread",
+        "id": "ENCHANTED_BREAD",
+        "aliases": []
+    },
+    {
+        "name": "Fuming Potato Book",
+        "id": "FUMING_POTATO_BOOK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Charcoal",
+        "id": "ENCHANTED_CHARCOAL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Blaze Powder",
+        "id": "ENCHANTED_BLAZE_POWDER",
+        "aliases": []
+    },
+    {
+        "name": "Summoning Eye",
+        "id": "SUMMONING_EYE",
+        "aliases": []
+    },
+    {
+        "name": "Fish Bait",
+        "id": "FISH_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Snow Block",
+        "id": "SNOW_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Baked Potato",
+        "id": "ENCHANTED_BAKED_POTATO",
+        "aliases": []
+    },
+    {
+        "name": "Compactor",
+        "id": "COMPACTOR",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Diamond",
+        "id": "ENCHANTED_DIAMOND",
+        "aliases": []
+    },
+    {
+        "name": "Booster Cookie",
+        "id": "BOOSTER_COOKIE",
+        "aliases": []
+    },
+    {
+        "name": "Ancient Claw",
+        "id": "ANCIENT_CLAW",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Ancient Claw",
+        "id": "ENCHANTED_ANCIENT_CLAW",
+        "aliases": []
+    },
+    {
+        "name": "Daedalus Stick",
+        "id": "DAEDALUS_STICK",
+        "aliases": []
+    },
+    {
+        "name": "Griffin Feather",
+        "id": "GRIFFIN_FEATHER",
+        "aliases": []
+    },
+    {
+        "name": "Nurse Shark Tooth",
+        "id": "NURSE_SHARK_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Shark Fin",
+        "id": "SHARK_FIN",
+        "aliases": []
+    },
+    {
+        "name": "Tiger Shark Tooth",
+        "id": "TIGER_SHARK_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Shark Fin",
+        "id": "ENCHANTED_SHARK_FIN",
+        "aliases": []
+    },
+    {
+        "name": "Great White Shark Tooth",
+        "id": "GREAT_WHITE_SHARK_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Blue Shark Tooth",
+        "id": "BLUE_SHARK_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "Shark Bait",
+        "id": "SHARK_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Bazaar Cookie",
+        "id": "BAZAAR_COOKIE",
+        "aliases": ["COOKIE"]
+    },
+    {
+        "name": "Refined Mineral",
+        "id": "REFINED_MINERAL",
+        "aliases": []
+    },
+    {
+        "name": "Hyper Catalyst",
+        "id": "HYPER_CATALYST",
+        "aliases": []
+    },
+    {
+        "name": "Spooky Shard",
+        "id": "SPOOKY_SHARD",
+        "aliases": []
+    },
+    {
+        "name": "Pumpkin Guts",
+        "id": "PUMPKIN_GUTS",
+        "aliases": []
+    },
+    {
+        "name": "Ectoplasm",
+        "id": "ECTOPLASM",
+        "aliases": []
+    },
+    {
+        "name": "Soul Fragment",
+        "id": "SOUL_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Werewolf Skin",
+        "id": "WEREWOLF_SKIN",
+        "aliases": []
+    },
+    {
+        "name": "Jacob's Ticket",
+        "id": "JACOBS_TICKET",
+        "aliases": []
+    },
+    {
+        "name": "Tightly-Tied Hay Bale",
+        "id": "TIGHTLY_TIED_HAY_BALE",
+        "aliases": []
+    },
+    {
+        "name": "Polished Pumpkin",
+        "id": "POLISHED_PUMPKIN",
+        "aliases": []
+    },
+    {
+        "name": "Mutant Nether Wart",
+        "id": "MUTANT_NETHER_STALK",
+        "aliases": []
+    },
+    {
+        "name": "Experience Bottle",
+        "id": "EXP_BOTTLE",
+        "aliases": []
+    },
+    {
+        "name": "Grand Experience Bottle",
+        "id": "GRAND_EXP_BOTTLE",
+        "aliases": []
+    },
+    {
+        "name": "Colossal Experience Bottle",
+        "id": "COLOSSAL_EXP_BOTTLE",
+        "aliases": []
+    },
+    {
+        "name": "Titanic Experience Bottle",
+        "id": "TITANIC_EXP_BOTTLE",
+        "aliases": []
+    },
+    {
+        "name": "Green Jerry Box",
+        "id": "JERRY_BOX_GREEN",
+        "aliases": []
+    },
+    {
+        "name": "Golden Jerry Box",
+        "id": "JERRY_BOX_GOLDEN",
+        "aliases": []
+    },
+    {
+        "name": "Purple Jerry Box",
+        "id": "JERRY_BOX_PURPLE",
+        "aliases": []
+    },
+    {
+        "name": "Blue Jerry Box",
+        "id": "JERRY_BOX_BLUE",
+        "aliases": []
+    },
+    {
+        "name": "Refined Mithril",
+        "id": "REFINED_MITHRIL",
+        "aliases": []
+    },
+    {
+        "name": "Titanium",
+        "id": "TITANIUM_ORE",
+        "aliases": []
+    },
+    {
+        "name": "Mithril",
+        "id": "MITHRIL_ORE",
+        "aliases": []
+    },
+    {
+        "name": "Starfall",
+        "id": "STARFALL",
+        "aliases": []
+    },
+    {
+        "name": "Refined Titanium",
+        "id": "REFINED_TITANIUM",
+        "aliases": []
+    },
+    {
+        "name": "Refined Diamond",
+        "id": "REFINED_DIAMOND",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Mithril",
+        "id": "ENCHANTED_MITHRIL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Titanium",
+        "id": "ENCHANTED_TITANIUM",
+        "aliases": []
+    },
+    {
+        "name": "Power Crystal",
+        "id": "POWER_CRYSTAL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Netherrack",
+        "id": "ENCHANTED_NETHERRACK",
+        "aliases": []
+    },
+    {
+        "name": "Plasma Bucket",
+        "id": "PLASMA_BUCKET",
+        "aliases": []
+    },
+    {
+        "name": "Treasurite",
+        "id": "TREASURITE",
+        "aliases": []
+    },
+    {
+        "name": "Dwarven Super Compactor",
+        "id": "DWARVEN_COMPACTOR",
+        "aliases": []
+    },
+    {
+        "name": "Magma Bucket",
+        "id": "MAGMA_BUCKET",
+        "aliases": []
+    },
+    {
+        "name": "Raw Soulflow",
+        "id": "RAW_SOULFLOW",
+        "aliases": []
+    },
+    {
+        "name": "Null Atom",
+        "id": "NULL_ATOM",
+        "aliases": []
+    },
+    {
+        "name": "Null Ovoid",
+        "id": "NULL_OVOID",
+        "aliases": []
+    },
+    {
+        "name": "Null Sphere",
+        "id": "NULL_SPHERE",
+        "aliases": []
+    },
+    {
+        "name": "Soulflow",
+        "id": "SOULFLOW",
+        "aliases": []
+    },
+    {
+        "name": "Absolute Ender Pearl",
+        "id": "ABSOLUTE_ENDER_PEARL",
+        "aliases": []
+    },
+    {
+        "name": "Flawed Amethyst Gemstone",
+        "id": "FLAWED_AMETHYST_GEM",
+        "aliases": [
+            "Flawed Amethyst"
+        ]
+    },
+    {
+        "name": "Perfect Jade Gemstone",
+        "id": "PERFECT_JADE_GEM",
+        "aliases": [
+            "Perfect Jade"
+        ]
+    },
+    {
+        "name": "Flawed Jasper Gemstone",
+        "id": "FLAWED_JASPER_GEM",
+        "aliases": [
+            "Flawed Jasper"
+        ]
+    },
+    {
+        "name": "Flawed Amber Gemstone",
+        "id": "FLAWED_AMBER_GEM",
+        "aliases": [
+            "Flawed Amber"
+        ]
+    },
+    {
+        "name": "Perfect Ruby Gemstone",
+        "id": "PERFECT_RUBY_GEM",
+        "aliases": [
+            "Perfect Ruby"
+        ]
+    },
+    {
+        "name": "Perfect Jasper Gemstone",
+        "id": "PERFECT_JASPER_GEM",
+        "aliases": [
+            "Perfect Jasper"
+        ]
+    },
+    {
+        "name": "Enchanted Hard Stone",
+        "id": "ENCHANTED_HARD_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Flawed Ruby Gemstone",
+        "id": "FLAWED_RUBY_GEM",
+        "aliases": [
+            "Flawed Ruby"
+        ]
+    },
+    {
+        "name": "Fine Jade Gemstone",
+        "id": "FINE_JADE_GEM",
+        "aliases": [
+            "Fine Jade"
+        ]
+    },
+    {
+        "name": "Flawless Jasper Gemstone",
+        "id": "FLAWLESS_JASPER_GEM",
+        "aliases": [
+            "Flawless Jasper"
+        ]
+    },
+    {
+        "name": "Fine Topaz Gemstone",
+        "id": "FINE_TOPAZ_GEM",
+        "aliases": [
+            "Fine Topaz"
+        ]
+    },
+    {
+        "name": "Fine Ruby Gemstone",
+        "id": "FINE_RUBY_GEM",
+        "aliases": [
+            "Fine Ruby"
+        ]
+    },
+    {
+        "name": "Perfect Amber Gemstone",
+        "id": "PERFECT_AMBER_GEM",
+        "aliases": [
+            "Perfect Amber"
+        ]
+    },
+    {
+        "name": "Rough Jasper Gemstone",
+        "id": "ROUGH_JASPER_GEM",
+        "aliases": [
+            "Rough Jasper"
+        ]
+    },
+    {
+        "name": "Flawless Topaz Gemstone",
+        "id": "FLAWLESS_TOPAZ_GEM",
+        "aliases": [
+            "Flawless Topaz"
+        ]
+    },
+    {
+        "name": "Rough Amethyst Gemstone",
+        "id": "ROUGH_AMETHYST_GEM",
+        "aliases": [
+            "Rough Amethyst"
+        ]
+    },
+    {
+        "name": "Rough Ruby Gemstone",
+        "id": "ROUGH_RUBY_GEM",
+        "aliases": [
+            "Rough Ruby"
+        ]
+    },
+    {
+        "name": "Flawless Ruby Gemstone",
+        "id": "FLAWLESS_RUBY_GEM",
+        "aliases": [
+            "Flawless Ruby"
+        ]
+    },
+    {
+        "name": "Flawless Sapphire Gemstone",
+        "id": "FLAWLESS_SAPPHIRE_GEM",
+        "aliases": [
+            "Flawless Sapphire"
+        ]
+    },
+    {
+        "name": "Concentrated Stone",
+        "id": "CONCENTRATED_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Rough Jade Gemstone",
+        "id": "ROUGH_JADE_GEM",
+        "aliases": [
+            "Rough Jade"
+        ]
+    },
+    {
+        "name": "Rough Sapphire Gemstone",
+        "id": "ROUGH_SAPPHIRE_GEM",
+        "aliases": [
+            "Rough Sapphire"
+        ]
+    },
+    {
+        "name": "Perfect Amethyst Gemstone",
+        "id": "PERFECT_AMETHYST_GEM",
+        "aliases": [
+            "Perfect Amethyst"
+        ]
+    },
+    {
+        "name": "Flawless Amethyst Gemstone",
+        "id": "FLAWLESS_AMETHYST_GEM",
+        "aliases": [
+            "Flawless Amethyst"
+        ]
+    },
+    {
+        "name": "Rough Topaz Gemstone",
+        "id": "ROUGH_TOPAZ_GEM",
+        "aliases": [
+            "Rough Topaz"
+        ]
+    },
+    {
+        "name": "Rough Amber Gemstone",
+        "id": "ROUGH_AMBER_GEM",
+        "aliases": [
+            "Rough Amber"
+        ]
+    },
+    {
+        "name": "Fine Amber Gemstone",
+        "id": "FINE_AMBER_GEM",
+        "aliases": [
+            "Fine Amber"
+        ]
+    },
+    {
+        "name": "Perfect Topaz Gemstone",
+        "id": "PERFECT_TOPAZ_GEM",
+        "aliases": [
+            "Perfect Topaz"
+        ]
+    },
+    {
+        "name": "Flawed Jade Gemstone",
+        "id": "FLAWED_JADE_GEM",
+        "aliases": [
+            "Flawed Jade"
+        ]
+    },
+    {
+        "name": "Fine Sapphire Gemstone",
+        "id": "FINE_SAPPHIRE_GEM",
+        "aliases": [
+            "Fine Sapphire"
+        ]
+    },
+    {
+        "name": "Flawed Topaz Gemstone",
+        "id": "FLAWED_TOPAZ_GEM",
+        "aliases": [
+            "Flawed Topaz"
+        ]
+    },
+    {
+        "name": "Flawless Jade Gemstone",
+        "id": "FLAWLESS_JADE_GEM",
+        "aliases": [
+            "Flawless Jade"
+        ]
+    },
+    {
+        "name": "Hard Stone",
+        "id": "HARD_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Fine Amethyst Gemstone",
+        "id": "FINE_AMETHYST_GEM",
+        "aliases": [
+            "Fine Amethyst"
+        ]
+    },
+    {
+        "name": "Fine Jasper Gemstone",
+        "id": "FINE_JASPER_GEM",
+        "aliases": [
+            "Fine Jasper"
+        ]
+    },
+    {
+        "name": "Flawed Sapphire Gemstone",
+        "id": "FLAWED_SAPPHIRE_GEM",
+        "aliases": [
+            "Flawed Sapphire"
+        ]
+    },
+    {
+        "name": "Flawless Amber Gemstone",
+        "id": "FLAWLESS_AMBER_GEM",
+        "aliases": [
+            "Flawless Amber"
+        ]
+    },
+    {
+        "name": "Perfect Sapphire Gemstone",
+        "id": "PERFECT_SAPPHIRE_GEM",
+        "aliases": [
+            "Perfect Sapphire"
+        ]
+    },
+    {
+        "name": "Yoggie",
+        "id": "YOGGIE",
+        "aliases": []
+    },
+    {
+        "name": "Sludge Juice",
+        "id": "SLUDGE_JUICE",
+        "aliases": []
+    },
+    {
+        "name": "Yellow Goblin Egg",
+        "id": "GOBLIN_EGG_YELLOW",
+        "aliases": []
+    },
+    {
+        "name": "Tasty Cheese",
+        "id": "CHEESE_FUEL",
+        "aliases": []
+    },
+    {
+        "name": "Red Goblin Egg",
+        "id": "GOBLIN_EGG_RED",
+        "aliases": []
+    },
+    {
+        "name": "Blue Goblin Egg",
+        "id": "GOBLIN_EGG_BLUE",
+        "aliases": []
+    },
+    {
+        "name": "Green Goblin Egg",
+        "id": "GOBLIN_EGG_GREEN",
+        "aliases": []
+    },
+    {
+        "name": "Arachne's Keeper Fragment",
+        "id": "ARACHNE_KEEPER_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Worm Membrane",
+        "id": "WORM_MEMBRANE",
+        "aliases": []
+    },
+    {
+        "name": "Goblin Egg",
+        "id": "GOBLIN_EGG",
+        "aliases": []
+    },
+    {
+        "name": "Soul String",
+        "id": "SOUL_STRING",
+        "aliases": []
+    },
+    {
+        "name": "Horns Of Torment",
+        "id": "HORNS_OF_TORMENT",
+        "aliases": []
+    },
+    {
+        "name": "Molten Cube",
+        "id": "MOLTEN_CUBE",
+        "aliases": []
+    },
+    {
+        "name": "Dark Orb",
+        "id": "DARK_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Bulky Stone",
+        "id": "BULKY_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Refined Amber",
+        "id": "REFINED_AMBER",
+        "aliases": []
+    },
+    {
+        "name": "Rock Gemstone",
+        "id": "ROCK_GEMSTONE",
+        "aliases": [
+            "Rock"
+        ]
+    },
+    {
+        "name": "End Stone Shulker",
+        "id": "END_STONE_SHULKER",
+        "aliases": []
+    },
+    {
+        "name": "Ender Monocle",
+        "id": "ENDER_MONOCLE",
+        "aliases": []
+    },
+    {
+        "name": "Jaderald",
+        "id": "JADERALD",
+        "aliases": []
+    },
+    {
+        "name": "Hazmat Enderman",
+        "id": "HAZMAT_ENDERMAN",
+        "aliases": []
+    },
+    {
+        "name": "Luxurious Spool",
+        "id": "LUXURIOUS_SPOOL",
+        "aliases": []
+    },
+    {
+        "name": "Rare Diamond",
+        "id": "RARE_DIAMOND",
+        "aliases": []
+    },
+    {
+        "name": "Dragon Scale",
+        "id": "DRAGON_SCALE",
+        "aliases": []
+    },
+    {
+        "name": "Kuudra Mandible",
+        "id": "KUUDRA_MANDIBLE",
+        "aliases": []
+    },
+    {
+        "name": "Acacia Birdhouse",
+        "id": "ACACIA_BIRDHOUSE",
+        "aliases": []
+    },
+    {
+        "name": "Moil Log",
+        "id": "MOIL_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Amber Material",
+        "id": "AMBER_MATERIAL",
+        "aliases": []
+    },
+    {
+        "name": "Dragon Horn",
+        "id": "DRAGON_HORN",
+        "aliases": []
+    },
+    {
+        "name": "Hardened Wood",
+        "id": "HARDENED_WOOD",
+        "aliases": []
+    },
+    {
+        "name": "Eccentric Painting",
+        "id": "ECCENTRIC_PAINTING",
+        "aliases": []
+    },
+    {
+        "name": "Meteor Shard",
+        "id": "METEOR_SHARD",
+        "aliases": []
+    },
+    {
+        "name": "Diamonite",
+        "id": "DIAMONITE",
+        "aliases": []
+    },
+    {
+        "name": "Spirit Stone",
+        "id": "SPIRIT_DECOY",
+        "aliases": []
+    },
+    {
+        "name": "Diamond Atom",
+        "id": "DIAMOND_ATOM",
+        "aliases": []
+    },
+    {
+        "name": "Precursor Gear",
+        "id": "PRECURSOR_GEAR",
+        "aliases": []
+    },
+    {
+        "name": "Necromancer's Brooch",
+        "id": "NECROMANCER_BROOCH",
+        "aliases": []
+    },
+    {
+        "name": "Obsidian Tablet",
+        "id": "OBSIDIAN_TABLET",
+        "aliases": []
+    },
+    {
+        "name": "Deep Sea Orb",
+        "id": "DEEP_SEA_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Vitamin Death",
+        "id": "VITAMIN_DEATH",
+        "aliases": []
+    },
+    {
+        "name": "Petrified Starfall",
+        "id": "PETRIFIED_STARFALL",
+        "aliases": []
+    },
+    {
+        "name": "Candy Corn",
+        "id": "CANDY_CORN",
+        "aliases": []
+    },
+    {
+        "name": "Midas Jewel",
+        "id": "MIDAS_JEWEL",
+        "aliases": []
+    },
+    {
+        "name": "Premium Flesh",
+        "id": "PREMIUM_FLESH",
+        "aliases": []
+    },
+    {
+        "name": "Red Scarf",
+        "id": "RED_SCARF",
+        "aliases": []
+    },
+    {
+        "name": "Pure Mithril",
+        "id": "PURE_MITHRIL",
+        "aliases": []
+    },
+    {
+        "name": "Sadan's Brooch",
+        "id": "SADAN_BROOCH",
+        "aliases": []
+    },
+    {
+        "name": "Jerry Stone",
+        "id": "JERRY_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Rock Candy",
+        "id": "ROCK_CANDY",
+        "aliases": []
+    },
+    {
+        "name": "Onyx",
+        "id": "ONYX",
+        "aliases": []
+    },
+    {
+        "name": "Magma Urchin",
+        "id": "MAGMA_URCHIN",
+        "aliases": []
+    },
+    {
+        "name": "Searing Stone",
+        "id": "SEARING_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Blessed Fruit",
+        "id": "BLESSED_FRUIT",
+        "aliases": []
+    },
+    {
+        "name": "Furball",
+        "id": "FURBALL",
+        "aliases": []
+    },
+    {
+        "name": "Giant Tooth",
+        "id": "GIANT_TOOTH",
+        "aliases": []
+    },
+    {
+        "name": "End Stone Geode",
+        "id": "ENDSTONE_GEODE",
+        "aliases": []
+    },
+    {
+        "name": "Optical Lens",
+        "id": "OPTICAL_LENS",
+        "aliases": []
+    },
+    {
+        "name": "Hot Stuff",
+        "id": "HOT_STUFF",
+        "aliases": []
+    },
+    {
+        "name": "Suspicious Vial",
+        "id": "SUSPICIOUS_VIAL",
+        "aliases": []
+    },
+    {
+        "name": "Dirt Bottle",
+        "id": "DIRT_BOTTLE",
+        "aliases": []
+    },
+    {
+        "name": "Beating Heart",
+        "id": "BEATING_HEART",
+        "aliases": []
+    },
+    {
+        "name": "Red Nose",
+        "id": "RED_NOSE",
+        "aliases": []
+    },
+    {
+        "name": "Dragon Claw",
+        "id": "DRAGON_CLAW",
+        "aliases": []
+    },
+    {
+        "name": "Lucky Dice",
+        "id": "LUCKY_DICE",
+        "aliases": []
+    },
+    {
+        "name": "Toil Log",
+        "id": "TOIL_LOG",
+        "aliases": []
+    },
+    {
+        "name": "Salmon Opal",
+        "id": "SALMON_OPAL",
+        "aliases": []
+    },
+    {
+        "name": "Precious Pearl",
+        "id": "PRECIOUS_PEARL",
+        "aliases": []
+    },
+    {
+        "name": "Warped Stone",
+        "id": "AOTE_STONE",
+        "aliases": []
+    },
+    {
+        "name": "Scorched Books",
+        "id": "SCORCHED_BOOKS",
+        "aliases": []
+    },
+    {
+        "name": "Wither Blood",
+        "id": "WITHER_BLOOD",
+        "aliases": []
+    },
+    {
+        "name": "Blaze Wax",
+        "id": "BLAZE_WAX",
+        "aliases": []
+    },
+    {
+        "name": "Golden Ball",
+        "id": "GOLDEN_BALL",
+        "aliases": []
+    },
+    {
+        "name": "Lapis Crystal",
+        "id": "LAPIS_CRYSTAL",
+        "aliases": []
+    },
+    {
+        "name": "Shiny Prism",
+        "id": "SHINY_PRISM",
+        "aliases": []
+    },
+    {
+        "name": "Mandraa",
+        "id": "MANDRAA",
+        "aliases": []
+    },
+    {
+        "name": "Blaze Rod Distillate",
+        "id": "BLAZE_ROD_DISTILLATE",
+        "aliases": []
+    },
+    {
+        "name": "Derelict Ashe",
+        "id": "DERELICT_ASHE",
+        "aliases": []
+    },
+    {
+        "name": "Gabagool Distillate",
+        "id": "CRUDE_GABAGOOL_DISTILLATE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sulphur",
+        "id": "ENCHANTED_SULPHUR",
+        "aliases": []
+    },
+    {
+        "name": "Omega Enchanted Egg",
+        "id": "OMEGA_EGG",
+        "aliases": []
+    },
+    {
+        "name": "Magma Cream Distillate",
+        "id": "MAGMA_CREAM_DISTILLATE",
+        "aliases": []
+    },
+    {
+        "name": "Sulphur",
+        "id": "SULPHUR_ORE",
+        "aliases": []
+    },
+    {
+        "name": "Glowstone Distillate",
+        "id": "GLOWSTONE_DUST_DISTILLATE",
+        "aliases": []
+    },
+    {
+        "name": "Inferno Vertex",
+        "id": "INFERNO_VERTEX",
+        "aliases": []
+    },
+    {
+        "name": "Nether Wart Distillate",
+        "id": "NETHER_STALK_DISTILLATE",
+        "aliases": []
+    },
+    {
+        "name": "Crude Gabagool",
+        "id": "CRUDE_GABAGOOL",
+        "aliases": []
+    },
+    {
+        "name": "Heavy Gabagool",
+        "id": "HEAVY_GABAGOOL",
+        "aliases": []
+    },
+    {
+        "name": "Inferno Apex",
+        "id": "INFERNO_APEX",
+        "aliases": []
+    },
+    {
+        "name": "Reaper Pepper",
+        "id": "REAPER_PEPPER",
+        "aliases": []
+    },
+    {
+        "name": "Hypergolic Gabagool",
+        "id": "HYPERGOLIC_GABAGOOL",
+        "aliases": []
+    },
+    {
+        "name": "Molten Powder",
+        "id": "MOLTEN_POWDER",
+        "aliases": []
+    },
+    {
+        "name": "Fuel Gabagool",
+        "id": "FUEL_GABAGOOL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Sulphur Cube",
+        "id": "ENCHANTED_SULPHUR_CUBE",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Mycelium Cube",
+        "id": "ENCHANTED_MYCELIUM_CUBE",
+        "aliases": []
+    },
+    {
+        "name": "Mycelium",
+        "id": "MYCEL",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Mycelium",
+        "id": "ENCHANTED_MYCELIUM",
+        "aliases": []
+    },
+    {
+        "name": "Flawed Opal Gemstone",
+        "id": "FLAWED_OPAL_GEM",
+        "aliases": [
+            "Flawed Opal"
+        ]
+    },
+    {
+        "name": "Fine Opal Gemstone",
+        "id": "FINE_OPAL_GEM",
+        "aliases": [
+            "Fine Opal"
+        ]
+    },
+    {
+        "name": "Perfect Opal Gem",
+        "id": "PERFECT_OPAL_GEM",
+        "aliases": [
+            "Perfect Opal"
+        ]
+    },
+    {
+        "name": "Rough Opal Gemstone",
+        "id": "ROUGH_OPAL_GEM",
+        "aliases": [
+            "Rough Opal"
+        ]
+    },
+    {
+        "name": "Flawless Opal Gemstone",
+        "id": "FLAWLESS_OPAL_GEM",
+        "aliases": [
+            "Flawless Opal"
+        ]
+    },
+    {
+        "name": "Melon",
+        "id": "MELON_BLOCK",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Red Sand",
+        "id": "ENCHANTED_RED_SAND",
+        "aliases": []
+    },
+    {
+        "name": "Enchanted Red Sand Cube",
+        "id": "ENCHANTED_RED_SAND_CUBE",
+        "aliases": []
+    },
+    {
+        "name": "Red Sand",
+        "id": "SAND:1",
+        "aliases": []
+    },
+    {
+        "name": "Amalgamated Crimsonite",
+        "id": "AMALGAMATED_CRIMSONITE",
+        "aliases": []
+    },
+    {
+        "name": "Corrupted Bait",
+        "id": "CORRUPTED_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Hot Bait",
+        "id": "HOT_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Magmafish",
+        "id": "MAGMA_FISH",
+        "aliases": []
+    },
+    {
+        "name": "Silver Magmafish",
+        "id": "MAGMA_FISH_SILVER",
+        "aliases": []
+    },
+    {
+        "name": "Gold Magmafish",
+        "id": "MAGMA_FISH_GOLD",
+        "aliases": []
+    },
+    {
+        "name": "Magma Fish Diamond",
+        "id": "MAGMA_FISH_DIAMOND",
+        "aliases": []
+    },
+    {
+        "name": "Amalgamated Crimsonite",
+        "id": "AMALGAMATED_CRIMSONITE_NEW",
+        "aliases": []
+    },
+    {
+        "name": "Entropy Suppressor",
+        "id": "ENTROPY_SUPPRESSOR",
+        "aliases": []
+    },
+    {
+        "name": "Chili Pepper",
+        "id": "CHILI_PEPPER",
+        "aliases": []
+    },
+    {
+        "name": "The Art of War",
+        "id": "THE_ART_OF_WAR",
+        "aliases": [
+            "Art of War"
+        ]
+    },
+    {
+        "name": "Book of Stats",
+        "id": "BOOK_OF_STATS",
+        "aliases": []
+    },
+    {
+        "name": "Essence Dragon",
+        "id": "ESSENCE_DRAGON",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Blast Protection 7",
+        "id": "ENCHANTMENT_BLAST_PROTECTION_7",
+        "aliases": [
+            "Blast Protection 7"
+        ]
+    },
+    {
+        "name": "Enchantment Big Brain 4",
+        "id": "ENCHANTMENT_BIG_BRAIN_4",
+        "aliases": [
+            "Big Brain 4"
+        ]
+    },
+    {
+        "name": "Enchantment Big Brain 5",
+        "id": "ENCHANTMENT_BIG_BRAIN_5",
+        "aliases": [
+            "Big Brain 5"
+        ]
+    },
+    {
+        "name": "Enchantment Big Brain 3",
+        "id": "ENCHANTMENT_BIG_BRAIN_3",
+        "aliases": [
+            "Big Brain 3"
+        ]
+    },
+    {
+        "name": "Essence Ice",
+        "id": "ESSENCE_ICE",
+        "aliases": [
+            "Ice Essence"
+        ]
+    },
+    {
+        "name": "Essence Gold",
+        "id": "ESSENCE_GOLD",
+        "aliases": [
+            "Gold Essence"
+        ]
+    },
+    {
+        "name": "Enchantment Blast Protection 6",
+        "id": "ENCHANTMENT_BLAST_PROTECTION_6",
+        "aliases": [
+            "Blast Protection 6"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Mushrooms 5",
+        "id": "ENCHANTMENT_TURBO_MUSHROOMS_5",
+        "aliases": [
+            "Turbo Mushrooms 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Mushrooms 2",
+        "id": "ENCHANTMENT_TURBO_MUSHROOMS_2",
+        "aliases": [
+            "Turbo Mushrooms 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Mushrooms 1",
+        "id": "ENCHANTMENT_TURBO_MUSHROOMS_1",
+        "aliases": [
+            "Turbo Mushrooms 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Mushrooms 4",
+        "id": "ENCHANTMENT_TURBO_MUSHROOMS_4",
+        "aliases": [
+            "Turbo Mushrooms 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Mushrooms 3",
+        "id": "ENCHANTMENT_TURBO_MUSHROOMS_3",
+        "aliases": [
+            "Turbo Mushrooms 3"
+        ]
+    },
+    {
+        "name": "Essence Spider",
+        "id": "ESSENCE_SPIDER",
+        "aliases": [
+            "Spider Essence"
+        ]
+    },
+    {
+        "name": "Enchantment Angler 6",
+        "id": "ENCHANTMENT_ANGLER_6",
+        "aliases": [
+            "Angler 6"
+        ]
+    },
+    {
+        "name": "Essence Crimson",
+        "id": "ESSENCE_CRIMSON",
+        "aliases": [
+            "Crimson Essence"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bank 5",
+        "id": "ENCHANTMENT_ULTIMATE_BANK_5",
+        "aliases": [
+            "Ultimate Bank 5",
+            "Bank 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bank 2",
+        "id": "ENCHANTMENT_ULTIMATE_BANK_2",
+        "aliases": [
+            "Ultimate Bank 2",
+            "Bank 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bank 1",
+        "id": "ENCHANTMENT_ULTIMATE_BANK_1",
+        "aliases": [
+            "Ultimate Bank 1",
+            "Bank 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bank 4",
+        "id": "ENCHANTMENT_ULTIMATE_BANK_4",
+        "aliases": [
+            "Ultimate Bank 4",
+            "Bank 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bank 3",
+        "id": "ENCHANTMENT_ULTIMATE_BANK_3",
+        "aliases": [
+            "Ultimate Bank 3",
+            "Bank 3"
+        ]
+    },
+    {
+        "name": "Essence Diamond",
+        "id": "ESSENCE_DIAMOND",
+        "aliases": [
+            "Diamond Essence"
+        ]
+    },
+    {
+        "name": "Essence Wither",
+        "id": "ESSENCE_WITHER",
+        "aliases": [
+            "Wither Essence"
+        ]
+    },
+    {
+        "name": "Essence Undead",
+        "id": "ESSENCE_UNDEAD",
+        "aliases": [
+            "Undead Essence"
+        ]
+    },
+    {
+        "name": "Enchantment Bane Of Arthropods 6",
+        "id": "ENCHANTMENT_BANE_OF_ARTHROPODS_6",
+        "aliases": [
+            "Bane Of Arthropods 6"
+        ]
+    },
+    {
+        "name": "Enchantment Bane Of Arthropods 7",
+        "id": "ENCHANTMENT_BANE_OF_ARTHROPODS_7",
+        "aliases": [
+            "Bane Of Arthropods 7"
+        ]
+    },
+    {
+        "name": "First Master Star",
+        "id": "FIRST_MASTER_STAR",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Sharpness 7",
+        "id": "ENCHANTMENT_SHARPNESS_7",
+        "aliases": [
+            "Sharpness 7"
+        ]
+    },
+    {
+        "name": "Enchantment Sharpness 6",
+        "id": "ENCHANTMENT_SHARPNESS_6",
+        "aliases": [
+            "Sharpness 6"
+        ]
+    },
+    {
+        "name": "Enchantment Feather Falling 6",
+        "id": "ENCHANTMENT_FEATHER_FALLING_6",
+        "aliases": [
+            "Feather Falling 6"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate No Pain No Gain 2",
+        "id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+        "aliases": [
+            "Ultimate No Pain No Gain 2",
+            "No Pain No Gain 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate No Pain No Gain 1",
+        "id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+        "aliases": [
+            "Ultimate No Pain No Gain 1",
+            "No Pain No Gain 1"
+        ]
+    },
+    {
+        "name": "Enchantment Critical 6",
+        "id": "ENCHANTMENT_CRITICAL_6",
+        "aliases": [
+            "Critical 6"
+        ]
+    },
+    {
+        "name": "Farming for Dummies",
+        "id": "FARMING_FOR_DUMMIES",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Critical 7",
+        "id": "ENCHANTMENT_CRITICAL_7",
+        "aliases": [
+            "Critical 7"
+        ]
+    },
+    {
+        "name": "Enchantment Protection 7",
+        "id": "ENCHANTMENT_PROTECTION_7",
+        "aliases": [
+            "Protection 7"
+        ]
+    },
+    {
+        "name": "Enchantment Protection 6",
+        "id": "ENCHANTMENT_PROTECTION_6",
+        "aliases": [
+            "Protection 6"
+        ]
+    },
+    {
+        "name": "Shadow Warp",
+        "id": "SHADOW_WARP_SCROLL",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Turbo Coco 1",
+        "id": "ENCHANTMENT_TURBO_COCO_1",
+        "aliases": [
+            "Turbo Coco 1"
+        ]
+    },
+    {
+        "name": "Enchantment Thunderbolt 6",
+        "id": "ENCHANTMENT_THUNDERBOLT_6",
+        "aliases": [
+            "Thunderbolt 6"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Coco 5",
+        "id": "ENCHANTMENT_TURBO_COCO_5",
+        "aliases": [
+            "Turbo Coco 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Coco 4",
+        "id": "ENCHANTMENT_TURBO_COCO_4",
+        "aliases": [
+            "Turbo Coco 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Coco 3",
+        "id": "ENCHANTMENT_TURBO_COCO_3",
+        "aliases": [
+            "Turbo Coco 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Coco 2",
+        "id": "ENCHANTMENT_TURBO_COCO_2",
+        "aliases": [
+            "Turbo Coco 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Reiterate 1",
+        "id": "ENCHANTMENT_ULTIMATE_REITERATE_1",
+        "aliases": [
+            "Ultimate Reiterate 1",
+            "Reiterate 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Reiterate 4",
+        "id": "ENCHANTMENT_ULTIMATE_REITERATE_4",
+        "aliases": [
+            "Ultimate Reiterate 4",
+            "Reiterate 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Reiterate 5",
+        "id": "ENCHANTMENT_ULTIMATE_REITERATE_5",
+        "aliases": [
+            "Ultimate Reiterate 5",
+            "Reiterate 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Reiterate 2",
+        "id": "ENCHANTMENT_ULTIMATE_REITERATE_2",
+        "aliases": [
+            "Ultimate Reiterate 2",
+            "Reiterate 2"
+        ]
+    },
+    {
+        "name": "Enchantment Corruption 5",
+        "id": "ENCHANTMENT_CORRUPTION_5",
+        "aliases": [
+            "Corruption 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Reiterate 3",
+        "id": "ENCHANTMENT_ULTIMATE_REITERATE_3",
+        "aliases": [
+            "Ultimate Reiterate 3",
+            "Reiterate 3"
+        ]
+    },
+    {
+        "name": "Enchantment Corruption 4",
+        "id": "ENCHANTMENT_CORRUPTION_4",
+        "aliases": [
+            "Corruption 4"
+        ]
+    },
+    {
+        "name": "Enchantment Corruption 3",
+        "id": "ENCHANTMENT_CORRUPTION_3",
+        "aliases": [
+            "Corruption 3"
+        ]
+    },
+    {
+        "name": "Enchantment Corruption 2",
+        "id": "ENCHANTMENT_CORRUPTION_2",
+        "aliases": [
+            "Corruption 2"
+        ]
+    },
+    {
+        "name": "Enchantment Corruption 1",
+        "id": "ENCHANTMENT_CORRUPTION_1",
+        "aliases": [
+            "Corruption 1"
+        ]
+    },
+    {
+        "name": "Enchantment Cayenne 5",
+        "id": "ENCHANTMENT_CAYENNE_5",
+        "aliases": [
+            "Cayenne 5"
+        ]
+    },
+    {
+        "name": "Enchantment Cayenne 4",
+        "id": "ENCHANTMENT_CAYENNE_4",
+        "aliases": [
+            "Cayenne 4"
+        ]
+    },
+    {
+        "name": "Enchantment Venomous 6",
+        "id": "ENCHANTMENT_VENOMOUS_6",
+        "aliases": [
+            "Venomous 6"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 10",
+        "id": "ENCHANTMENT_STRONG_MANA_10",
+        "aliases": [
+            "Strong Mana 10"
+        ]
+    },
+    {
+        "name": "Enchantment Cayenne 3",
+        "id": "ENCHANTMENT_CAYENNE_3",
+        "aliases": [
+            "Cayenne 3"
+        ]
+    },
+    {
+        "name": "Enchantment Cayenne 2",
+        "id": "ENCHANTMENT_CAYENNE_2",
+        "aliases": [
+            "Cayenne 2"
+        ]
+    },
+    {
+        "name": "Enchantment Cayenne 1",
+        "id": "ENCHANTMENT_CAYENNE_1",
+        "aliases": [
+            "Cayenne 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cactus 5",
+        "id": "ENCHANTMENT_TURBO_CACTUS_5",
+        "aliases": [
+            "Turbo Cactus 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cactus 4",
+        "id": "ENCHANTMENT_TURBO_CACTUS_4",
+        "aliases": [
+            "Turbo Cactus 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cactus 3",
+        "id": "ENCHANTMENT_TURBO_CACTUS_3",
+        "aliases": [
+            "Turbo Cactus 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cactus 2",
+        "id": "ENCHANTMENT_TURBO_CACTUS_2",
+        "aliases": [
+            "Turbo Cactus 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cactus 1",
+        "id": "ENCHANTMENT_TURBO_CACTUS_1",
+        "aliases": [
+            "Turbo Cactus 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ender Slayer 7",
+        "id": "ENCHANTMENT_ENDER_SLAYER_7",
+        "aliases": [
+            "Ender Slayer 7"
+        ]
+    },
+    {
+        "name": "Enchantment Ender Slayer 6",
+        "id": "ENCHANTMENT_ENDER_SLAYER_6",
+        "aliases": [
+            "Ender Slayer 6"
+        ]
+    },
+    {
+        "name": "Enchantment Feather Falling 7",
+        "id": "ENCHANTMENT_FEATHER_FALLING_7",
+        "aliases": [
+            "Feather Falling 7"
+        ]
+    },
+    {
+        "name": "Wither Shield",
+        "id": "WITHER_SHIELD_SCROLL",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Feather Falling 9",
+        "id": "ENCHANTMENT_FEATHER_FALLING_9",
+        "aliases": [
+            "Feather Falling 9"
+        ]
+    },
+    {
+        "name": "Enchantment Feather Falling 8",
+        "id": "ENCHANTMENT_FEATHER_FALLING_8",
+        "aliases": [
+            "Feather Falling 8"
+        ]
+    },
+    {
+        "name": "Enchantment Thunderlord 6",
+        "id": "ENCHANTMENT_THUNDERLORD_6",
+        "aliases": [
+            "Thunderlord 6"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Melon 5",
+        "id": "ENCHANTMENT_TURBO_MELON_5",
+        "aliases": [
+            "Turbo Melon 5"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Steal 1",
+        "id": "ENCHANTMENT_MANA_STEAL_1",
+        "aliases": [
+            "Mana Steal 1"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Steal 2",
+        "id": "ENCHANTMENT_MANA_STEAL_2",
+        "aliases": [
+            "Mana Steal 2"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Steal 3",
+        "id": "ENCHANTMENT_MANA_STEAL_3",
+        "aliases": [
+            "Mana Steal 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Melon 3",
+        "id": "ENCHANTMENT_TURBO_MELON_3",
+        "aliases": [
+            "Turbo Melon 3"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 7",
+        "id": "ENCHANTMENT_STRONG_MANA_7",
+        "aliases": [
+            "Strong Mana 7"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Melon 4",
+        "id": "ENCHANTMENT_TURBO_MELON_4",
+        "aliases": [
+            "Turbo Melon 4"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 6",
+        "id": "ENCHANTMENT_STRONG_MANA_6",
+        "aliases": [
+            "Strong Mana 6"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Melon 1",
+        "id": "ENCHANTMENT_TURBO_MELON_1",
+        "aliases": [
+            "Turbo Melon 1"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 5",
+        "id": "ENCHANTMENT_STRONG_MANA_5",
+        "aliases": [
+            "Strong Mana 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Melon 2",
+        "id": "ENCHANTMENT_TURBO_MELON_2",
+        "aliases": [
+            "Turbo Melon 2"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 4",
+        "id": "ENCHANTMENT_STRONG_MANA_4",
+        "aliases": [
+            "Strong Mana 4"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 3",
+        "id": "ENCHANTMENT_STRONG_MANA_3",
+        "aliases": [
+            "Strong Mana 3"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 2",
+        "id": "ENCHANTMENT_STRONG_MANA_2",
+        "aliases": [
+            "Strong Mana 2"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 1",
+        "id": "ENCHANTMENT_STRONG_MANA_1",
+        "aliases": [
+            "Strong Mana 1"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 1",
+        "id": "ENCHANTMENT_HARDENED_MANA_1",
+        "aliases": [
+            "Hardened Mana 1"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 3",
+        "id": "ENCHANTMENT_HARDENED_MANA_3",
+        "aliases": [
+            "Hardened Mana 3"
+        ]
+    },
+    {
+        "name": "Enchantment Compact 1",
+        "id": "ENCHANTMENT_COMPACT_1",
+        "aliases": [
+            "Compact 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Combo 1",
+        "id": "ENCHANTMENT_ULTIMATE_COMBO_1",
+        "aliases": [
+            "Ultimate Combo 1",
+            "Combo 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Combo 2",
+        "id": "ENCHANTMENT_ULTIMATE_COMBO_2",
+        "aliases": [
+            "Ultimate Combo 2",
+            "Combo 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Combo 5",
+        "id": "ENCHANTMENT_ULTIMATE_COMBO_5",
+        "aliases": [
+            "Ultimate Combo 5",
+            "Combo 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Combo 3",
+        "id": "ENCHANTMENT_ULTIMATE_COMBO_3",
+        "aliases": [
+            "Ultimate Combo 3",
+            "Combo 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Combo 4",
+        "id": "ENCHANTMENT_ULTIMATE_COMBO_4",
+        "aliases": [
+            "Ultimate Combo 4",
+            "Combo 4"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 9",
+        "id": "ENCHANTMENT_STRONG_MANA_9",
+        "aliases": [
+            "Strong Mana 9"
+        ]
+    },
+    {
+        "name": "Enchantment Strong Mana 8",
+        "id": "ENCHANTMENT_STRONG_MANA_8",
+        "aliases": [
+            "Strong Mana 8"
+        ]
+    },
+    {
+        "name": "Enchantment Pristine 1",
+        "id": "ENCHANTMENT_PRISTINE_1",
+        "aliases": [
+            "Pristine 1"
+        ]
+    },
+    {
+        "name": "Enchantment Pristine 2",
+        "id": "ENCHANTMENT_PRISTINE_2",
+        "aliases": [
+            "Pristine 2"
+        ]
+    },
+    {
+        "name": "Enchantment Pristine 5",
+        "id": "ENCHANTMENT_PRISTINE_5",
+        "aliases": [
+            "Pristine 5"
+        ]
+    },
+    {
+        "name": "Enchantment Pristine 3",
+        "id": "ENCHANTMENT_PRISTINE_3",
+        "aliases": [
+            "Pristine 3"
+        ]
+    },
+    {
+        "name": "Enchantment Pristine 4",
+        "id": "ENCHANTMENT_PRISTINE_4",
+        "aliases": [
+            "Pristine 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 10",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_10",
+        "aliases": [
+            "Ferocious Mana 10"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Warts 1",
+        "id": "ENCHANTMENT_TURBO_WARTS_1",
+        "aliases": [
+            "Turbo Warts 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Warts 2",
+        "id": "ENCHANTMENT_TURBO_WARTS_2",
+        "aliases": [
+            "Turbo Warts 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Warts 3",
+        "id": "ENCHANTMENT_TURBO_WARTS_3",
+        "aliases": [
+            "Turbo Warts 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Warts 4",
+        "id": "ENCHANTMENT_TURBO_WARTS_4",
+        "aliases": [
+            "Turbo Warts 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Warts 5",
+        "id": "ENCHANTMENT_TURBO_WARTS_5",
+        "aliases": [
+            "Turbo Warts 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate No Pain No Gain 4",
+        "id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+        "aliases": [
+            "Ultimate No Pain No Gain 4",
+            "No Pain No Gain 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate No Pain No Gain 3",
+        "id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+        "aliases": [
+            "Ultimate No Pain No Gain 3",
+            "No Pain No Gain 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate No Pain No Gain 5",
+        "id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_5",
+        "aliases": [
+            "Ultimate No Pain No Gain 5",
+            "No Pain No Gain 5"
+        ]
+    },
+    {
+        "name": "Enchantment Life Steal 4",
+        "id": "ENCHANTMENT_LIFE_STEAL_4",
+        "aliases": [
+            "Life Steal 4"
+        ]
+    },
+    {
+        "name": "Fifth Master Star",
+        "id": "FIFTH_MASTER_STAR",
+        "aliases": []
+    },
+    {
+        "name": "Silex",
+        "id": "SIL_EX",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Hardened Mana 2",
+        "id": "ENCHANTMENT_HARDENED_MANA_2",
+        "aliases": [
+            "Hardened Mana 2"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 5",
+        "id": "ENCHANTMENT_HARDENED_MANA_5",
+        "aliases": [
+            "Hardened Mana 5"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 4",
+        "id": "ENCHANTMENT_HARDENED_MANA_4",
+        "aliases": [
+            "Hardened Mana 4"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 7",
+        "id": "ENCHANTMENT_HARDENED_MANA_7",
+        "aliases": [
+            "Hardened Mana 7"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 6",
+        "id": "ENCHANTMENT_HARDENED_MANA_6",
+        "aliases": [
+            "Hardened Mana 6"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 9",
+        "id": "ENCHANTMENT_HARDENED_MANA_9",
+        "aliases": [
+            "Hardened Mana 9"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 8",
+        "id": "ENCHANTMENT_HARDENED_MANA_8",
+        "aliases": [
+            "Hardened Mana 8"
+        ]
+    },
+    {
+        "name": "Enchantment Experience 4",
+        "id": "ENCHANTMENT_EXPERIENCE_4",
+        "aliases": [
+            "Experience 4"
+        ]
+    },
+    {
+        "name": "Implosion",
+        "id": "IMPLOSION_SCROLL",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Mana Vampire 10",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_10",
+        "aliases": [
+            "Mana Vampire 10"
+        ]
+    },
+    {
+        "name": "Enchantment Delicate 5",
+        "id": "ENCHANTMENT_DELICATE_5",
+        "aliases": [
+            "Delicate 5"
+        ]
+    },
+    {
+        "name": "Enchantment Prosecute 6",
+        "id": "ENCHANTMENT_PROSECUTE_6",
+        "aliases": [
+            "Prosecute 6"
+        ]
+    },
+    {
+        "name": "Enchantment Caster 6",
+        "id": "ENCHANTMENT_CASTER_6",
+        "aliases": [
+            "Caster 6"
+        ]
+    },
+    {
+        "name": "Enchantment Respite 5",
+        "id": "ENCHANTMENT_RESPITE_5",
+        "aliases": [
+            "Respite 5"
+        ]
+    },
+    {
+        "name": "Enchantment Respite 3",
+        "id": "ENCHANTMENT_RESPITE_3",
+        "aliases": [
+            "Respite 3"
+        ]
+    },
+    {
+        "name": "Enchantment Respite 4",
+        "id": "ENCHANTMENT_RESPITE_4",
+        "aliases": [
+            "Respite 4"
+        ]
+    },
+    {
+        "name": "Enchantment Respite 1",
+        "id": "ENCHANTMENT_RESPITE_1",
+        "aliases": [
+            "Respite 1"
+        ]
+    },
+    {
+        "name": "Enchantment Respite 2",
+        "id": "ENCHANTMENT_RESPITE_2",
+        "aliases": [
+            "Respite 2"
+        ]
+    },
+    {
+        "name": "Enchantment Overload 5",
+        "id": "ENCHANTMENT_OVERLOAD_5",
+        "aliases": [
+            "Overload 5"
+        ]
+    },
+    {
+        "name": "Enchantment Overload 4",
+        "id": "ENCHANTMENT_OVERLOAD_4",
+        "aliases": [
+            "Overload 4"
+        ]
+    },
+    {
+        "name": "Enchantment Overload 3",
+        "id": "ENCHANTMENT_OVERLOAD_3",
+        "aliases": [
+            "Overload 3"
+        ]
+    },
+    {
+        "name": "Enchantment Overload 2",
+        "id": "ENCHANTMENT_OVERLOAD_2",
+        "aliases": [
+            "Overload 2"
+        ]
+    },
+    {
+        "name": "Enchantment Overload 1",
+        "id": "ENCHANTMENT_OVERLOAD_1",
+        "aliases": [
+            "Overload 1"
+        ]
+    },
+    {
+        "name": "Enchantment Fire Protection 6",
+        "id": "ENCHANTMENT_FIRE_PROTECTION_6",
+        "aliases": [
+            "Fire Protection 6"
+        ]
+    },
+    {
+        "name": "Second Master Star",
+        "id": "SECOND_MASTER_STAR",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Fire Protection 7",
+        "id": "ENCHANTMENT_FIRE_PROTECTION_7",
+        "aliases": [
+            "Fire Protection 7"
+        ]
+    },
+    {
+        "name": "Enchantment Hardened Mana 10",
+        "id": "ENCHANTMENT_HARDENED_MANA_10",
+        "aliases": [
+            "Hardened Mana 10"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Jerry 2",
+        "id": "ENCHANTMENT_ULTIMATE_JERRY_2",
+        "aliases": [
+            "Ultimate Jerry 2",
+            "Jerry 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Rend 3",
+        "id": "ENCHANTMENT_ULTIMATE_REND_3",
+        "aliases": [
+            "Ultimate Rend 3",
+            "Rend 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Jerry 1",
+        "id": "ENCHANTMENT_ULTIMATE_JERRY_1",
+        "aliases": [
+            "Ultimate Jerry 1",
+            "Jerry 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Rend 2",
+        "id": "ENCHANTMENT_ULTIMATE_REND_2",
+        "aliases": [
+            "Ultimate Rend 2",
+            "Rend 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Rend 1",
+        "id": "ENCHANTMENT_ULTIMATE_REND_1",
+        "aliases": [
+            "Ultimate Rend 1",
+            "Rend 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Jerry 5",
+        "id": "ENCHANTMENT_ULTIMATE_JERRY_5",
+        "aliases": [
+            "Ultimate Jerry 5",
+            "Jerry 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Rend 5",
+        "id": "ENCHANTMENT_ULTIMATE_REND_5",
+        "aliases": [
+            "Ultimate Rend 5",
+            "Rend 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Jerry 4",
+        "id": "ENCHANTMENT_ULTIMATE_JERRY_4",
+        "aliases": [
+            "Ultimate Jerry 4",
+            "Jerry 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Rend 4",
+        "id": "ENCHANTMENT_ULTIMATE_REND_4",
+        "aliases": [
+            "Ultimate Rend 4",
+            "Rend 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Jerry 3",
+        "id": "ENCHANTMENT_ULTIMATE_JERRY_3",
+        "aliases": [
+            "Ultimate Jerry 3",
+            "Jerry 3"
+        ]
+    },
+    {
+        "name": "Fourth Master Star",
+        "id": "FOURTH_MASTER_STAR",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Ultimate Wise 2",
+        "id": "ENCHANTMENT_ULTIMATE_WISE_2",
+        "aliases": [
+            "Ultimate Wise 2",
+            "Wise 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wise 1",
+        "id": "ENCHANTMENT_ULTIMATE_WISE_1",
+        "aliases": [
+            "Ultimate Wise 1",
+            "Wise 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wise 4",
+        "id": "ENCHANTMENT_ULTIMATE_WISE_4",
+        "aliases": [
+            "Ultimate Wise 4",
+            "Wise 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wise 3",
+        "id": "ENCHANTMENT_ULTIMATE_WISE_3",
+        "aliases": [
+            "Ultimate Wise 3",
+            "Wise 3"
+        ]
+    },
+    {
+        "name": "Enchantment True Protection 1",
+        "id": "ENCHANTMENT_TRUE_PROTECTION_1",
+        "aliases": [
+            "True Protection 1"
+        ]
+    },
+    {
+        "name": "Enchantment Luck Of The Sea 6",
+        "id": "ENCHANTMENT_LUCK_OF_THE_SEA_6",
+        "aliases": [
+            "Luck Of The Sea 6"
+        ]
+    },
+    {
+        "name": "Enchantment Smarty Pants 3",
+        "id": "ENCHANTMENT_SMARTY_PANTS_3",
+        "aliases": [
+            "Smarty Pants 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wise 5",
+        "id": "ENCHANTMENT_ULTIMATE_WISE_5",
+        "aliases": [
+            "Ultimate Wise 5",
+            "Wise 5"
+        ]
+    },
+    {
+        "name": "Enchantment Smarty Pants 2",
+        "id": "ENCHANTMENT_SMARTY_PANTS_2",
+        "aliases": [
+            "Smarty Pants 2"
+        ]
+    },
+    {
+        "name": "Enchantment Smarty Pants 5",
+        "id": "ENCHANTMENT_SMARTY_PANTS_5",
+        "aliases": [
+            "Smarty Pants 5"
+        ]
+    },
+    {
+        "name": "Enchantment Smarty Pants 4",
+        "id": "ENCHANTMENT_SMARTY_PANTS_4",
+        "aliases": [
+            "Smarty Pants 4"
+        ]
+    },
+    {
+        "name": "Enchantment Smarty Pants 1",
+        "id": "ENCHANTMENT_SMARTY_PANTS_1",
+        "aliases": [
+            "Smarty Pants 1"
+        ]
+    },
+    {
+        "name": "Enchantment Lure 6",
+        "id": "ENCHANTMENT_LURE_6",
+        "aliases": [
+            "Lure 6"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 8",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_8",
+        "aliases": [
+            "Ferocious Mana 8"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 9",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_9",
+        "aliases": [
+            "Ferocious Mana 9"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 4",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_4",
+        "aliases": [
+            "Ferocious Mana 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 5",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_5",
+        "aliases": [
+            "Ferocious Mana 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 6",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_6",
+        "aliases": [
+            "Ferocious Mana 6"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 7",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_7",
+        "aliases": [
+            "Ferocious Mana 7"
+        ]
+    },
+    {
+        "name": "Enchantment Magnet 6",
+        "id": "ENCHANTMENT_MAGNET_6",
+        "aliases": [
+            "Magnet 6"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 1",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_1",
+        "aliases": [
+            "Ferocious Mana 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 2",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_2",
+        "aliases": [
+            "Ferocious Mana 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ferocious Mana 3",
+        "id": "ENCHANTMENT_FEROCIOUS_MANA_3",
+        "aliases": [
+            "Ferocious Mana 3"
+        ]
+    },
+    {
+        "name": "Enchantment Projectile Protection 7",
+        "id": "ENCHANTMENT_PROJECTILE_PROTECTION_7",
+        "aliases": [
+            "Projectile Protection 7"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 10",
+        "id": "ENCHANTMENT_CHAMPION_10",
+        "aliases": [
+            "Champion 10"
+        ]
+    },
+    {
+        "name": "Enchantment Projectile Protection 6",
+        "id": "ENCHANTMENT_PROJECTILE_PROTECTION_6",
+        "aliases": [
+            "Projectile Protection 6"
+        ]
+    },
+    {
+        "name": "Enchantment Dragon Hunter 4",
+        "id": "ENCHANTMENT_DRAGON_HUNTER_4",
+        "aliases": [
+            "Dragon Hunter 4"
+        ]
+    },
+    {
+        "name": "Enchantment Dragon Hunter 3",
+        "id": "ENCHANTMENT_DRAGON_HUNTER_3",
+        "aliases": [
+            "Dragon Hunter 3"
+        ]
+    },
+    {
+        "name": "Enchantment Dragon Hunter 5",
+        "id": "ENCHANTMENT_DRAGON_HUNTER_5",
+        "aliases": [
+            "Dragon Hunter 5"
+        ]
+    },
+    {
+        "name": "Enchantment Dragon Hunter 2",
+        "id": "ENCHANTMENT_DRAGON_HUNTER_2",
+        "aliases": [
+            "Dragon Hunter 2"
+        ]
+    },
+    {
+        "name": "Enchantment Dragon Hunter 1",
+        "id": "ENCHANTMENT_DRAGON_HUNTER_1",
+        "aliases": [
+            "Dragon Hunter 1"
+        ]
+    },
+    {
+        "name": "Enchantment Charm 2",
+        "id": "ENCHANTMENT_CHARM_2",
+        "aliases": [
+            "Charm 2"
+        ]
+    },
+    {
+        "name": "Enchantment Charm 3",
+        "id": "ENCHANTMENT_CHARM_3",
+        "aliases": [
+            "Charm 3"
+        ]
+    },
+    {
+        "name": "Enchantment Charm 1",
+        "id": "ENCHANTMENT_CHARM_1",
+        "aliases": [
+            "Charm 1"
+        ]
+    },
+    {
+        "name": "Enchantment Charm 4",
+        "id": "ENCHANTMENT_CHARM_4",
+        "aliases": [
+            "Charm 4"
+        ]
+    },
+    {
+        "name": "Enchantment Charm 5",
+        "id": "ENCHANTMENT_CHARM_5",
+        "aliases": [
+            "Charm 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Swarm 5",
+        "id": "ENCHANTMENT_ULTIMATE_SWARM_5",
+        "aliases": [
+            "Ultimate Swarm 5",
+            "Swarm 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Wheat 3",
+        "id": "ENCHANTMENT_TURBO_WHEAT_3",
+        "aliases": [
+            "Turbo Wheat 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Wheat 4",
+        "id": "ENCHANTMENT_TURBO_WHEAT_4",
+        "aliases": [
+            "Turbo Wheat 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Wheat 1",
+        "id": "ENCHANTMENT_TURBO_WHEAT_1",
+        "aliases": [
+            "Turbo Wheat 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Wheat 2",
+        "id": "ENCHANTMENT_TURBO_WHEAT_2",
+        "aliases": [
+            "Turbo Wheat 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Swarm 3",
+        "id": "ENCHANTMENT_ULTIMATE_SWARM_3",
+        "aliases": [
+            "Ultimate Swarm 3",
+            "Swarm 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Swarm 4",
+        "id": "ENCHANTMENT_ULTIMATE_SWARM_4",
+        "aliases": [
+            "Ultimate Swarm 4",
+            "Swarm 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Swarm 1",
+        "id": "ENCHANTMENT_ULTIMATE_SWARM_1",
+        "aliases": [
+            "Ultimate Swarm 1",
+            "Swarm 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Wheat 5",
+        "id": "ENCHANTMENT_TURBO_WHEAT_5",
+        "aliases": [
+            "Turbo Wheat 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Swarm 2",
+        "id": "ENCHANTMENT_ULTIMATE_SWARM_2",
+        "aliases": [
+            "Ultimate Swarm 2",
+            "Swarm 2"
+        ]
+    },
+    {
+        "name": "Enchantment Sugar Rush 3",
+        "id": "ENCHANTMENT_SUGAR_RUSH_3",
+        "aliases": [
+            "Sugar Rush 3"
+        ]
+    },
+    {
+        "name": "Enchantment Sugar Rush 2",
+        "id": "ENCHANTMENT_SUGAR_RUSH_2",
+        "aliases": [
+            "Sugar Rush 2"
+        ]
+    },
+    {
+        "name": "Enchantment Sugar Rush 1",
+        "id": "ENCHANTMENT_SUGAR_RUSH_1",
+        "aliases": [
+            "Sugar Rush 1"
+        ]
+    },
+    {
+        "name": "Enchantment Growth 6",
+        "id": "ENCHANTMENT_GROWTH_6",
+        "aliases": [
+            "Growth 6"
+        ]
+    },
+    {
+        "name": "Enchantment Growth 7",
+        "id": "ENCHANTMENT_GROWTH_7",
+        "aliases": [
+            "Growth 7"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Chimera 1",
+        "id": "ENCHANTMENT_ULTIMATE_CHIMERA_1",
+        "aliases": [
+            "Ultimate Chimera 1",
+            "Chimera 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Last Stand 5",
+        "id": "ENCHANTMENT_ULTIMATE_LAST_STAND_5",
+        "aliases": [
+            "Ultimate Last Stand 5",
+            "Last Stand 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Last Stand 4",
+        "id": "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+        "aliases": [
+            "Ultimate Last Stand 4",
+            "Last Stand 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Chimera 5",
+        "id": "ENCHANTMENT_ULTIMATE_CHIMERA_5",
+        "aliases": [
+            "Ultimate Chimera 5",
+            "Chimera 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Last Stand 3",
+        "id": "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+        "aliases": [
+            "Ultimate Last Stand 3",
+            "Last Stand 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Last Stand 2",
+        "id": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+        "aliases": [
+            "Ultimate Last Stand 2",
+            "Last Stand 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Chimera 4",
+        "id": "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+        "aliases": [
+            "Ultimate Chimera 4",
+            "Chimera 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Last Stand 1",
+        "id": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+        "aliases": [
+            "Ultimate Last Stand 1",
+            "Last Stand 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Chimera 3",
+        "id": "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+        "aliases": [
+            "Ultimate Chimera 3",
+            "Chimera 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Chimera 2",
+        "id": "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+        "aliases": [
+            "Ultimate Chimera 2",
+            "Chimera 2"
+        ]
+    },
+    {
+        "name": "Enchantment Feather Falling 10",
+        "id": "ENCHANTMENT_FEATHER_FALLING_10",
+        "aliases": [
+            "Feather Falling 10"
+        ]
+    },
+    {
+        "name": "Enchantment Smoldering 5",
+        "id": "ENCHANTMENT_SMOLDERING_5",
+        "aliases": [
+            "Smoldering 5"
+        ]
+    },
+    {
+        "name": "Enchantment Smoldering 3",
+        "id": "ENCHANTMENT_SMOLDERING_3",
+        "aliases": [
+            "Smoldering 3"
+        ]
+    },
+    {
+        "name": "Enchantment Smoldering 4",
+        "id": "ENCHANTMENT_SMOLDERING_4",
+        "aliases": [
+            "Smoldering 4"
+        ]
+    },
+    {
+        "name": "Enchantment Smoldering 1",
+        "id": "ENCHANTMENT_SMOLDERING_1",
+        "aliases": [
+            "Smoldering 1"
+        ]
+    },
+    {
+        "name": "Enchantment Smoldering 2",
+        "id": "ENCHANTMENT_SMOLDERING_2",
+        "aliases": [
+            "Smoldering 2"
+        ]
+    },
+    {
+        "name": "Enchantment Life Steal 5",
+        "id": "ENCHANTMENT_LIFE_STEAL_5",
+        "aliases": [
+            "Life Steal 5"
+        ]
+    },
+    {
+        "name": "Enchantment Tabasco 1",
+        "id": "ENCHANTMENT_TABASCO_1",
+        "aliases": [
+            "Tabasco 1"
+        ]
+    },
+    {
+        "name": "Enchantment Tabasco 3",
+        "id": "ENCHANTMENT_TABASCO_3",
+        "aliases": [
+            "Tabasco 3"
+        ]
+    },
+    {
+        "name": "Transmission Tuner",
+        "id": "TRANSMISSION_TUNER",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Tabasco 2",
+        "id": "ENCHANTMENT_TABASCO_2",
+        "aliases": [
+            "Tabasco 2"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 2",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_2",
+        "aliases": [
+            "Mana Vampire 2"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 1",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_1",
+        "aliases": [
+            "Mana Vampire 1"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 4",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_4",
+        "aliases": [
+            "Mana Vampire 4"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 3",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_3",
+        "aliases": [
+            "Mana Vampire 3"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 6",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_6",
+        "aliases": [
+            "Mana Vampire 6"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 5",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_5",
+        "aliases": [
+            "Mana Vampire 5"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 8",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_8",
+        "aliases": [
+            "Mana Vampire 8"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 7",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_7",
+        "aliases": [
+            "Mana Vampire 7"
+        ]
+    },
+    {
+        "name": "Enchantment Mana Vampire 9",
+        "id": "ENCHANTMENT_MANA_VAMPIRE_9",
+        "aliases": [
+            "Mana Vampire 9"
+        ]
+    },
+    {
+        "name": "Enchantment Titan Killer 7",
+        "id": "ENCHANTMENT_TITAN_KILLER_7",
+        "aliases": [
+            "Titan Killer 7"
+        ]
+    },
+    {
+        "name": "Enchantment Titan Killer 6",
+        "id": "ENCHANTMENT_TITAN_KILLER_6",
+        "aliases": [
+            "Titan Killer 6"
+        ]
+    },
+    {
+        "name": "Enchantment Power 7",
+        "id": "ENCHANTMENT_POWER_7",
+        "aliases": [
+            "Power 7"
+        ]
+    },
+    {
+        "name": "Enchantment Power 6",
+        "id": "ENCHANTMENT_POWER_6",
+        "aliases": [
+            "Power 6"
+        ]
+    },
+    {
+        "name": "Enchantment Vampirism 6",
+        "id": "ENCHANTMENT_VAMPIRISM_6",
+        "aliases": [
+            "Vampirism 6"
+        ]
+    },
+    {
+        "name": "Enchantment Cultivating 1",
+        "id": "ENCHANTMENT_CULTIVATING_1",
+        "aliases": [
+            "Cultivating 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Soul Eater 1",
+        "id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+        "aliases": [
+            "Ultimate Soul Eater 1",
+            "Soul Eater 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Soul Eater 3",
+        "id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+        "aliases": [
+            "Ultimate Soul Eater 3",
+            "Soul Eater 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Soul Eater 2",
+        "id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+        "aliases": [
+            "Ultimate Soul Eater 2",
+            "Soul Eater 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Soul Eater 5",
+        "id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_5",
+        "aliases": [
+            "Ultimate Soul Eater 5",
+            "Soul Eater 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Soul Eater 4",
+        "id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+        "aliases": [
+            "Ultimate Soul Eater 4",
+            "Soul Eater 4"
+        ]
+    },
+    {
+        "name": "Enchantment Chance 5",
+        "id": "ENCHANTMENT_CHANCE_5",
+        "aliases": [
+            "Chance 5"
+        ]
+    },
+    {
+        "name": "Enchantment Chance 4",
+        "id": "ENCHANTMENT_CHANCE_4",
+        "aliases": [
+            "Chance 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Flash 2",
+        "id": "ENCHANTMENT_ULTIMATE_FLASH_2",
+        "aliases": [
+            "Ultimate Flash 2",
+            "Flash 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Flash 1",
+        "id": "ENCHANTMENT_ULTIMATE_FLASH_1",
+        "aliases": [
+            "Ultimate Flash 1",
+            "Flash 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Flash 4",
+        "id": "ENCHANTMENT_ULTIMATE_FLASH_4",
+        "aliases": [
+            "Ultimate Flash 4",
+            "Flash 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Flash 3",
+        "id": "ENCHANTMENT_ULTIMATE_FLASH_3",
+        "aliases": [
+            "Ultimate Flash 3",
+            "Flash 3"
+        ]
+    },
+    {
+        "name": "Enchantment First Strike 5",
+        "id": "ENCHANTMENT_FIRST_STRIKE_5",
+        "aliases": [
+            "First Strike 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Flash 5",
+        "id": "ENCHANTMENT_ULTIMATE_FLASH_5",
+        "aliases": [
+            "Ultimate Flash 5",
+            "Flash 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Pumpkin 1",
+        "id": "ENCHANTMENT_TURBO_PUMPKIN_1",
+        "aliases": [
+            "Turbo Pumpkin 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Pumpkin 2",
+        "id": "ENCHANTMENT_TURBO_PUMPKIN_2",
+        "aliases": [
+            "Turbo Pumpkin 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Pumpkin 3",
+        "id": "ENCHANTMENT_TURBO_PUMPKIN_3",
+        "aliases": [
+            "Turbo Pumpkin 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Pumpkin 4",
+        "id": "ENCHANTMENT_TURBO_PUMPKIN_4",
+        "aliases": [
+            "Turbo Pumpkin 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Pumpkin 5",
+        "id": "ENCHANTMENT_TURBO_PUMPKIN_5",
+        "aliases": [
+            "Turbo Pumpkin 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Fatal Tempo 5",
+        "id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_5",
+        "aliases": [
+            "Ultimate Fatal Tempo 5",
+            "Fatal Tempo 5"
+        ]
+    },
+    {
+        "name": "Enchantment Expertise 1",
+        "id": "ENCHANTMENT_EXPERTISE_1",
+        "aliases": [
+            "Expertise 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Fatal Tempo 3",
+        "id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+        "aliases": [
+            "Ultimate Fatal Tempo 3",
+            "Fatal Tempo 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Fatal Tempo 4",
+        "id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+        "aliases": [
+            "Ultimate Fatal Tempo 4",
+            "Fatal Tempo 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Fatal Tempo 1",
+        "id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1",
+        "aliases": [
+            "Ultimate Fatal Tempo 1",
+            "Fatal Tempo 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Fatal Tempo 2",
+        "id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+        "aliases": [
+            "Ultimate Fatal Tempo 2",
+            "Fatal Tempo 2"
+        ]
+    },
+    {
+        "name": "Enchantment Blessing 6",
+        "id": "ENCHANTMENT_BLESSING_6",
+        "aliases": [
+            "Blessing 6"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 1",
+        "id": "ENCHANTMENT_CHAMPION_1",
+        "aliases": [
+            "Champion 1"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 3",
+        "id": "ENCHANTMENT_CHAMPION_3",
+        "aliases": [
+            "Champion 3"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 2",
+        "id": "ENCHANTMENT_CHAMPION_2",
+        "aliases": [
+            "Champion 2"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 5",
+        "id": "ENCHANTMENT_CHAMPION_5",
+        "aliases": [
+            "Champion 5"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 4",
+        "id": "ENCHANTMENT_CHAMPION_4",
+        "aliases": [
+            "Champion 4"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 7",
+        "id": "ENCHANTMENT_CHAMPION_7",
+        "aliases": [
+            "Champion 7"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 6",
+        "id": "ENCHANTMENT_CHAMPION_6",
+        "aliases": [
+            "Champion 6"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 9",
+        "id": "ENCHANTMENT_CHAMPION_9",
+        "aliases": [
+            "Champion 9"
+        ]
+    },
+    {
+        "name": "Enchantment Champion 8",
+        "id": "ENCHANTMENT_CHAMPION_8",
+        "aliases": [
+            "Champion 8"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate One For All 1",
+        "id": "ENCHANTMENT_ULTIMATE_ONE_FOR_ALL_1",
+        "aliases": [
+            "Ultimate One For All 1",
+            "One For All 1"
+        ]
+    },
+    {
+        "name": "Enchantment Snipe 4",
+        "id": "ENCHANTMENT_SNIPE_4",
+        "aliases": [
+            "Snipe 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Legion 1",
+        "id": "ENCHANTMENT_ULTIMATE_LEGION_1",
+        "aliases": [
+            "Ultimate Legion 1",
+            "Legion 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Legion 2",
+        "id": "ENCHANTMENT_ULTIMATE_LEGION_2",
+        "aliases": [
+            "Ultimate Legion 2",
+            "Legion 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Legion 5",
+        "id": "ENCHANTMENT_ULTIMATE_LEGION_5",
+        "aliases": [
+            "Ultimate Legion 5",
+            "Legion 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Legion 3",
+        "id": "ENCHANTMENT_ULTIMATE_LEGION_3",
+        "aliases": [
+            "Ultimate Legion 3",
+            "Legion 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Legion 4",
+        "id": "ENCHANTMENT_ULTIMATE_LEGION_4",
+        "aliases": [
+            "Ultimate Legion 4",
+            "Legion 4"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 10",
+        "id": "ENCHANTMENT_HECATOMB_10",
+        "aliases": [
+            "Hecatomb 10"
+        ]
+    },
+    {
+        "name": "Enchantment Counter Strike 3",
+        "id": "ENCHANTMENT_COUNTER_STRIKE_3",
+        "aliases": [
+            "Counter Strike 3"
+        ]
+    },
+    {
+        "name": "Enchantment Counter Strike 4",
+        "id": "ENCHANTMENT_COUNTER_STRIKE_4",
+        "aliases": [
+            "Counter Strike 4"
+        ]
+    },
+    {
+        "name": "Enchantment Counter Strike 5",
+        "id": "ENCHANTMENT_COUNTER_STRIKE_5",
+        "aliases": [
+            "Counter Strike 5"
+        ]
+    },
+    {
+        "name": "Enchantment Spiked Hook 6",
+        "id": "ENCHANTMENT_SPIKED_HOOK_6",
+        "aliases": [
+            "Spiked Hook 6"
+        ]
+    },
+    {
+        "name": "Enchantment Lethality 6",
+        "id": "ENCHANTMENT_LETHALITY_6",
+        "aliases": [
+            "Lethality 6"
+        ]
+    },
+    {
+        "name": "Enchantment Rejuvenate 1",
+        "id": "ENCHANTMENT_REJUVENATE_1",
+        "aliases": [
+            "Rejuvenate 1"
+        ]
+    },
+    {
+        "name": "Enchantment Cleave 6",
+        "id": "ENCHANTMENT_CLEAVE_6",
+        "aliases": [
+            "Cleave 6"
+        ]
+    },
+    {
+        "name": "Enchantment Rejuvenate 5",
+        "id": "ENCHANTMENT_REJUVENATE_5",
+        "aliases": [
+            "Rejuvenate 5"
+        ]
+    },
+    {
+        "name": "Enchantment Vicious 3",
+        "id": "ENCHANTMENT_VICIOUS_3",
+        "aliases": [
+            "Vicious 3"
+        ]
+    },
+    {
+        "name": "Enchantment Rejuvenate 4",
+        "id": "ENCHANTMENT_REJUVENATE_4",
+        "aliases": [
+            "Rejuvenate 4"
+        ]
+    },
+    {
+        "name": "Enchantment Vicious 4",
+        "id": "ENCHANTMENT_VICIOUS_4",
+        "aliases": [
+            "Vicious 4"
+        ]
+    },
+    {
+        "name": "Enchantment Rejuvenate 3",
+        "id": "ENCHANTMENT_REJUVENATE_3",
+        "aliases": [
+            "Rejuvenate 3"
+        ]
+    },
+    {
+        "name": "Enchantment Vicious 5",
+        "id": "ENCHANTMENT_VICIOUS_5",
+        "aliases": [
+            "Vicious 5"
+        ]
+    },
+    {
+        "name": "Enchantment Rejuvenate 2",
+        "id": "ENCHANTMENT_REJUVENATE_2",
+        "aliases": [
+            "Rejuvenate 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Carrot 2",
+        "id": "ENCHANTMENT_TURBO_CARROT_2",
+        "aliases": [
+            "Turbo Carrot 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Carrot 1",
+        "id": "ENCHANTMENT_TURBO_CARROT_1",
+        "aliases": [
+            "Turbo Carrot 1"
+        ]
+    },
+    {
+        "name": "Enchantment Giant Killer 6",
+        "id": "ENCHANTMENT_GIANT_KILLER_6",
+        "aliases": [
+            "Giant Killer 6"
+        ]
+    },
+    {
+        "name": "Enchantment Giant Killer 7",
+        "id": "ENCHANTMENT_GIANT_KILLER_7",
+        "aliases": [
+            "Giant Killer 7"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Inferno 1",
+        "id": "ENCHANTMENT_ULTIMATE_INFERNO_1",
+        "aliases": [
+            "Ultimate Inferno 1",
+            "Inferno 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Inferno 3",
+        "id": "ENCHANTMENT_ULTIMATE_INFERNO_3",
+        "aliases": [
+            "Ultimate Inferno 3",
+            "Inferno 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Inferno 2",
+        "id": "ENCHANTMENT_ULTIMATE_INFERNO_2",
+        "aliases": [
+            "Ultimate Inferno 2",
+            "Inferno 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Inferno 5",
+        "id": "ENCHANTMENT_ULTIMATE_INFERNO_5",
+        "aliases": [
+            "Ultimate Inferno 5",
+            "Inferno 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Inferno 4",
+        "id": "ENCHANTMENT_ULTIMATE_INFERNO_4",
+        "aliases": [
+            "Ultimate Inferno 4",
+            "Inferno 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Carrot 4",
+        "id": "ENCHANTMENT_TURBO_CARROT_4",
+        "aliases": [
+            "Turbo Carrot 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Carrot 3",
+        "id": "ENCHANTMENT_TURBO_CARROT_3",
+        "aliases": [
+            "Turbo Carrot 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Carrot 5",
+        "id": "ENCHANTMENT_TURBO_CARROT_5",
+        "aliases": [
+            "Turbo Carrot 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cane 4",
+        "id": "ENCHANTMENT_TURBO_CANE_4",
+        "aliases": [
+            "Turbo Cane 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cane 3",
+        "id": "ENCHANTMENT_TURBO_CANE_3",
+        "aliases": [
+            "Turbo Cane 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cane 2",
+        "id": "ENCHANTMENT_TURBO_CANE_2",
+        "aliases": [
+            "Turbo Cane 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cane 1",
+        "id": "ENCHANTMENT_TURBO_CANE_1",
+        "aliases": [
+            "Turbo Cane 1"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Cane 5",
+        "id": "ENCHANTMENT_TURBO_CANE_5",
+        "aliases": [
+            "Turbo Cane 5"
+        ]
+    },
+    {
+        "name": "Third Master Star",
+        "id": "THIRD_MASTER_STAR",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Fortune 4",
+        "id": "ENCHANTMENT_FORTUNE_4",
+        "aliases": [
+            "Fortune 4"
+        ]
+    },
+    {
+        "name": "Wood Singularity",
+        "id": "WOOD_SINGULARITY",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Frail 6",
+        "id": "ENCHANTMENT_FRAIL_6",
+        "aliases": [
+            "Frail 6"
+        ]
+    },
+    {
+        "name": "Enchantment Syphon 5",
+        "id": "ENCHANTMENT_SYPHON_5",
+        "aliases": [
+            "Syphon 5"
+        ]
+    },
+    {
+        "name": "Enchantment Syphon 4",
+        "id": "ENCHANTMENT_SYPHON_4",
+        "aliases": [
+            "Syphon 4"
+        ]
+    },
+    {
+        "name": "Enchantment Execute 6",
+        "id": "ENCHANTMENT_EXECUTE_6",
+        "aliases": [
+            "Execute 6"
+        ]
+    },
+    {
+        "name": "Enchantment Infinite Quiver 10",
+        "id": "ENCHANTMENT_INFINITE_QUIVER_10",
+        "aliases": [
+            "Infinite Quiver 10"
+        ]
+    },
+    {
+        "name": "Enchantment Looting 4",
+        "id": "ENCHANTMENT_LOOTING_4",
+        "aliases": [
+            "Looting 4"
+        ]
+    },
+    {
+        "name": "Enchantment Smite 7",
+        "id": "ENCHANTMENT_SMITE_7",
+        "aliases": [
+            "Smite 7"
+        ]
+    },
+    {
+        "name": "Enchantment Scavenger 4",
+        "id": "ENCHANTMENT_SCAVENGER_4",
+        "aliases": [
+            "Scavenger 4"
+        ]
+    },
+    {
+        "name": "Enchantment Scavenger 5",
+        "id": "ENCHANTMENT_SCAVENGER_5",
+        "aliases": [
+            "Scavenger 5"
+        ]
+    },
+    {
+        "name": "Enchantment Looting 5",
+        "id": "ENCHANTMENT_LOOTING_5",
+        "aliases": [
+            "Looting 5"
+        ]
+    },
+    {
+        "name": "Enchantment Cubism 6",
+        "id": "ENCHANTMENT_CUBISM_6",
+        "aliases": [
+            "Cubism 6"
+        ]
+    },
+    {
+        "name": "Enchantment Smite 6",
+        "id": "ENCHANTMENT_SMITE_6",
+        "aliases": [
+            "Smite 6"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 2",
+        "id": "ENCHANTMENT_HECATOMB_2",
+        "aliases": [
+            "Hecatomb 2"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 3",
+        "id": "ENCHANTMENT_HECATOMB_3",
+        "aliases": [
+            "Hecatomb 3"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 1",
+        "id": "ENCHANTMENT_HECATOMB_1",
+        "aliases": [
+            "Hecatomb 1"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 6",
+        "id": "ENCHANTMENT_HECATOMB_6",
+        "aliases": [
+            "Hecatomb 6"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 7",
+        "id": "ENCHANTMENT_HECATOMB_7",
+        "aliases": [
+            "Hecatomb 7"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 4",
+        "id": "ENCHANTMENT_HECATOMB_4",
+        "aliases": [
+            "Hecatomb 4"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 5",
+        "id": "ENCHANTMENT_HECATOMB_5",
+        "aliases": [
+            "Hecatomb 5"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 8",
+        "id": "ENCHANTMENT_HECATOMB_8",
+        "aliases": [
+            "Hecatomb 8"
+        ]
+    },
+    {
+        "name": "Enchantment Hecatomb 9",
+        "id": "ENCHANTMENT_HECATOMB_9",
+        "aliases": [
+            "Hecatomb 9"
+        ]
+    },
+    {
+        "name": "Enchantment Luck 6",
+        "id": "ENCHANTMENT_LUCK_6",
+        "aliases": [
+            "Luck 6"
+        ]
+    },
+    {
+        "name": "Enchantment Luck 7",
+        "id": "ENCHANTMENT_LUCK_7",
+        "aliases": [
+            "Luck 7"
+        ]
+    },
+    {
+        "name": "Enchantment Infinite Quiver 8",
+        "id": "ENCHANTMENT_INFINITE_QUIVER_8",
+        "aliases": [
+            "Infinite Quiver 8"
+        ]
+    },
+    {
+        "name": "Enchantment Infinite Quiver 9",
+        "id": "ENCHANTMENT_INFINITE_QUIVER_9",
+        "aliases": [
+            "Infinite Quiver 9"
+        ]
+    },
+    {
+        "name": "Enchantment Infinite Quiver 6",
+        "id": "ENCHANTMENT_INFINITE_QUIVER_6",
+        "aliases": [
+            "Infinite Quiver 6"
+        ]
+    },
+    {
+        "name": "Enchantment Infinite Quiver 7",
+        "id": "ENCHANTMENT_INFINITE_QUIVER_7",
+        "aliases": [
+            "Infinite Quiver 7"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wisdom 4",
+        "id": "ENCHANTMENT_ULTIMATE_WISDOM_4",
+        "aliases": [
+            "Ultimate Wisdom 4",
+            "Wisdom 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Potato 3",
+        "id": "ENCHANTMENT_TURBO_POTATO_3",
+        "aliases": [
+            "Turbo Potato 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wisdom 5",
+        "id": "ENCHANTMENT_ULTIMATE_WISDOM_5",
+        "aliases": [
+            "Ultimate Wisdom 5",
+            "Wisdom 5"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Potato 4",
+        "id": "ENCHANTMENT_TURBO_POTATO_4",
+        "aliases": [
+            "Turbo Potato 4"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Potato 5",
+        "id": "ENCHANTMENT_TURBO_POTATO_5",
+        "aliases": [
+            "Turbo Potato 5"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wisdom 1",
+        "id": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+        "aliases": [
+            "Ultimate Wisdom 1",
+            "Wisdom 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wisdom 2",
+        "id": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+        "aliases": [
+            "Ultimate Wisdom 2",
+            "Wisdom 2"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Potato 1",
+        "id": "ENCHANTMENT_TURBO_POTATO_1",
+        "aliases": [
+            "Turbo Potato 1"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Wisdom 3",
+        "id": "ENCHANTMENT_ULTIMATE_WISDOM_3",
+        "aliases": [
+            "Ultimate Wisdom 3",
+            "Wisdom 3"
+        ]
+    },
+    {
+        "name": "Enchantment Turbo Potato 2",
+        "id": "ENCHANTMENT_TURBO_POTATO_2",
+        "aliases": [
+            "Turbo Potato 2"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Habanero Tactics 4",
+        "id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+        "aliases": [
+            "Ultimate Habanero Tactics 4",
+            "Habanero Tactics 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Habanero Tactics 5",
+        "id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_5",
+        "aliases": [
+            "Ultimate Habanero Tactics 5",
+            "Habanero Tactics 5"
+        ]
+    },
+    {
+        "name": "Enchantment Fire Aspect 3",
+        "id": "ENCHANTMENT_FIRE_ASPECT_3",
+        "aliases": [
+            "Fire Aspect 3"
+        ]
+    },
+    {
+        "name": "Enchantment Harvesting 6",
+        "id": "ENCHANTMENT_HARVESTING_6",
+        "aliases": [
+            "Harvesting 6"
+        ]
+    },
+    {
+        "name": "Enchantment Triple Strike 5",
+        "id": "ENCHANTMENT_TRIPLE_STRIKE_5",
+        "aliases": [
+            "Triple Strike 5"
+        ]
+    },
+    {
+        "name": "Enchantment Thunderlord 7",
+        "id": "ENCHANTMENT_THUNDERLORD_7",
+        "aliases": [
+            "Thunderlord 7"
+        ]
+    },
+    {
+        "name": "Enchantment Replenish 1",
+        "id": "ENCHANTMENT_REPLENISH_1",
+        "aliases": [
+            "Replenish 1"
+        ]
+    },
+    {
+        "name": "Lava Water Orb",
+        "id": "LAVA_WATER_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Water Orb",
+        "id": "WATER_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Spooky Water Orb",
+        "id": "SPOOKY_WATER_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Bobbin' Scriptures",
+        "id": "BOBBIN_SCRIPTURES",
+        "aliases": []
+    },
+    {
+        "name": "Glowy Chum Bait",
+        "id": "GLOWY_CHUM_BAIT",
+        "aliases": []
+    },
+    {
+        "name": "Pitchin' Koi",
+        "id": "PITCHIN_KOI",
+        "aliases": []
+    },
+    {
+        "name": "Hunk of Blue Ice",
+        "id": "BLUE_ICE_HUNK",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Piscary 6",
+        "id": "ENCHANTMENT_PISCARY_6",
+        "aliases": [
+            "Piscary 6"
+        ]
+    },
+    {
+        "name": "Shark Water Orb",
+        "id": "SHARK_WATER_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Enchantment Ultimate Bobbin Time 3",
+        "id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3",
+        "aliases": [
+            "Ultimate Bobbin Time 3",
+            "Bobbin Time 3"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bobbin Time 4",
+        "id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+        "aliases": [
+            "Ultimate Bobbin Time 4",
+            "Bobbin Time 4"
+        ]
+    },
+    {
+        "name": "Enchantment Ultimate Bobbin Time 5",
+        "id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_5",
+        "aliases": [
+            "Ultimate Bobbin Time 5",
+            "Bobbin Time 5"
+        ]
+    },
+    {
+        "name": "Hunk of Ice",
+        "id": "ICE_HUNK",
+        "aliases": []
+    },
+    {
+        "name": "Emperor's Skull",
+        "id": "DIVER_FRAGMENT",
+        "aliases": []
+    },
+    {
+        "name": "Winter Water Orb",
+        "id": "WINTER_WATER_ORB",
+        "aliases": []
+    },
+    {
+        "name": "Ritual Residue",
+        "id": "RITUAL_RESIDUE",
+        "aliases": []
+    },
+    {
+        "name": "Mite Gel",
+        "id": "MITE_GEL",
+        "aliases": []
+    }
+]

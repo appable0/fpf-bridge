@@ -1,10 +1,11 @@
 import * as dotenv from "dotenv"
 import auctionMappings from "./auction-data.json" assert {type: 'json'}
-import bazaarMappings from "./bazaar-mappings.json" assert {type: 'json'}
 import { numberFormatRegex } from "./reggies.js"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
 import fetch from "node-fetch"
+import { removeExcessWhitespace } from "./utils.js"
+import { getBazaarItemPrices } from "./commands/bazaar.js"
 
 dotenv.config()
 
@@ -14,8 +15,7 @@ const minecraftBot = new MinecraftController()
 let cachedLowestBins = {}
 let lastBinUpdate = 0
 
-let cachedBazaarItems = {}
-let lastBazaarUpdate = 0
+
 
 discordBot.on("message", async (message) => {
   const nick = message.member.displayName
@@ -70,11 +70,12 @@ minecraftBot.on("botJoined", () => {
 })
 
 async function prepareCommandResponse(content, rank) {
-  const [command, ...args] = content.split(" ")
+  let normalizedContent = removeExcessWhitespace(content)
+  if (!normalizedContent.startsWith(process.env.PREFIX)) return
+  const [command, ...args] = normalizedContent.split(" ")
+  console.log(`${(new Date()).toISOString()} - BRIDGE: Preparing command response for ${normalizedContent}`)
 
-  if (!command.startsWith("d_")) return
-
-  const commandName = command.substring(2)
+  const commandName = command.substring(process.env.PREFIX.length)
   switch (commandName) {
     case "help": {
       return "Available commands: d_help, d_ping, d_lbin, d_bz, d_rain, d_rlb(admin only)"
@@ -140,39 +141,6 @@ function remapLowestBins(lbins) {
   return remapped
 }
 
-function getBazaarItemPrices(args) {
-  let name = args.join("_").toUpperCase()
-  let prices = "unknown"
-
-  for (const [key, value] of Object.entries(cachedBazaarItems)) {
-    if (key.includes(name)) {
-      name = key
-      prices = value
-      break
-    }
-  }
-
-  if (prices === "unknown") return "Item not found."
-  return `Bazaar data for ${name}: ${prices}`
-}
-
-function remapBazaarItems(bazaarItems) {
-  const formatter = Intl.NumberFormat("en", { notation: "compact" })
-  const remapped = {}
-  for (let [key, value] of Object.entries(bazaarItems)) {
-    let mappedKey = bazaarMappings[key] ?? key
-    if (mappedKey === key) {
-      if (!key.includes("ENCHANTMENT_ULTIMATE_WISE") && key.includes("ENCHANTMENT_ULTIMATE_")) {
-        mappedKey = key.replace("ENCHANTMENT_ULTIMATE_", "")
-      } else if (key.includes("ENCHANTMENT_")) {
-        mappedKey = key.replace("ENCHANTMENT_", "")
-      }
-    }
-    remapped[mappedKey] = `Quick buy: ${formatter.format(value["quick_status"]["buyPrice"])} || Quick sell: ${formatter.format(value["quick_status"]["sellPrice"])}`
-  }
-  return remapped
-}
-
 // taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
 function secsToTime(num) {
   var hours = Math.floor(num / 3600);
@@ -232,21 +200,4 @@ function getRainData() {
   const timeUntilNextUpdate = isFirstRun ? Date.now() - lastBinUpdate : 60000 - Date.now() - startTime
   if (isFirstRun) setTimeout(updateBinCache, timeUntilNextUpdate)
   else setTimeout(updateBinCache, 60000);
-})();
-
-(async function updateBazaarCache() {
-  try {
-    const bazaarResponse = await fetch(`https://api.hypixel.net/skyblock/bazaar`)
-    if (bazaarResponse.status !== 200) return
-
-    const bazaarJson = await bazaarResponse.json()
-    lastBazaarUpdate = bazaarJson["lastUpdated"]
-    cachedBazaarItems = remapBazaarItems(bazaarJson["products"])
-  } catch (e) {
-    console.error("Error fetching bazaar data.")
-    console.error(e)
-  }
-
-  const e = Date.now() - lastBazaarUpdate
-  setTimeout(updateBazaarCache, 60000 - e)
 })();
