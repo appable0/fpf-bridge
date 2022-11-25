@@ -1,0 +1,6170 @@
+[
+    {
+        "name": "Maxor's Boots",
+        "price": 2399999
+    },
+    {
+        "name": "Shadow Assassin Leggings",
+        "price": 3990000
+    },
+    {
+        "name": "Full Chum Bucket",
+        "price": 38000
+    },
+    {
+        "name": "Attribute Shard",
+        "price": 20000
+    },
+    {
+        "name": "Combat Exp Boost",
+        "price": 50000
+    },
+    {
+        "name": "Ultimate Carrot Candy",
+        "price": 1993000
+    },
+    {
+        "name": "Ember Fragment",
+        "price": 150000
+    },
+    {
+        "name": "L.A.S.R.'s Eye",
+        "price": 399999
+    },
+    {
+        "name": "Crystal Fragment",
+        "price": 75000
+    },
+    {
+        "name": "Wolf Ring",
+        "price": 1350000
+    },
+    {
+        "name": "Personal Compactor 4000",
+        "price": 450000
+    },
+    {
+        "name": "Sapphire-polished Drill Engine",
+        "price": 66399999
+    },
+    {
+        "name": "Kat Flower",
+        "price": 250000
+    },
+    {
+        "name": "Heavy Leggings",
+        "price": 5299
+    },
+    {
+        "name": "Wand of Restoration",
+        "price": 1399999
+    },
+    {
+        "name": "Zombie Commander Boots",
+        "price": 369000
+    },
+    {
+        "name": "Livid Fragment",
+        "price": 100000
+    },
+    {
+        "name": "Epic Rabbit",
+        "price": 100000
+    },
+    {
+        "name": "Moogma Leggings",
+        "price": 239000
+    },
+    {
+        "name": "Machine Gun Bow",
+        "price": 5100
+    },
+    {
+        "name": "Glacite Boots",
+        "price": 44000
+    },
+    {
+        "name": "Grappling Hook",
+        "price": 1200
+    },
+    {
+        "name": "Soulstealer Bow",
+        "price": 5040
+    },
+    {
+        "name": "Tarantula Helmet",
+        "price": 775000
+    },
+    {
+        "name": "Candy Talisman",
+        "price": 35000
+    },
+    {
+        "name": "Storm's Chestplate",
+        "price": 20397000
+    },
+    {
+        "name": "Mastiff Crown",
+        "price": 1200000
+    },
+    {
+        "name": "Unstable Dragon Boots",
+        "price": 200000
+    },
+    {
+        "name": "Legendary Ender Dragon",
+        "price": 510000000
+    },
+    {
+        "name": "Water Bottle",
+        "price": 20000
+    },
+    {
+        "name": "Snow Suit Helmet",
+        "price": 255000
+    },
+    {
+        "name": "Flower of Truth",
+        "price": 974000
+    },
+    {
+        "name": "Aspect of the End",
+        "price": 199000
+    },
+    {
+        "name": "Wither Catalyst",
+        "price": 1094445
+    },
+    {
+        "name": "Fire Veil Wand",
+        "price": 11490000
+    },
+    {
+        "name": "Bonzo's Staff",
+        "price": 3000000
+    },
+    {
+        "name": "Common Armadillo",
+        "price": 2000
+    },
+    {
+        "name": "Crimson Chestplate",
+        "price": 1750000
+    },
+    {
+        "name": "Legendary Sheep",
+        "price": 5750000
+    },
+    {
+        "name": "Fel Sword",
+        "price": 100000
+    },
+    {
+        "name": "God Potion",
+        "price": 690000
+    },
+    {
+        "name": "Glacite Chestplate",
+        "price": 44000
+    },
+    {
+        "name": "Travel Scroll to Dragon's Nest",
+        "price": 300000
+    },
+    {
+        "name": "Spirit Wing",
+        "price": 6300000
+    },
+    {
+        "name": "Crystal Helmet",
+        "price": 495000
+    },
+    {
+        "name": "Matriarch's Perfume",
+        "price": 550000
+    },
+    {
+        "name": "Reaper Falchion",
+        "price": 5700000
+    },
+    {
+        "name": "Hologram",
+        "price": 300000
+    },
+    {
+        "name": "Barry Century Cake",
+        "price": 999000
+    },
+    {
+        "name": "Crimson Leggings",
+        "price": 1500000
+    },
+    {
+        "name": "Shadow Assassin Chestplate",
+        "price": 15300000
+    },
+    {
+        "name": "Rotten Leggings",
+        "price": 10000
+    },
+    {
+        "name": "Glacite Helmet",
+        "price": 44000
+    },
+    {
+        "name": "Jumbo Backpack",
+        "price": 3300000
+    },
+    {
+        "name": "Legendary Tarantula",
+        "price": 289000
+    },
+    {
+        "name": "Divan Fragment",
+        "price": 2000000
+    },
+    {
+        "name": "Mastiff Boots",
+        "price": 1000000
+    },
+    {
+        "name": "Control Switch",
+        "price": 160000
+    },
+    {
+        "name": "Flaming Chestplate",
+        "price": 140000
+    },
+    {
+        "name": "§cSecret Gift for Juliette",
+        "price": 999999
+    },
+    {
+        "name": "Rune",
+        "price": 1000
+    },
+    {
+        "name": "Dark Goggles",
+        "price": 90000
+    },
+    {
+        "name": "Sharp Shark Tooth Necklace",
+        "price": 3600000
+    },
+    {
+        "name": "Golden Livid Head",
+        "price": 730000
+    },
+    {
+        "name": "Protector Dragon Chestplate",
+        "price": 289000
+    },
+    {
+        "name": "Boots Of Divan",
+        "price": 22999000
+    },
+    {
+        "name": "Glacite Leggings",
+        "price": 44000
+    },
+    {
+        "name": "Hellfire Rod",
+        "price": 155000000
+    },
+    {
+        "name": "Runaan's Bow",
+        "price": 584445
+    },
+    {
+        "name": "Rare Griffin",
+        "price": 2299000
+    },
+    {
+        "name": "Unstable Dragon Helmet",
+        "price": 222221
+    },
+    {
+        "name": "Juju Shortbow",
+        "price": 8399990
+    },
+    {
+        "name": "Magma Core",
+        "price": 2800000
+    },
+    {
+        "name": "Legendary Silverfish",
+        "price": 1000000
+    },
+    {
+        "name": "Corleonite",
+        "price": 1849999
+    },
+    {
+        "name": "Sorrow Helmet",
+        "price": 5550000
+    },
+    {
+        "name": "Skeleton Master Boots",
+        "price": 30000
+    },
+    {
+        "name": "Zombie Soldier Boots",
+        "price": 25000
+    },
+    {
+        "name": "Revenant Falchion",
+        "price": 950000
+    },
+    {
+        "name": "Bigfoot's Lasso",
+        "price": 39000
+    },
+    {
+        "name": "Superior Dragon Chestplate",
+        "price": 5450000
+    },
+    {
+        "name": "Rotten Chestplate",
+        "price": 10000
+    },
+    {
+        "name": "Dreadlord Sword",
+        "price": 5300
+    },
+    {
+        "name": "Storm's Leggings",
+        "price": 10899000
+    },
+    {
+        "name": "Auto Recombobulator",
+        "price": 11690000
+    },
+    {
+        "name": "Bonemerang",
+        "price": 7000000
+    },
+    {
+        "name": "Enderman Cortex Rewriter",
+        "price": 89999
+    },
+    {
+        "name": "Terminator",
+        "price": 477000000
+    },
+    {
+        "name": "Crystal Boots",
+        "price": 182345
+    },
+    {
+        "name": "Ragnarock Axe",
+        "price": 499999
+    },
+    {
+        "name": "Skeleton Master Leggings",
+        "price": 30000
+    },
+    {
+        "name": "Happy Mask",
+        "price": 150000
+    },
+    {
+        "name": "Venom's Touch",
+        "price": 370000
+    },
+    {
+        "name": "Skeleton Soldier Chestplate",
+        "price": 15000
+    },
+    {
+        "name": "Accessory Enrichment Swapper",
+        "price": 100000
+    },
+    {
+        "name": "Spider Ring",
+        "price": 240000
+    },
+    {
+        "name": "Medium Backpack",
+        "price": 123998
+    },
+    {
+        "name": "Fly Swatter",
+        "price": 530000
+    },
+    {
+        "name": "Aurora Leggings",
+        "price": 625000
+    },
+    {
+        "name": "Mastiff Chestplate",
+        "price": 1319999
+    },
+    {
+        "name": "Legendary Enderman",
+        "price": 38400000
+    },
+    {
+        "name": "Foraging Exp Boost",
+        "price": 200000
+    },
+    {
+        "name": "Winter Rod",
+        "price": 110000
+    },
+    {
+        "name": "Diamante's Handle",
+        "price": 899000
+    },
+    {
+        "name": "Jolly Pink Rock",
+        "price": 45000
+    },
+    {
+        "name": "Skeleton Master Chestplate",
+        "price": 30000
+    },
+    {
+        "name": "Shadow Goggles",
+        "price": 650000
+    },
+    {
+        "name": "Molten Cloak",
+        "price": 4350000
+    },
+    {
+        "name": "Glowstone Gauntlet",
+        "price": 20180
+    },
+    {
+        "name": "Slug Boots",
+        "price": 150000
+    },
+    {
+        "name": "Golden Bonzo Head",
+        "price": 499999
+    },
+    {
+        "name": "Bat Ring",
+        "price": 400000
+    },
+    {
+        "name": "Sorrow Chestplate",
+        "price": 8333333
+    },
+    {
+        "name": "Skeleton Master Helmet",
+        "price": 30000
+    },
+    {
+        "name": "Block Zapper",
+        "price": 1780000
+    },
+    {
+        "name": "Necromancer Sword",
+        "price": 9799999
+    },
+    {
+        "name": "Arachne Fragment",
+        "price": 60000
+    },
+    {
+        "name": "End Stone Bow",
+        "price": 8000
+    },
+    {
+        "name": "Beheaded Horror",
+        "price": 69000
+    },
+    {
+        "name": "New Year Cake",
+        "price": 350000
+    },
+    {
+        "name": "Epic Bal",
+        "price": 6700000
+    },
+    {
+        "name": "Voidwalker Katana",
+        "price": 40000
+    },
+    {
+        "name": "Young Dragon Boots",
+        "price": 210000
+    },
+    {
+        "name": "Endstone Rose",
+        "price": 3000
+    },
+    {
+        "name": "Dark Queen's Soul",
+        "price": 9000
+    },
+    {
+        "name": "Frozen Scythe",
+        "price": 7200000
+    },
+    {
+        "name": "Sorrow Boots",
+        "price": 4250000
+    },
+    {
+        "name": "Spooky Cupcake",
+        "price": 90000
+    },
+    {
+        "name": "Aspect of the Dragons",
+        "price": 800000
+    },
+    {
+        "name": "Rancher's Boots",
+        "price": 3000000
+    },
+    {
+        "name": "Mithril Drill SX-R226",
+        "price": 3999000
+    },
+    {
+        "name": "Green Jerry Talisman",
+        "price": 748999
+    },
+    {
+        "name": "Strong Dragon Chestplate",
+        "price": 498000
+    },
+    {
+        "name": "Necron's Boots",
+        "price": 10494445
+    },
+    {
+        "name": "Salmon Leggings",
+        "price": 72727
+    },
+    {
+        "name": "Reaper Mask",
+        "price": 13500000
+    },
+    {
+        "name": "Reaper Leggings",
+        "price": 13500000
+    },
+    {
+        "name": "Ember Rod",
+        "price": 6990000
+    },
+    {
+        "name": "Pickonimbus 2000",
+        "price": 250000
+    },
+    {
+        "name": "Builder's Wand",
+        "price": 5150000
+    },
+    {
+        "name": "Greater Backpack",
+        "price": 700000
+    },
+    {
+        "name": "Jungle Heart",
+        "price": 125000
+    },
+    {
+        "name": "Mythic Enderman",
+        "price": 41000000
+    },
+    {
+        "name": "Glacite Jewel",
+        "price": 110000
+    },
+    {
+        "name": "Kismet Feather",
+        "price": 590000
+    },
+    {
+        "name": "Livid Dagger",
+        "price": 7350000
+    },
+    {
+        "name": "Sorrow Leggings",
+        "price": 7650000
+    },
+    {
+        "name": "Gemstone Gauntlet",
+        "price": 14200000
+    },
+    {
+        "name": "Skeleton Soldier Boots",
+        "price": 11000
+    },
+    {
+        "name": "Recall Potion",
+        "price": 150000
+    },
+    {
+        "name": "Salmon Chestplate",
+        "price": 68000
+    },
+    {
+        "name": "Gemstone Chamber",
+        "price": 4390000
+    },
+    {
+        "name": "Dungeon Chest Key",
+        "price": 150000
+    },
+    {
+        "name": "Strong Dragon Leggings",
+        "price": 689000
+    },
+    {
+        "name": "Young Dragon Helmet",
+        "price": 295000
+    },
+    {
+        "name": "Prehistoric Egg",
+        "price": 79000
+    },
+    {
+        "name": "Shadow Assassin Boots",
+        "price": 925000
+    },
+    {
+        "name": "Young Dragon Chestplate",
+        "price": 350000
+    },
+    {
+        "name": "Wither Leggings",
+        "price": 6180000
+    },
+    {
+        "name": "Tribal Spear",
+        "price": 500000
+    },
+    {
+        "name": "Legendary Bal",
+        "price": 10500000
+    },
+    {
+        "name": "Adaptive Leggings",
+        "price": 444443
+    },
+    {
+        "name": "Aurora Chestplate",
+        "price": 750000
+    },
+    {
+        "name": "Epic Enderman",
+        "price": 49999
+    },
+    {
+        "name": "Beastmaster Crest",
+        "price": 300000
+    },
+    {
+        "name": "Legendary Ammonite",
+        "price": 400000
+    },
+    {
+        "name": "Infinityboom TNT",
+        "price": 25000000
+    },
+    {
+        "name": "Fel Pearl",
+        "price": 2000
+    },
+    {
+        "name": "Salmon Helmet",
+        "price": 57000
+    },
+    {
+        "name": "Epic Dolphin",
+        "price": 2500000
+    },
+    {
+        "name": "Sniper Helmet",
+        "price": 5090
+    },
+    {
+        "name": "Bonzo's Mask",
+        "price": 1183134
+    },
+    {
+        "name": "Handy Blood Chalice",
+        "price": 2199999
+    },
+    {
+        "name": "Salmon Boots",
+        "price": 52000
+    },
+    {
+        "name": "Mixed Mite Gel",
+        "price": 199999
+    },
+    {
+        "name": "Rare Rock",
+        "price": 500000
+    },
+    {
+        "name": "Mana Flux Power Orb",
+        "price": 3094445
+    },
+    {
+        "name": "Aurora Boots",
+        "price": 850000
+    },
+    {
+        "name": "Toxic Arrow Poison",
+        "price": 26000
+    },
+    {
+        "name": "Bat Person Boots",
+        "price": 1000000
+    },
+    {
+        "name": "Journal Entry",
+        "price": 19999
+    },
+    {
+        "name": "Frozen Blaze Boots",
+        "price": 9798999
+    },
+    {
+        "name": "Dwarf Turtle Shelmet",
+        "price": 950000
+    },
+    {
+        "name": "Shark Scale Boots",
+        "price": 1090000
+    },
+    {
+        "name": "Red Claw Egg",
+        "price": 100000
+    },
+    {
+        "name": "Corrupt Soil",
+        "price": 1200000
+    },
+    {
+        "name": "Minion Expander",
+        "price": 50000
+    },
+    {
+        "name": "Superior Dragon Boots",
+        "price": 2790000
+    },
+    {
+        "name": "Skeleton Soldier Leggings",
+        "price": 15000
+    },
+    {
+        "name": "Bonzo Fragment",
+        "price": 2000
+    },
+    {
+        "name": "Hyperion",
+        "price": 839999999
+    },
+    {
+        "name": "High Class Archfiend Dice",
+        "price": 46000000
+    },
+    {
+        "name": "Epic Rock",
+        "price": 2500000
+    },
+    {
+        "name": "Epic Tiger",
+        "price": 3400000
+    },
+    {
+        "name": "Zombie Soldier Chestplate",
+        "price": 30000
+    },
+    {
+        "name": "Daedalus Axe",
+        "price": 47999999
+    },
+    {
+        "name": "Superlite Motor",
+        "price": 98000
+    },
+    {
+        "name": "Travel Scroll to Spider's Den Top of Nest",
+        "price": 8000
+    },
+    {
+        "name": "Goblin Leggings",
+        "price": 8000
+    },
+    {
+        "name": "Reaper Chestplate",
+        "price": 15800000
+    },
+    {
+        "name": "Legendary Blaze",
+        "price": 33000000
+    },
+    {
+        "name": "Magma Lord Fragment",
+        "price": 2300000
+    },
+    {
+        "name": "Wither Helmet",
+        "price": 3299999
+    },
+    {
+        "name": "Wither Goggles",
+        "price": 5680000
+    },
+    {
+        "name": "Superior Dragon Helmet",
+        "price": 3890000
+    },
+    {
+        "name": "Empty Thunder Bottle",
+        "price": 372000
+    },
+    {
+        "name": "Rare Guardian",
+        "price": 1499000
+    },
+    {
+        "name": "Heavy Chestplate",
+        "price": 11000
+    },
+    {
+        "name": "Adaptive Blade",
+        "price": 1350000
+    },
+    {
+        "name": "Spider Catalyst",
+        "price": 40000
+    },
+    {
+        "name": "Adaptive Chestplate",
+        "price": 3500000
+    },
+    {
+        "name": "Match-Sticks",
+        "price": 40
+    },
+    {
+        "name": "Wise Dragon Chestplate",
+        "price": 850000
+    },
+    {
+        "name": "Lava Talisman",
+        "price": 29000
+    },
+    {
+        "name": "Robotron Reflector",
+        "price": 333000
+    },
+    {
+        "name": "Souls Rebound",
+        "price": 2300000
+    },
+    {
+        "name": "Zombie's Heart",
+        "price": 800000
+    },
+    {
+        "name": "Legendary Rock",
+        "price": 13000000
+    },
+    {
+        "name": "Axe of the Shredded",
+        "price": 66900000
+    },
+    {
+        "name": "Golden Necron Head",
+        "price": 22000000
+    },
+    {
+        "name": "Warden Heart",
+        "price": 112500000
+    },
+    {
+        "name": "Enchanted Hopper",
+        "price": 1172999
+    },
+    {
+        "name": "Werewolf Chestplate",
+        "price": 1897000
+    },
+    {
+        "name": "Rotten Boots",
+        "price": 40000
+    },
+    {
+        "name": "Large Backpack",
+        "price": 350000
+    },
+    {
+        "name": "Mana Disintegrator",
+        "price": 865000
+    },
+    {
+        "name": "Gemstone Mixture",
+        "price": 990000
+    },
+    {
+        "name": "Bouncy Boots",
+        "price": 2500000
+    },
+    {
+        "name": "Shaman Sword",
+        "price": 280000
+    },
+    {
+        "name": "Fairy's Trousers",
+        "price": 40000
+    },
+    {
+        "name": "Yog Leggings",
+        "price": 489999
+    },
+    {
+        "name": "Fuel Tank",
+        "price": 320000
+    },
+    {
+        "name": "Wither Boots",
+        "price": 1699999
+    },
+    {
+        "name": "Uncommon Griffin",
+        "price": 1690000
+    },
+    {
+        "name": "Werewolf Leggings",
+        "price": 1698000
+    },
+    {
+        "name": "Epic Ocelot",
+        "price": 1200000
+    },
+    {
+        "name": "Werewolf Helmet",
+        "price": 1000000
+    },
+    {
+        "name": "Fairy's Polo",
+        "price": 95000
+    },
+    {
+        "name": "Goblin Boots",
+        "price": 4000
+    },
+    {
+        "name": "Yog Boots",
+        "price": 380000
+    },
+    {
+        "name": "Snow Suit Leggings",
+        "price": 25000
+    },
+    {
+        "name": "Yog Chestplate",
+        "price": 1000000
+    },
+    {
+        "name": "Pocket Espresso Machine",
+        "price": 250000
+    },
+    {
+        "name": "Zombie Knight Chestplate",
+        "price": 39000
+    },
+    {
+        "name": "Strong Dragon Helmet",
+        "price": 430000
+    },
+    {
+        "name": "Streamer's Century Cake",
+        "price": 1400000
+    },
+    {
+        "name": "Yog Helmet",
+        "price": 489999
+    },
+    {
+        "name": "Hollow Chestplate",
+        "price": 97000
+    },
+    {
+        "name": "Rare Squid",
+        "price": 850000
+    },
+    {
+        "name": "Fairy's Fedora",
+        "price": 20000
+    },
+    {
+        "name": "Glowing Mushroom",
+        "price": 10000
+    },
+    {
+        "name": "Rare Lion",
+        "price": 1300000
+    },
+    {
+        "name": "Critical Chance Enrichment",
+        "price": 2950000
+    },
+    {
+        "name": "Epic Spider",
+        "price": 900000
+    },
+    {
+        "name": "Epic Blue Whale",
+        "price": 1200000
+    },
+    {
+        "name": "Common Monkey",
+        "price": 21000
+    },
+    {
+        "name": "Sorrow",
+        "price": 350000
+    },
+    {
+        "name": "Storm's Boots",
+        "price": 5980000
+    },
+    {
+        "name": "Mithril Plate",
+        "price": 4429000
+    },
+    {
+        "name": "Terror Helmet",
+        "price": 848000
+    },
+    {
+        "name": "Molten Belt",
+        "price": 2500000
+    },
+    {
+        "name": "Necron's Helmet",
+        "price": 12700000
+    },
+    {
+        "name": "Giant's Sword",
+        "price": 210000000
+    },
+    {
+        "name": "Miner Boots",
+        "price": 2016
+    },
+    {
+        "name": "Necromancer Lord Leggings",
+        "price": 3999000
+    },
+    {
+        "name": "Diamond Spreading",
+        "price": 12000
+    },
+    {
+        "name": "Creeper Pants",
+        "price": 2999999
+    },
+    {
+        "name": "Travel Scroll to Howling Cave",
+        "price": 10000
+    },
+    {
+        "name": "Spirit Bow",
+        "price": 5980000
+    },
+    {
+        "name": "Electron Transmitter",
+        "price": 75000
+    },
+    {
+        "name": "Shadow Assassin Helmet",
+        "price": 1600000
+    },
+    {
+        "name": "Zombie Knight Boots",
+        "price": 25500
+    },
+    {
+        "name": "Portal to the Dwarven Mines",
+        "price": 5700000
+    },
+    {
+        "name": "Shadow Fury",
+        "price": 48990000
+    },
+    {
+        "name": "Sapphire Power Scroll",
+        "price": 490000
+    },
+    {
+        "name": "Legendary Armadillo",
+        "price": 1495000
+    },
+    {
+        "name": "Voidedge Katana",
+        "price": 699999
+    },
+    {
+        "name": "Werewolf Boots",
+        "price": 1000000
+    },
+    {
+        "name": "Ruby Drill TX-15",
+        "price": 3800000
+    },
+    {
+        "name": "Epic Chicken",
+        "price": 220000
+    },
+    {
+        "name": "Miner Chestplate",
+        "price": 8000
+    },
+    {
+        "name": "Last Breath",
+        "price": 5600000
+    },
+    {
+        "name": "Final Destination Helmet",
+        "price": 587000
+    },
+    {
+        "name": "Rare Scatha",
+        "price": 51111111
+    },
+    {
+        "name": "Goldor's Leggings",
+        "price": 5850000
+    },
+    {
+        "name": "Mender Fedora",
+        "price": 1297500
+    },
+    {
+        "name": "Epic Silverfish",
+        "price": 89000
+    },
+    {
+        "name": "Thunder in a Bottle",
+        "price": 1600000
+    },
+    {
+        "name": "Portal to the Crystal Nucleus",
+        "price": 5700000
+    },
+    {
+        "name": "Sponge Helmet",
+        "price": 450000
+    },
+    {
+        "name": "Final Destination Leggings",
+        "price": 800000
+    },
+    {
+        "name": "Pet Skin_enderman_xenon",
+        "price": 11990000
+    },
+    {
+        "name": "Ice Rod",
+        "price": 99000
+    },
+    {
+        "name": "Candy Artifact",
+        "price": 559000
+    },
+    {
+        "name": "Tarantula Talisman",
+        "price": 1150000
+    },
+    {
+        "name": "Terror Boots",
+        "price": 1489000
+    },
+    {
+        "name": "Amber Power Scroll",
+        "price": 395000
+    },
+    {
+        "name": "Scorched Power Crystal",
+        "price": 1800000
+    },
+    {
+        "name": "Blade of the Volcano",
+        "price": 110000
+    },
+    {
+        "name": "Legendary Ocelot",
+        "price": 2998900
+    },
+    {
+        "name": "Terror Leggings",
+        "price": 1189000
+    },
+    {
+        "name": "Final Destination Boots",
+        "price": 483000
+    },
+    {
+        "name": "Golem Armor Chestplate",
+        "price": 115000
+    },
+    {
+        "name": "Autopet Rules 2-Pack",
+        "price": 11780000
+    },
+    {
+        "name": "Terror Chestplate",
+        "price": 1097000
+    },
+    {
+        "name": "Minion Storage X-pender",
+        "price": 720000
+    },
+    {
+        "name": "Phantom Rod",
+        "price": 1100000
+    },
+    {
+        "name": "Young Dragon Leggings",
+        "price": 309000
+    },
+    {
+        "name": "Frozen Blaze Chestplate",
+        "price": 11400000
+    },
+    {
+        "name": "Necromancer Lord Chestplate",
+        "price": 9999000
+    },
+    {
+        "name": "Weak Wolf Catalyst",
+        "price": 80000
+    },
+    {
+        "name": "Colossal Experience Bottle Upgrade",
+        "price": 690000
+    },
+    {
+        "name": "Chum",
+        "price": 1000
+    },
+    {
+        "name": "Pigman Sword",
+        "price": 10000000
+    },
+    {
+        "name": "Goldor's Boots",
+        "price": 2199000
+    },
+    {
+        "name": "Reforge Anvil",
+        "price": 1469000
+    },
+    {
+        "name": "Legendary Guardian",
+        "price": 4998000
+    },
+    {
+        "name": "Leggings Of Divan",
+        "price": 27950000
+    },
+    {
+        "name": "Wise Dragon Boots",
+        "price": 500000
+    },
+    {
+        "name": "Legendary Skeleton",
+        "price": 999000
+    },
+    {
+        "name": "Crystal Leggings",
+        "price": 589000
+    },
+    {
+        "name": "Mineral Helmet",
+        "price": 399999
+    },
+    {
+        "name": "Epic Griffin",
+        "price": 7000000
+    },
+    {
+        "name": "Golden Plate",
+        "price": 1590000
+    },
+    {
+        "name": "FTX 3070",
+        "price": 80000
+    },
+    {
+        "name": "Mineral Chestplate",
+        "price": 299999
+    },
+    {
+        "name": "Twilight Dagger",
+        "price": 1000000
+    },
+    {
+        "name": "Arack",
+        "price": 19000
+    },
+    {
+        "name": "Healing Tissue",
+        "price": 88000
+    },
+    {
+        "name": "Ancient Rose",
+        "price": 70000
+    },
+    {
+        "name": "Fervor Chestplate",
+        "price": 300000
+    },
+    {
+        "name": "Goldor's Helmet",
+        "price": 3699999
+    },
+    {
+        "name": "Overflux Capacitor",
+        "price": 70900000
+    },
+    {
+        "name": "Protector Dragon Helmet",
+        "price": 239000
+    },
+    {
+        "name": "Golden Sadan Head",
+        "price": 3280000
+    },
+    {
+        "name": "Shimmering Light Slippers",
+        "price": 2300000
+    },
+    {
+        "name": "Wise Dragon Leggings",
+        "price": 1199000
+    },
+    {
+        "name": "Necromancer Lord Boots",
+        "price": 1000000
+    },
+    {
+        "name": "Remnant of the Eye",
+        "price": 29000
+    },
+    {
+        "name": "Vorpal Katana",
+        "price": 5400000
+    },
+    {
+        "name": "Legendary Golden Dragon",
+        "price": 599999999
+    },
+    {
+        "name": "Skeleton Grunt Helmet",
+        "price": 40000
+    },
+    {
+        "name": "Uncommon Tiger",
+        "price": 70000
+    },
+    {
+        "name": "Soul Whip",
+        "price": 13995999
+    },
+    {
+        "name": "Super Cleaver",
+        "price": 150000
+    },
+    {
+        "name": "Spirit Sword",
+        "price": 6000000
+    },
+    {
+        "name": "Artisanal Shortbow",
+        "price": 10000
+    },
+    {
+        "name": "Chestplate Of Divan",
+        "price": 28999999
+    },
+    {
+        "name": "Synthetic Heart",
+        "price": 150000
+    },
+    {
+        "name": "Wise Dragon Helmet",
+        "price": 630000
+    },
+    {
+        "name": "Necron's Leggings",
+        "price": 15350000
+    },
+    {
+        "name": "Legendary Wolf",
+        "price": 2700000
+    },
+    {
+        "name": "Mineral Boots",
+        "price": 200000
+    },
+    {
+        "name": "Travel Scroll to the Crimson Isle",
+        "price": 335000
+    },
+    {
+        "name": "Crystal Chestplate",
+        "price": 548999
+    },
+    {
+        "name": "Chyme",
+        "price": 490000
+    },
+    {
+        "name": "Old Disc",
+        "price": 8500000
+    },
+    {
+        "name": "Shark Scale Helmet",
+        "price": 1200000
+    },
+    {
+        "name": "Delirium Necklace",
+        "price": 4300000
+    },
+    {
+        "name": "Cake Soul",
+        "price": 4000000
+    },
+    {
+        "name": "Final Destination Chestplate",
+        "price": 850000
+    },
+    {
+        "name": "Gauntlet of Contagion",
+        "price": 11889900
+    },
+    {
+        "name": "Undead Catalyst",
+        "price": 10000
+    },
+    {
+        "name": "Red Claw Artifact",
+        "price": 8250000
+    },
+    {
+        "name": "Legendary Monkey",
+        "price": 21999998
+    },
+    {
+        "name": "Treasure Ring",
+        "price": 3290000
+    },
+    {
+        "name": "Necron's Chestplate",
+        "price": 23999998
+    },
+    {
+        "name": "Maxor the Fish",
+        "price": 90000
+    },
+    {
+        "name": "Legendary Wither Skeleton",
+        "price": 2600000
+    },
+    {
+        "name": "Zombie Knight Sword",
+        "price": 18000
+    },
+    {
+        "name": "Titanium Drill DR-X655",
+        "price": 269696969
+    },
+    {
+        "name": "Enchanted Wool",
+        "price": 40000
+    },
+    {
+        "name": "Goldor the Fish",
+        "price": 100000
+    },
+    {
+        "name": "Reaper Scythe",
+        "price": 24900000
+    },
+    {
+        "name": "Spirit Leap",
+        "price": 14000
+    },
+    {
+        "name": "Jungle Key",
+        "price": 99998
+    },
+    {
+        "name": "Earth Shard",
+        "price": 29000
+    },
+    {
+        "name": "Grinch Minion Skin",
+        "price": 325000
+    },
+    {
+        "name": "Helmet Of Divan",
+        "price": 23900000
+    },
+    {
+        "name": "Molten Necklace",
+        "price": 4896998
+    },
+    {
+        "name": "Abicase",
+        "price": 8000000
+    },
+    {
+        "name": "Spirit Bone",
+        "price": 650000
+    },
+    {
+        "name": "Potato Talisman",
+        "price": 9595999
+    },
+    {
+        "name": "Superboom TNT",
+        "price": 45000
+    },
+    {
+        "name": "Starlight Wand",
+        "price": 199999
+    },
+    {
+        "name": "Exceedingly Rare Ender Artifact Upgrader",
+        "price": 23290000
+    },
+    {
+        "name": "Beacon II",
+        "price": 1500000
+    },
+    {
+        "name": "Scarf's Studies",
+        "price": 599998
+    },
+    {
+        "name": "Speed Artifact",
+        "price": 3199000
+    },
+    {
+        "name": "Devour Ring",
+        "price": 2849000
+    },
+    {
+        "name": "Dungeon Orb",
+        "price": 14000
+    },
+    {
+        "name": "Shimmer Skin",
+        "price": 45000000
+    },
+    {
+        "name": "Golem Armor Boots",
+        "price": 100000
+    },
+    {
+        "name": "Experience Artifact",
+        "price": 400000
+    },
+    {
+        "name": "Titanium Artifact",
+        "price": 8000000
+    },
+    {
+        "name": "Hardened Diamond Chestplate",
+        "price": 20000
+    },
+    {
+        "name": "Ink Wand",
+        "price": 5880000
+    },
+    {
+        "name": "Legendary Parrot",
+        "price": 23000000
+    },
+    {
+        "name": "Golem Armor Leggings",
+        "price": 150000
+    },
+    {
+        "name": "Unstable Dragon Chestplate",
+        "price": 349000
+    },
+    {
+        "name": "Scarf's Thesis",
+        "price": 2700000
+    },
+    {
+        "name": "Potato-Style Century Cake",
+        "price": 1300000
+    },
+    {
+        "name": "Griffin Upgrade Stone",
+        "price": 1299999
+    },
+    {
+        "name": "Armor of Magma Chestplate",
+        "price": 2400000
+    },
+    {
+        "name": "Spirit Boots",
+        "price": 3500000
+    },
+    {
+        "name": "Epic Tarantula",
+        "price": 27000
+    },
+    {
+        "name": "Legendary Elephant",
+        "price": 15600000
+    },
+    {
+        "name": "Superior Dragon Leggings",
+        "price": 5200000
+    },
+    {
+        "name": "Unstable Dragon Leggings",
+        "price": 330000
+    },
+    {
+        "name": "Treecapitator",
+        "price": 2200000
+    },
+    {
+        "name": "Lucky Hoof",
+        "price": 700000
+    },
+    {
+        "name": "Golem Armor Helmet",
+        "price": 115000
+    },
+    {
+        "name": "Candy Relic",
+        "price": 9500000
+    },
+    {
+        "name": "Rare Enderman",
+        "price": 2000
+    },
+    {
+        "name": "Epic Lion",
+        "price": 3500000
+    },
+    {
+        "name": "Reaper Boots",
+        "price": 10094444
+    },
+    {
+        "name": "Pesto Goblin Omelette",
+        "price": 600000
+    },
+    {
+        "name": "Crown of Greed",
+        "price": 1150000
+    },
+    {
+        "name": "Epic Elephant",
+        "price": 2300000
+    },
+    {
+        "name": "Aurora Staff",
+        "price": 1800000
+    },
+    {
+        "name": "Pet Rock Century Cake",
+        "price": 1300000
+    },
+    {
+        "name": "Tier Boost Core",
+        "price": 85555555
+    },
+    {
+        "name": "Gloomlock Grimoire",
+        "price": 4990000
+    },
+    {
+        "name": "Large Storage",
+        "price": 369999
+    },
+    {
+        "name": "aPunch Century Cake",
+        "price": 1600000
+    },
+    {
+        "name": "Epic Sheep",
+        "price": 1200000
+    },
+    {
+        "name": "Shark Scale Chestplate",
+        "price": 1796000
+    },
+    {
+        "name": "Pet Skin_snowman_ice_golem",
+        "price": 15000000
+    },
+    {
+        "name": "Shark Scale Leggings",
+        "price": 1749999
+    },
+    {
+        "name": "Amber-polished Drill Engine",
+        "price": 113000000
+    },
+    {
+        "name": "Latest Update Century Cake",
+        "price": 1500000
+    },
+    {
+        "name": "Perfectly-Cut Fuel Tank",
+        "price": 76000000
+    },
+    {
+        "name": "Skeleton Lord Helmet",
+        "price": 975000
+    },
+    {
+        "name": "Mender Crown",
+        "price": 5750000
+    },
+    {
+        "name": "Epic Pig",
+        "price": 150000
+    },
+    {
+        "name": "Tactician's Sword",
+        "price": 65000
+    },
+    {
+        "name": "Dragonfade Cloak",
+        "price": 6700000
+    },
+    {
+        "name": "Enchanted Book Bundle",
+        "price": 70000000
+    },
+    {
+        "name": "Tiki Torch",
+        "price": 50000000
+    },
+    {
+        "name": "Dull Shark Tooth Necklace",
+        "price": 130000
+    },
+    {
+        "name": "Bingo Talisman",
+        "price": 34999000
+    },
+    {
+        "name": "Speed Ring",
+        "price": 84000
+    },
+    {
+        "name": "Great Spook Sword",
+        "price": 250000
+    },
+    {
+        "name": "Bob-omb",
+        "price": 100000
+    },
+    {
+        "name": "Rod of the Sea",
+        "price": 10000000
+    },
+    {
+        "name": "Giant Cleaver",
+        "price": 4800000
+    },
+    {
+        "name": "Pooch Sword",
+        "price": 4960000
+    },
+    {
+        "name": "KnockOff™ Cola",
+        "price": 99000
+    },
+    {
+        "name": "Crab-Colored Century Cake",
+        "price": 1750000
+    },
+    {
+        "name": "Razor-sharp Shark Tooth Necklace",
+        "price": 8400000
+    },
+    {
+        "name": "Rare Blue Whale",
+        "price": 399999
+    },
+    {
+        "name": "Crimson Boots",
+        "price": 1738890
+    },
+    {
+        "name": "Epic Baby Yeti",
+        "price": 11990000
+    },
+    {
+        "name": "Zombie Artifact",
+        "price": 3700000
+    },
+    {
+        "name": "Titanium-Infused Fuel Tank",
+        "price": 19000000
+    },
+    {
+        "name": "Epic Mithril Golem",
+        "price": 300000
+    },
+    {
+        "name": "Scarf's Grimoire",
+        "price": 11000000
+    },
+    {
+        "name": "Hunter Ring",
+        "price": 28479000
+    },
+    {
+        "name": "Jerry-chine Gun",
+        "price": 230000
+    },
+    {
+        "name": "Beacon I",
+        "price": 600000
+    },
+    {
+        "name": "Legendary Tiger",
+        "price": 21500000
+    },
+    {
+        "name": "Fish Affinity Talisman",
+        "price": 193000
+    },
+    {
+        "name": "Mystical Mushroom Soup",
+        "price": 49999
+    },
+    {
+        "name": "Crimson Helmet",
+        "price": 900000
+    },
+    {
+        "name": "Fairy's Galoshes",
+        "price": 65000
+    },
+    {
+        "name": "Repelling Candle",
+        "price": 75000
+    },
+    {
+        "name": "Legendary Endermite",
+        "price": 2355500
+    },
+    {
+        "name": "Revenant Catalyst",
+        "price": 9000
+    },
+    {
+        "name": "Uncommon Blue Whale",
+        "price": 70000
+    },
+    {
+        "name": "Textbook",
+        "price": 395000
+    },
+    {
+        "name": "Great Spook Artifact",
+        "price": 17000000
+    },
+    {
+        "name": "Revived Heart",
+        "price": 5200000
+    },
+    {
+        "name": "Warden Helmet",
+        "price": 159000000
+    },
+    {
+        "name": "Legendary Blue Whale",
+        "price": 11200000
+    },
+    {
+        "name": "Thunder Helmet",
+        "price": 1500000
+    },
+    {
+        "name": "Void ConquerorEnderman",
+        "price": 450000
+    },
+    {
+        "name": "Vanquished Ghast Cloak",
+        "price": 4500000
+    },
+    {
+        "name": "Yeti Sword",
+        "price": 53490000
+    },
+    {
+        "name": "Skeleton Grunt Boots",
+        "price": 55000
+    },
+    {
+        "name": "Wither Cloak Sword",
+        "price": 4300000
+    },
+    {
+        "name": "Iron Claws",
+        "price": 997998
+    },
+    {
+        "name": "Silent Death",
+        "price": 100000
+    },
+    {
+        "name": "Epic Snail",
+        "price": 3650000
+    },
+    {
+        "name": "Vanquished Blaze Belt",
+        "price": 1700000
+    },
+    {
+        "name": "Common Rock",
+        "price": 99000
+    },
+    {
+        "name": "Snow Suit Chestplate",
+        "price": 25000
+    },
+    {
+        "name": "Wither Chestplate",
+        "price": 14000000
+    },
+    {
+        "name": "Adaptive Boots",
+        "price": 200000
+    },
+    {
+        "name": "Mineral Talisman",
+        "price": 378000
+    },
+    {
+        "name": "Moody Grappleshot",
+        "price": 3000000
+    },
+    {
+        "name": "Speedster Boots",
+        "price": 150000
+    },
+    {
+        "name": "Fervor Boots",
+        "price": 400000
+    },
+    {
+        "name": "Jungle Pickaxe",
+        "price": 361000
+    },
+    {
+        "name": "Personal Compactor 7000",
+        "price": 3350000
+    },
+    {
+        "name": "Wheel of Fate",
+        "price": 9799999
+    },
+    {
+        "name": "Master Skull - Tier 4",
+        "price": 8000000
+    },
+    {
+        "name": "Storm the Fish",
+        "price": 205000
+    },
+    {
+        "name": "Zombie Knight Helmet",
+        "price": 39000
+    },
+    {
+        "name": "Tessellated Ender Pearl",
+        "price": 2222222
+    },
+    {
+        "name": "Legendary Squid",
+        "price": 11700000
+    },
+    {
+        "name": "Frozen Blaze Leggings",
+        "price": 12895999
+    },
+    {
+        "name": "Magma Necklace",
+        "price": 40000
+    },
+    {
+        "name": "Heat Core",
+        "price": 1698000
+    },
+    {
+        "name": "Golden Powder",
+        "price": 50000
+    },
+    {
+        "name": "Perfect Chestplate - Tier XII",
+        "price": 5324832
+    },
+    {
+        "name": "X-Large Storage",
+        "price": 1000000
+    },
+    {
+        "name": "Obsidian Chestplate",
+        "price": 40000
+    },
+    {
+        "name": "Ghast Cloak",
+        "price": 650000
+    },
+    {
+        "name": "Epic Golem",
+        "price": 500000
+    },
+    {
+        "name": "Draconic Talisman",
+        "price": 4890000
+    },
+    {
+        "name": "Wand of Mending",
+        "price": 137000
+    },
+    {
+        "name": "Crystallized Heart",
+        "price": 1000000
+    },
+    {
+        "name": "Empty Chum Bucket",
+        "price": 12000
+    },
+    {
+        "name": "Legendary Lion",
+        "price": 20000000
+    },
+    {
+        "name": "Jumbo Backpack Upgrade",
+        "price": 1999999
+    },
+    {
+        "name": "Old Dragon Helmet",
+        "price": 240000
+    },
+    {
+        "name": "Treasure Artifact",
+        "price": 30999990
+    },
+    {
+        "name": "Slime Bow",
+        "price": 2998000
+    },
+    {
+        "name": "Hegemony Artifact",
+        "price": 306000000
+    },
+    {
+        "name": "Legendary Flying Fish",
+        "price": 3850000
+    },
+    {
+        "name": "Legendary Griffin",
+        "price": 25000000
+    },
+    {
+        "name": "Reindeer Plush",
+        "price": 189000
+    },
+    {
+        "name": "Great Spook Helmet",
+        "price": 20000
+    },
+    {
+        "name": "Legendary Chicken",
+        "price": 1000000
+    },
+    {
+        "name": "Rare Horse",
+        "price": 300000
+    },
+    {
+        "name": "Spirit Sceptre",
+        "price": 20799999
+    },
+    {
+        "name": "Star Decorations",
+        "price": 94000
+    },
+    {
+        "name": "Skeleton Grunt Chestplate",
+        "price": 5037
+    },
+    {
+        "name": "Experimentation Table",
+        "price": 8888
+    },
+    {
+        "name": "Witch Mask",
+        "price": 999999
+    },
+    {
+        "name": "Perfect Helmet - Tier IV",
+        "price": 2000000
+    },
+    {
+        "name": "Legendary Baby Yeti",
+        "price": 29500000
+    },
+    {
+        "name": "Magma Rod",
+        "price": 120000
+    },
+    {
+        "name": "Super Heavy Chestplate",
+        "price": 35000
+    },
+    {
+        "name": "Goldor's Chestplate",
+        "price": 16299000
+    },
+    {
+        "name": "Pet Skin_chicken_turkey",
+        "price": 7480000
+    },
+    {
+        "name": "Intimidation Ring",
+        "price": 450000
+    },
+    {
+        "name": "Scarf Fragment",
+        "price": 9000
+    },
+    {
+        "name": "Common Griffin",
+        "price": 40000
+    },
+    {
+        "name": "Rotten Helmet",
+        "price": 20000
+    },
+    {
+        "name": "Ender Artifact",
+        "price": 134900000
+    },
+    {
+        "name": "Revenant Boots",
+        "price": 375000
+    },
+    {
+        "name": "Nutcracker",
+        "price": 24999
+    },
+    {
+        "name": "Etherwarp Merger",
+        "price": 199999
+    },
+    {
+        "name": "Bat Talisman",
+        "price": 189000
+    },
+    {
+        "name": "Revenant Leggings",
+        "price": 440000
+    },
+    {
+        "name": "Ghoul Buster",
+        "price": 2000000
+    },
+    {
+        "name": "Epic Flying Fish",
+        "price": 700000
+    },
+    {
+        "name": "Candy Ring",
+        "price": 200000
+    },
+    {
+        "name": "Scythe Blade",
+        "price": 3790000
+    },
+    {
+        "name": "Base Griffin Upgrade Stone",
+        "price": 440000
+    },
+    {
+        "name": "Atomsplit Katana",
+        "price": 46900000
+    },
+    {
+        "name": "Purple Egged Skin",
+        "price": 30000000
+    },
+    {
+        "name": "Perfect Helmet - Tier VI",
+        "price": 2579997
+    },
+    {
+        "name": "Hurricane Bow",
+        "price": 114000
+    },
+    {
+        "name": "Null Edge",
+        "price": 600000
+    },
+    {
+        "name": "Ice Spray Wand",
+        "price": 25000000
+    },
+    {
+        "name": "Epic Ender Dragon",
+        "price": 187990000
+    },
+    {
+        "name": "Storm's Helmet",
+        "price": 8397000
+    },
+    {
+        "name": "Raider Axe",
+        "price": 170000
+    },
+    {
+        "name": "Bee Minion Skin",
+        "price": 200000
+    },
+    {
+        "name": "Bat Artifact",
+        "price": 1188000
+    },
+    {
+        "name": "Mythic Endermite",
+        "price": 3300000
+    },
+    {
+        "name": "Berserker Boots",
+        "price": 2900000
+    },
+    {
+        "name": "Implosion Belt",
+        "price": 700000
+    },
+    {
+        "name": "Great Spook Leggings",
+        "price": 1799000
+    },
+    {
+        "name": "Miner Helmet",
+        "price": 5000
+    },
+    {
+        "name": "Water Hydra Head",
+        "price": 1200000
+    },
+    {
+        "name": "Minos Relic",
+        "price": 38000000
+    },
+    {
+        "name": "Molten Bracelet",
+        "price": 2699000
+    },
+    {
+        "name": "Battle Disc",
+        "price": 2000
+    },
+    {
+        "name": "Legendary Hound",
+        "price": 2390000
+    },
+    {
+        "name": "Great Spook Chestplate",
+        "price": 1145141
+    },
+    {
+        "name": "Scourge Cloak",
+        "price": 7200000
+    },
+    {
+        "name": "Potion Affinity Artifact",
+        "price": 140000
+    },
+    {
+        "name": "Necron's Handle",
+        "price": 793000000
+    },
+    {
+        "name": "Exp Share",
+        "price": 1890000
+    },
+    {
+        "name": "Master Skull - Tier 1",
+        "price": 1000000
+    },
+    {
+        "name": "Strong Dragon Boots",
+        "price": 390000
+    },
+    {
+        "name": "Dust the Fish",
+        "price": 3100000
+    },
+    {
+        "name": "Ornate Zombie Sword",
+        "price": 1500000
+    },
+    {
+        "name": "Beacon III",
+        "price": 5400000
+    },
+    {
+        "name": "Shard of the Shredded",
+        "price": 9800000
+    },
+    {
+        "name": "Summoning Ring",
+        "price": 12300000
+    },
+    {
+        "name": "Stone Chestplate",
+        "price": 9999
+    },
+    {
+        "name": "Legendary Turtle",
+        "price": 17500000
+    },
+    {
+        "name": "Plasma",
+        "price": 70000
+    },
+    {
+        "name": "Skeleton Grunt Leggings",
+        "price": 5037
+    },
+    {
+        "name": "Braided Griffin Feather",
+        "price": 12000000
+    },
+    {
+        "name": "Heavy Boots",
+        "price": 10000
+    },
+    {
+        "name": "Aurora Helmet",
+        "price": 460000
+    },
+    {
+        "name": "Vanquished Glowstone Gauntlet",
+        "price": 1792500
+    },
+    {
+        "name": "Titanium Relic",
+        "price": 19999000
+    },
+    {
+        "name": "Old Dragon Chestplate",
+        "price": 349000
+    },
+    {
+        "name": "Magma Lord Gauntlet",
+        "price": 13400000
+    },
+    {
+        "name": "Diver's Shirt",
+        "price": 1300000
+    },
+    {
+        "name": "Gingerbread Man Minion Skin",
+        "price": 74999
+    },
+    {
+        "name": "Super Heavy Helmet",
+        "price": 250000
+    },
+    {
+        "name": "Necromancer Lord Helmet",
+        "price": 250000
+    },
+    {
+        "name": "Skull Item:3",
+        "price": 100000
+    },
+    {
+        "name": "Florid Zombie Sword",
+        "price": 4450000
+    },
+    {
+        "name": "Common Guardian",
+        "price": 690000
+    },
+    {
+        "name": "Travel Scroll to Hub Crypts",
+        "price": 900000
+    },
+    {
+        "name": "Pet Skin_bee_zombee",
+        "price": 600000
+    },
+    {
+        "name": "Zombie Boots",
+        "price": 370000
+    },
+    {
+        "name": "Magic Find Enrichment",
+        "price": 2799000
+    },
+    {
+        "name": "Synthesizer v1",
+        "price": 14999999
+    },
+    {
+        "name": "Soul Sand",
+        "price": 1280
+    },
+    {
+        "name": "Leaping Sword",
+        "price": 2000000
+    },
+    {
+        "name": "Firework",
+        "price": 5000
+    },
+    {
+        "name": "Travel Scroll to The Park",
+        "price": 194000
+    },
+    {
+        "name": "Emerald Blade",
+        "price": 444445
+    },
+    {
+        "name": "Neon PurpleEnder Dragon",
+        "price": 72000000
+    },
+    {
+        "name": "Legendary Snail",
+        "price": 4995000
+    },
+    {
+        "name": "Hollow Boots",
+        "price": 130000
+    },
+    {
+        "name": "Teleport Pad",
+        "price": 160000
+    },
+    {
+        "name": "Magma Bow",
+        "price": 2100000
+    },
+    {
+        "name": "Maxor's Leggings",
+        "price": 7150000
+    },
+    {
+        "name": "Aspect of the Void",
+        "price": 5965999
+    },
+    {
+        "name": "Beacon V",
+        "price": 33000000
+    },
+    {
+        "name": "Bat Person Talisman",
+        "price": 222222
+    },
+    {
+        "name": "Gyrokinetic Wand",
+        "price": 28000000
+    },
+    {
+        "name": "Scorpion Bow",
+        "price": 7487000
+    },
+    {
+        "name": "Rare Tiger",
+        "price": 493000
+    },
+    {
+        "name": "Haste Ring",
+        "price": 180000
+    },
+    {
+        "name": "Heavy Helmet",
+        "price": 5057
+    },
+    {
+        "name": "Legendary Megalodon",
+        "price": 3870000
+    },
+    {
+        "name": "Legendary Black Cat",
+        "price": 17390000
+    },
+    {
+        "name": "Heat Chestplate",
+        "price": 15000
+    },
+    {
+        "name": "Legendary Magma Cube",
+        "price": 2800000
+    },
+    {
+        "name": "Heat Helmet",
+        "price": 15000
+    },
+    {
+        "name": "Travel Scroll to the Trapper's Den",
+        "price": 3800000
+    },
+    {
+        "name": "Shiny Orb",
+        "price": 15000
+    },
+    {
+        "name": "Epic Zombie",
+        "price": 330000
+    },
+    {
+        "name": "Blood God Crest",
+        "price": 3980000
+    },
+    {
+        "name": "Talbot's Theodolite",
+        "price": 349999
+    },
+    {
+        "name": "Legendary Pigman",
+        "price": 5800000
+    },
+    {
+        "name": "Flamebreaker Helmet",
+        "price": 399000
+    },
+    {
+        "name": "Farming Exp Boost",
+        "price": 93000
+    },
+    {
+        "name": "Adaptive Helmet",
+        "price": 1898999
+    },
+    {
+        "name": "Flamebreaker Boots",
+        "price": 300000
+    },
+    {
+        "name": "Digested Mosquito",
+        "price": 350000
+    },
+    {
+        "name": "Flamebreaker Leggings",
+        "price": 420000
+    },
+    {
+        "name": "Flamebreaker Chestplate",
+        "price": 600000
+    },
+    {
+        "name": "Sea Lantern",
+        "price": 14000
+    },
+    {
+        "name": "Tutti-Frutti Flavored Poison",
+        "price": 300000
+    },
+    {
+        "name": "Helix",
+        "price": 9000
+    },
+    {
+        "name": "Pelt Belt",
+        "price": 1350000
+    },
+    {
+        "name": "Bouncy Helmet",
+        "price": 780000
+    },
+    {
+        "name": "Mining Exp Boost",
+        "price": 140000
+    },
+    {
+        "name": "Golden Thorn Head",
+        "price": 3750000
+    },
+    {
+        "name": "Fishing Exp Boost",
+        "price": 20000
+    },
+    {
+        "name": "Gemstone Drill LT-522",
+        "price": 6100000
+    },
+    {
+        "name": "Bat Person Artifact",
+        "price": 11975000
+    },
+    {
+        "name": "Epic Scatha",
+        "price": 123999900
+    },
+    {
+        "name": "Spider Artifact",
+        "price": 4499000
+    },
+    {
+        "name": "Kelvin Inverter",
+        "price": 150000
+    },
+    {
+        "name": "Bits Talisman",
+        "price": 5780000
+    },
+    {
+        "name": "Perfect Boots - Tier XII",
+        "price": 6000000
+    },
+    {
+        "name": "Midas Staff",
+        "price": 72000000
+    },
+    {
+        "name": "Uncommon Rock",
+        "price": 50000
+    },
+    {
+        "name": "Personal Compactor 5000",
+        "price": 969696
+    },
+    {
+        "name": "Trapper Crest",
+        "price": 4400000
+    },
+    {
+        "name": "Stonk",
+        "price": 644445
+    },
+    {
+        "name": "Epic Skeleton",
+        "price": 100000
+    },
+    {
+        "name": "Wither Artifact",
+        "price": 48999000
+    },
+    {
+        "name": "Epic Phoenix",
+        "price": 7400000
+    },
+    {
+        "name": "Hollow Helmet",
+        "price": 79000
+    },
+    {
+        "name": "Master Skull - Tier 6",
+        "price": 135000000
+    },
+    {
+        "name": "Speedster Leggings",
+        "price": 550000
+    },
+    {
+        "name": "Great Spook Necklace",
+        "price": 1700000
+    },
+    {
+        "name": "Titanium Drill DR-X355",
+        "price": 19444444
+    },
+    {
+        "name": "Helmet of the Pack",
+        "price": 1799999
+    },
+    {
+        "name": "Legendary Rat",
+        "price": 2300000
+    },
+    {
+        "name": "Voodoo Doll",
+        "price": 1350000
+    },
+    {
+        "name": "Diamond Necron Head",
+        "price": 192000000
+    },
+    {
+        "name": "Oil Barrel",
+        "price": 85000
+    },
+    {
+        "name": "Lesser Orb of Healing",
+        "price": 49000
+    },
+    {
+        "name": "Scorpion Foil",
+        "price": 4900000
+    },
+    {
+        "name": "Titanium Pickaxe",
+        "price": 1197998
+    },
+    {
+        "name": "Red Claw Ring",
+        "price": 1300000
+    },
+    {
+        "name": "Thunder Boots",
+        "price": 1000000
+    },
+    {
+        "name": "Judgement Core",
+        "price": 309990000
+    },
+    {
+        "name": "Epic Armadillo",
+        "price": 99000
+    },
+    {
+        "name": "Tall Holiday Tree",
+        "price": 30000
+    },
+    {
+        "name": "Travel Scroll to Spider's Den",
+        "price": 700000
+    },
+    {
+        "name": "Miner Leggings",
+        "price": 10000
+    },
+    {
+        "name": "Zombie Soldier Leggings",
+        "price": 20000
+    },
+    {
+        "name": "Legendary Golem",
+        "price": 3299000
+    },
+    {
+        "name": "Mithril-Infused Fuel Tank",
+        "price": 16000000
+    },
+    {
+        "name": "Legendary Spirit",
+        "price": 5050000
+    },
+    {
+        "name": "Vanquished Magma Necklace",
+        "price": 1699999
+    },
+    {
+        "name": "Perfect Chestplate - Tier I",
+        "price": 819200
+    },
+    {
+        "name": "Heat Boots",
+        "price": 25000
+    },
+    {
+        "name": "Pet Skin_sheep_black_wooly",
+        "price": 15950000
+    },
+    {
+        "name": "Pet Skin_kuudra_loyalty",
+        "price": 13950000
+    },
+    {
+        "name": "Hollow Leggings",
+        "price": 90000
+    },
+    {
+        "name": "Super Heavy Leggings",
+        "price": 15000
+    },
+    {
+        "name": "Refined Titanium Pickaxe",
+        "price": 2000000
+    },
+    {
+        "name": "Decoy",
+        "price": 80000
+    },
+    {
+        "name": "Shredder",
+        "price": 890000
+    },
+    {
+        "name": "Drill Engine",
+        "price": 3194443
+    },
+    {
+        "name": "Hardened Diamond Boots",
+        "price": 40000
+    },
+    {
+        "name": "Great Spook Belt",
+        "price": 550000
+    },
+    {
+        "name": "Red Claw Talisman",
+        "price": 39000
+    },
+    {
+        "name": "Great Spook Cloak",
+        "price": 350000
+    },
+    {
+        "name": "Intimidation Artifact",
+        "price": 1090000
+    },
+    {
+        "name": "Common Blue Whale",
+        "price": 37777
+    },
+    {
+        "name": "Divan's Drill",
+        "price": 1120000000
+    },
+    {
+        "name": "Spider Queen's Stinger",
+        "price": 190000
+    },
+    {
+        "name": "Staff of the Volcano",
+        "price": 169000
+    },
+    {
+        "name": "Shiny Shard",
+        "price": 400000
+    },
+    {
+        "name": "Travel Scroll to Deep Caverns",
+        "price": 125000
+    },
+    {
+        "name": "Snow Suit Boots",
+        "price": 80000
+    },
+    {
+        "name": "Golden Professor Head",
+        "price": 3299000
+    },
+    {
+        "name": "Golden Scarf Head",
+        "price": 600000
+    },
+    {
+        "name": "Wand of Healing",
+        "price": 9000
+    },
+    {
+        "name": "Wand of Atonement",
+        "price": 5399900
+    },
+    {
+        "name": "Epic Blaze",
+        "price": 8749900
+    },
+    {
+        "name": "Skeleton Soldier Helmet",
+        "price": 15000
+    },
+    {
+        "name": "Epic Squid",
+        "price": 2100000
+    },
+    {
+        "name": "Jalapeno Book",
+        "price": 15000000
+    },
+    {
+        "name": "Santa Minion Skin",
+        "price": 70000
+    },
+    {
+        "name": "Krampus Helmet",
+        "price": 3799000
+    },
+    {
+        "name": "Epic Pigman",
+        "price": 1100000
+    },
+    {
+        "name": "Flying Pig",
+        "price": 435000
+    },
+    {
+        "name": "Uncommon Guardian",
+        "price": 900000
+    },
+    {
+        "name": "Epic Wither Skeleton",
+        "price": 300000
+    },
+    {
+        "name": "Spicy Goblin Omelette",
+        "price": 5200000
+    },
+    {
+        "name": "Legendary Jerry",
+        "price": 1299900
+    },
+    {
+        "name": "Common Lion",
+        "price": 50000
+    },
+    {
+        "name": "Rod of Champions",
+        "price": 499000
+    },
+    {
+        "name": "Silent Pearl",
+        "price": 12000
+    },
+    {
+        "name": "Common Bat",
+        "price": 40000
+    },
+    {
+        "name": "Rare Flying Fish",
+        "price": 150000
+    },
+    {
+        "name": "Speed Enrichment",
+        "price": 2700000
+    },
+    {
+        "name": "Legendary Rabbit",
+        "price": 819000
+    },
+    {
+        "name": "Suspicious Stew",
+        "price": 200000
+    },
+    {
+        "name": "Thunderbolt Necklace",
+        "price": 350000
+    },
+    {
+        "name": "Null Blade",
+        "price": 21000000
+    },
+    {
+        "name": "Old Dragon Leggings",
+        "price": 250000
+    },
+    {
+        "name": "Rare Bat",
+        "price": 100000
+    },
+    {
+        "name": "Shrimp the Fish",
+        "price": 700000
+    },
+    {
+        "name": "Jerry Candy",
+        "price": 65000
+    },
+    {
+        "name": "Goblin Chestplate",
+        "price": 9900
+    },
+    {
+        "name": "Holy Dragon Leggings",
+        "price": 440000
+    },
+    {
+        "name": "Holy Dragon Helmet",
+        "price": 299999
+    },
+    {
+        "name": "Personal Bank Item",
+        "price": 28000
+    },
+    {
+        "name": "Goblin Omelette",
+        "price": 369000
+    },
+    {
+        "name": "Super Heavy Boots",
+        "price": 51000
+    },
+    {
+        "name": "Uncommon Enderman",
+        "price": 2000
+    },
+    {
+        "name": "Vampire Fang",
+        "price": 449999
+    },
+    {
+        "name": "Dctr. Paper",
+        "price": 349000
+    },
+    {
+        "name": "Hilt of True Ice",
+        "price": 299000
+    },
+    {
+        "name": "Legendary Mooshroom Cow",
+        "price": 5249999
+    },
+    {
+        "name": "Overflux Power Orb",
+        "price": 89000000
+    },
+    {
+        "name": "Speedster Chestplate",
+        "price": 699999
+    },
+    {
+        "name": "Speedster Helmet",
+        "price": 310000
+    },
+    {
+        "name": "Zombie Soldier Cutlass",
+        "price": 6500
+    },
+    {
+        "name": "Ascension Rope",
+        "price": 5000
+    },
+    {
+        "name": "Old Dragon Boots",
+        "price": 229999
+    },
+    {
+        "name": "Party Hat_crab_animated",
+        "price": 2999900
+    },
+    {
+        "name": "Protector Dragon Boots",
+        "price": 239999
+    },
+    {
+        "name": "Skull Minion Skin",
+        "price": 98000
+    },
+    {
+        "name": "Blaze Belt",
+        "price": 60000
+    },
+    {
+        "name": "Travel Scroll to the Dwarven Forge",
+        "price": 190000
+    },
+    {
+        "name": "Legendary Ghoul",
+        "price": 499999
+    },
+    {
+        "name": "Epic Monkey",
+        "price": 1900000
+    },
+    {
+        "name": "Quick Claw",
+        "price": 105300000
+    },
+    {
+        "name": "Epic Wolf",
+        "price": 375000
+    },
+    {
+        "name": "Auger Rod",
+        "price": 15500000
+    },
+    {
+        "name": "Perfect Helmet - Tier I",
+        "price": 600000
+    },
+    {
+        "name": "Legendary Skeleton Horse",
+        "price": 2790000
+    },
+    {
+        "name": "Legendary Dolphin",
+        "price": 10900000
+    },
+    {
+        "name": "Epic Magma Cube",
+        "price": 699999
+    },
+    {
+        "name": "Travel Scroll to Dark Auction",
+        "price": 12990000
+    },
+    {
+        "name": "Raggedy Shark Tooth Necklace",
+        "price": 60000
+    },
+    {
+        "name": "Boots of the Rising Sun",
+        "price": 250000
+    },
+    {
+        "name": "Maxor's Chestplate",
+        "price": 15999999
+    },
+    {
+        "name": "Lesser Soulflow Engine",
+        "price": 2400000
+    },
+    {
+        "name": "Sinful Dice",
+        "price": 16000
+    },
+    {
+        "name": "Rare Rabbit",
+        "price": 275000
+    },
+    {
+        "name": "Ancient Cloak",
+        "price": 9000000
+    },
+    {
+        "name": "Redstone Chest+",
+        "price": 100000
+    },
+    {
+        "name": "Helmet of the Rising Sun",
+        "price": 250000
+    },
+    {
+        "name": "Personal Compactor 6000",
+        "price": 1700000
+    },
+    {
+        "name": "Zombie Knight Leggings",
+        "price": 20000
+    },
+    {
+        "name": "Twilight Arrow Poison",
+        "price": 10400
+    },
+    {
+        "name": "Mithril-Plated Drill Engine",
+        "price": 21000000
+    },
+    {
+        "name": "Common Dolphin",
+        "price": 175000
+    },
+    {
+        "name": "Skeletor Boots",
+        "price": 30000
+    },
+    {
+        "name": "Farm Armor Leggings",
+        "price": 149999
+    },
+    {
+        "name": "Vaccine Artifact",
+        "price": 31900000
+    },
+    {
+        "name": "Zombie Commander Whip",
+        "price": 70000
+    },
+    {
+        "name": "Frozen Blaze Helmet",
+        "price": 10500000
+    },
+    {
+        "name": "Superb Carrot Candy",
+        "price": 1800000
+    },
+    {
+        "name": "Goblin Helmet",
+        "price": 10000
+    },
+    {
+        "name": "Flying Bats",
+        "price": 20000
+    },
+    {
+        "name": "Epic Ghoul",
+        "price": 19000
+    },
+    {
+        "name": "Zombie Ring",
+        "price": 10000
+    },
+    {
+        "name": "Witch Hat",
+        "price": 199000
+    },
+    {
+        "name": "Hypergolic Ionized Ceramics",
+        "price": 45000
+    },
+    {
+        "name": "Topaz Drill KGR-12",
+        "price": 13200000
+    },
+    {
+        "name": "Water Trough",
+        "price": 399000
+    },
+    {
+        "name": "Rod of Legends",
+        "price": 4488999
+    },
+    {
+        "name": "Hardened Diamond Helmet",
+        "price": 42000
+    },
+    {
+        "name": "Midas' Sword",
+        "price": 7400000
+    },
+    {
+        "name": "Travel Scroll to the Void Sepulture",
+        "price": 2300000
+    },
+    {
+        "name": "Hardened Diamond Leggings",
+        "price": 43000
+    },
+    {
+        "name": "Portal to the Crimson Isle",
+        "price": 79999
+    },
+    {
+        "name": "Epic Turtle",
+        "price": 4900000
+    },
+    {
+        "name": "Coal:1",
+        "price": 500
+    },
+    {
+        "name": "Silk-Edge Sword",
+        "price": 4200000
+    },
+    {
+        "name": "Volta",
+        "price": 100000
+    },
+    {
+        "name": "Abiphone Contacts Trio",
+        "price": 3200000
+    },
+    {
+        "name": "Pet Skin_tiger_neon",
+        "price": 13500000
+    },
+    {
+        "name": "Travel Scroll to Museum",
+        "price": 220000
+    },
+    {
+        "name": "Sunny Side Goblin Omelette",
+        "price": 11500000
+    },
+    {
+        "name": "Legendary Mithril Golem",
+        "price": 1499900
+    },
+    {
+        "name": "Feather Artifact",
+        "price": 175000
+    },
+    {
+        "name": "Pet Skin_rat_hide_and_squeak",
+        "price": 399000
+    },
+    {
+        "name": "Emerald Chest+",
+        "price": 200000
+    },
+    {
+        "name": "Mimic Fragment",
+        "price": 3000
+    },
+    {
+        "name": "Sniper Bow",
+        "price": 125000
+    },
+    {
+        "name": "Zombie Commander Leggings",
+        "price": 450000
+    },
+    {
+        "name": "Fervor Helmet",
+        "price": 260000
+    },
+    {
+        "name": "Ultimate Carrot Candy Upgrade",
+        "price": 4000000
+    },
+    {
+        "name": "Zombie Commander Helmet",
+        "price": 219000
+    },
+    {
+        "name": "Portal to Mushroom Island",
+        "price": 99999
+    },
+    {
+        "name": "Re-heated Gummy Polar Bear",
+        "price": 1000000
+    },
+    {
+        "name": "Diamond Sadan Head",
+        "price": 143999000
+    },
+    {
+        "name": "Hunter Talisman",
+        "price": 6499999
+    },
+    {
+        "name": "Candy the Fish",
+        "price": 479850
+    },
+    {
+        "name": "Fervor Leggings",
+        "price": 150000
+    },
+    {
+        "name": "Dwarven Tankard",
+        "price": 2000000
+    },
+    {
+        "name": "Dark Claymore",
+        "price": 404999000
+    },
+    {
+        "name": "Egg the Fish",
+        "price": 13000000
+    },
+    {
+        "name": "Diver's Boots",
+        "price": 600000
+    },
+    {
+        "name": "Portal to The Barn",
+        "price": 80000
+    },
+    {
+        "name": "Clown Disc",
+        "price": 1800000
+    },
+    {
+        "name": "Portal to Dark Thicket",
+        "price": 50000
+    },
+    {
+        "name": "Flower Pot_item",
+        "price": 250000
+    },
+    {
+        "name": "Plasmaflux Power Orb",
+        "price": 350000000
+    },
+    {
+        "name": "Dragonfuse Glove",
+        "price": 7600000
+    },
+    {
+        "name": "Magma Lord Leggings",
+        "price": 14000000
+    },
+    {
+        "name": "Jungle Amulet",
+        "price": 1698999
+    },
+    {
+        "name": "Wilson's Engineering Plans",
+        "price": 10000000
+    },
+    {
+        "name": "Tarantula Boots",
+        "price": 1550000
+    },
+    {
+        "name": "Metal Chestplate",
+        "price": 200000
+    },
+    {
+        "name": "Titanium Drill DR-X455",
+        "price": 49999800
+    },
+    {
+        "name": "New Year Cake Bag",
+        "price": 350000
+    },
+    {
+        "name": "Mercenary Chestplate",
+        "price": 25000
+    },
+    {
+        "name": "Titanium Drill DR-X555",
+        "price": 156000000
+    },
+    {
+        "name": "Black Cat Plush",
+        "price": 100000
+    },
+    {
+        "name": "Conjuring",
+        "price": 45000
+    },
+    {
+        "name": "Golem Sword",
+        "price": 500000
+    },
+    {
+        "name": "Gift the Fish",
+        "price": 50000
+    },
+    {
+        "name": "Honed Shark Tooth Necklace",
+        "price": 580000
+    },
+    {
+        "name": "Legendary Pig",
+        "price": 1100000
+    },
+    {
+        "name": "Fire Freeze Staff",
+        "price": 550000
+    },
+    {
+        "name": "Legendary Bee",
+        "price": 2670000
+    },
+    {
+        "name": "Tarantula Leggings",
+        "price": 1100000
+    },
+    {
+        "name": "Inferno Fuel_blaze_rod",
+        "price": 1200000
+    },
+    {
+        "name": "Recluse Fang",
+        "price": 130000
+    },
+    {
+        "name": "Tarantula Chestplate",
+        "price": 1099999
+    },
+    {
+        "name": "Travel Scroll to Hub Castle",
+        "price": 300000
+    },
+    {
+        "name": "Legendary Bat",
+        "price": 1289000
+    },
+    {
+        "name": "Lucky Clover",
+        "price": 7000000
+    },
+    {
+        "name": "Chestplate of the Pack",
+        "price": 3000000
+    },
+    {
+        "name": "Blue Jerry Talisman",
+        "price": 4300000
+    },
+    {
+        "name": "Epic Endermite",
+        "price": 189000
+    },
+    {
+        "name": "Antique Remedies",
+        "price": 27000
+    },
+    {
+        "name": "Legendary Scatha",
+        "price": 310000000
+    },
+    {
+        "name": "Jasper Power Scroll",
+        "price": 1449000
+    },
+    {
+        "name": "Explosive Bow",
+        "price": 888888
+    },
+    {
+        "name": "Cheap Tuxedo Oxfords",
+        "price": 590000
+    },
+    {
+        "name": "Tier Boost",
+        "price": 88111111
+    },
+    {
+        "name": "Zombie Soldier Helmet",
+        "price": 20000
+    },
+    {
+        "name": "Bundle of Magma Arrows",
+        "price": 250000
+    },
+    {
+        "name": "Annihilation Cloak",
+        "price": 370000000
+    },
+    {
+        "name": "Mender Helmet",
+        "price": 277000
+    },
+    {
+        "name": "Washed-up Souvenir",
+        "price": 150000
+    },
+    {
+        "name": "Tuning Fork",
+        "price": 200000
+    },
+    {
+        "name": "Travel Scroll to Jungle Island",
+        "price": 199000
+    },
+    {
+        "name": "Hollow Wand",
+        "price": 90000
+    },
+    {
+        "name": "Perfect Helmet - Tier XII",
+        "price": 6900000
+    },
+    {
+        "name": "Armor of Magma Leggings",
+        "price": 2500000
+    },
+    {
+        "name": "Boots of Growth",
+        "price": 500000
+    },
+    {
+        "name": "Great Carrot Candy",
+        "price": 251000
+    },
+    {
+        "name": "Leggings of Growth",
+        "price": 750000
+    },
+    {
+        "name": "Celeste Wand",
+        "price": 5000
+    },
+    {
+        "name": "Uncommon Silverfish",
+        "price": 33000
+    },
+    {
+        "name": "Epic Spirit",
+        "price": 700000
+    },
+    {
+        "name": "Zombie Lord Boots",
+        "price": 200000
+    },
+    {
+        "name": "Holy Dragon Boots",
+        "price": 239000
+    },
+    {
+        "name": "Zombie Sword",
+        "price": 1000000
+    },
+    {
+        "name": "Mosquito Bow",
+        "price": 20000000
+    },
+    {
+        "name": "Elegant Tuxedo Oxfords",
+        "price": 16500000
+    },
+    {
+        "name": "Epic Parrot",
+        "price": 6250000
+    },
+    {
+        "name": "Treasure Talisman",
+        "price": 400000
+    },
+    {
+        "name": "Pet Skin_bat_vampire",
+        "price": 14000000
+    },
+    {
+        "name": "Super Undead Bow",
+        "price": 300000
+    },
+    {
+        "name": "Inferno Rod",
+        "price": 23900000
+    },
+    {
+        "name": "Weird Tuba",
+        "price": 2200000
+    },
+    {
+        "name": "Mastiff Leggings",
+        "price": 1284900
+    },
+    {
+        "name": "Ender Relic",
+        "price": 178984520
+    },
+    {
+        "name": "Epic Jellyfish",
+        "price": 3700000
+    },
+    {
+        "name": "Rare Monkey",
+        "price": 490000
+    },
+    {
+        "name": "Portalizer",
+        "price": 1980000
+    },
+    {
+        "name": "Reaper Orb",
+        "price": 31500000
+    },
+    {
+        "name": "DarkWolf",
+        "price": 45000000
+    },
+    {
+        "name": "Attack Speed Enrichment",
+        "price": 2799000
+    },
+    {
+        "name": "Zombie Lord Chestplate",
+        "price": 399000
+    },
+    {
+        "name": "Derpy Snowman",
+        "price": 250000
+    },
+    {
+        "name": "Minion Chair",
+        "price": 5000
+    },
+    {
+        "name": "Present Stack",
+        "price": 8999
+    },
+    {
+        "name": "Infinileap",
+        "price": 45000000
+    },
+    {
+        "name": "Yeti Rod",
+        "price": 798000
+    },
+    {
+        "name": "Holy Dragon Chestplate",
+        "price": 490000
+    },
+    {
+        "name": "Rare Dolphin",
+        "price": 640000
+    },
+    {
+        "name": "Legendary Phoenix",
+        "price": 78200000
+    },
+    {
+        "name": "Egg Stack",
+        "price": 439000
+    },
+    {
+        "name": "Chick Nest",
+        "price": 209000
+    },
+    {
+        "name": "Abiphone XIII Pro",
+        "price": 25000000
+    },
+    {
+        "name": "Epic Bat",
+        "price": 325000
+    },
+    {
+        "name": "Burning Kuudra Core",
+        "price": 108000000
+    },
+    {
+        "name": "Sleeping Eye",
+        "price": 39000
+    },
+    {
+        "name": "Magma Lord Boots",
+        "price": 7500000
+    },
+    {
+        "name": "Rare Armadillo",
+        "price": 8000
+    },
+    {
+        "name": "Kindlebane Dagger",
+        "price": 8900000
+    },
+    {
+        "name": "Emerald Armor Boots",
+        "price": 1180000
+    },
+    {
+        "name": "Maxor's Helmet",
+        "price": 4295000
+    },
+    {
+        "name": "Elegant Tuxedo Pants",
+        "price": 14000000
+    },
+    {
+        "name": "Pumpkin Crafting Table",
+        "price": 5000000
+    },
+    {
+        "name": "Uncommon Lion",
+        "price": 120000
+    },
+    {
+        "name": "Protector Dragon Leggings",
+        "price": 244999
+    },
+    {
+        "name": "Starlight Helmet",
+        "price": 245000
+    },
+    {
+        "name": "Starlight Boots",
+        "price": 249000
+    },
+    {
+        "name": "Ender Bow",
+        "price": 35000
+    },
+    {
+        "name": "Snow Shovel",
+        "price": 85000
+    },
+    {
+        "name": "Chumming Talisman",
+        "price": 1500000
+    },
+    {
+        "name": "Uncommon Dolphin",
+        "price": 198000
+    },
+    {
+        "name": "Portal to the Deep Caverns",
+        "price": 99999
+    },
+    {
+        "name": "Cheap Tuxedo Pants",
+        "price": 700000
+    },
+    {
+        "name": "Blaze Boots",
+        "price": 1398999
+    },
+    {
+        "name": "Cheap Tuxedo Jacket",
+        "price": 857963
+    },
+    {
+        "name": "XX-Large Storage",
+        "price": 2300000
+    },
+    {
+        "name": "Uncommon Giraffe",
+        "price": 49000
+    },
+    {
+        "name": "Wood:9",
+        "price": 1400000
+    },
+    {
+        "name": "Uncommon Armadillo",
+        "price": 5000
+    },
+    {
+        "name": "Fancy Tuxedo Pants",
+        "price": 5500000
+    },
+    {
+        "name": "Common Pig",
+        "price": 110000
+    },
+    {
+        "name": "Mango Dye",
+        "price": 34000000
+    },
+    {
+        "name": "Great Spook Boots",
+        "price": 60000
+    },
+    {
+        "name": "Blaze Chestplate",
+        "price": 2390000
+    },
+    {
+        "name": "Starlight Leggings",
+        "price": 250000
+    },
+    {
+        "name": "Rare Skeleton",
+        "price": 89000
+    },
+    {
+        "name": "Training Dummy",
+        "price": 198999
+    },
+    {
+        "name": "Jerry 3D Glasses",
+        "price": 150000
+    },
+    {
+        "name": "Skeletor Helmet",
+        "price": 50000
+    },
+    {
+        "name": "Heat Leggings",
+        "price": 20000
+    },
+    {
+        "name": "Skeleton Lord Chestplate",
+        "price": 400000
+    },
+    {
+        "name": "Mercenary Helmet",
+        "price": 39000
+    },
+    {
+        "name": "Capsaicin Eyedrops",
+        "price": 1390000
+    },
+    {
+        "name": "Travel Scroll to the Gold Mine",
+        "price": 298000
+    },
+    {
+        "name": "Sword of Revelations",
+        "price": 10200000
+    },
+    {
+        "name": "Arachne Crystal",
+        "price": 270000
+    },
+    {
+        "name": "Intelligence Enrichment",
+        "price": 2700000
+    },
+    {
+        "name": "Beacon IV",
+        "price": 15900000
+    },
+    {
+        "name": "Bat Person Leggings",
+        "price": 450000
+    },
+    {
+        "name": "Bouncy Chestplate",
+        "price": 600000
+    },
+    {
+        "name": "Common Enderman",
+        "price": 10000
+    },
+    {
+        "name": "Black Widow Skin",
+        "price": 85000000
+    },
+    {
+        "name": "Ghost Minion Skin",
+        "price": 199000
+    },
+    {
+        "name": "Byzantium Dye",
+        "price": 49000000
+    },
+    {
+        "name": "TwilightTiger",
+        "price": 538900000
+    },
+    {
+        "name": "Skull Item:5",
+        "price": 10000000
+    },
+    {
+        "name": "Zombie Commander Chestplate",
+        "price": 150000
+    },
+    {
+        "name": "Soulflow Battery",
+        "price": 1400000
+    },
+    {
+        "name": "Cloudy Century Cake",
+        "price": 1200000
+    },
+    {
+        "name": "Kalhuiki Mask",
+        "price": 149000
+    },
+    {
+        "name": "Illusion Glass",
+        "price": 55000
+    },
+    {
+        "name": "Perfect Leggings - Tier I",
+        "price": 895000
+    },
+    {
+        "name": "Common Ocelot",
+        "price": 2950000
+    },
+    {
+        "name": "Common Jerry",
+        "price": 1000000
+    },
+    {
+        "name": "Skeleton's Helmet",
+        "price": 450000
+    },
+    {
+        "name": "Common Tiger",
+        "price": 40000
+    },
+    {
+        "name": "Mercenary Leggings",
+        "price": 48000
+    },
+    {
+        "name": "Starlight Chestplate",
+        "price": 298000
+    },
+    {
+        "name": "Trap",
+        "price": 500
+    },
+    {
+        "name": "Pioneer Pickaxe",
+        "price": 7499900
+    },
+    {
+        "name": "Picnic Set",
+        "price": 149000
+    },
+    {
+        "name": "Red Tent",
+        "price": 100000
+    },
+    {
+        "name": "Soul Esoward",
+        "price": 2250000
+    },
+    {
+        "name": "Master Skull - Tier 2",
+        "price": 1399999
+    },
+    {
+        "name": "Portal to Spruce Woods",
+        "price": 75000
+    },
+    {
+        "name": "Small Backpack",
+        "price": 37500
+    },
+    {
+        "name": "Great Spook Staff",
+        "price": 1000000
+    },
+    {
+        "name": "Legendary Spider",
+        "price": 4450000
+    },
+    {
+        "name": "Charminizer",
+        "price": 800000
+    },
+    {
+        "name": "Echolocator",
+        "price": 249000
+    },
+    {
+        "name": "Mithril Coat",
+        "price": 85000
+    },
+    {
+        "name": "Spider's Boots",
+        "price": 780000
+    },
+    {
+        "name": "Armor of Magma Boots",
+        "price": 2500000
+    },
+    {
+        "name": "Armor of Magma Helmet",
+        "price": 2500000
+    },
+    {
+        "name": "White Tiger Minion Skin",
+        "price": 500000
+    },
+    {
+        "name": "Happy Snowman",
+        "price": 100000
+    },
+    {
+        "name": "Frosty the Snow Cannon",
+        "price": 25000
+    },
+    {
+        "name": "Rare Ocelot",
+        "price": 1500000
+    },
+    {
+        "name": "Ruby-polished Drill Engine",
+        "price": 22999999
+    },
+    {
+        "name": "Leggings of the Pack",
+        "price": 1700000
+    },
+    {
+        "name": "Revenant Chestplate",
+        "price": 2998799
+    },
+    {
+        "name": "Pig Mask",
+        "price": 750000
+    },
+    {
+        "name": "Guardian Chestplate",
+        "price": 95000
+    },
+    {
+        "name": "Pet Skin_jellyfish_luminescent",
+        "price": 23699000
+    },
+    {
+        "name": "OnyxBlack Cat",
+        "price": 16900000
+    },
+    {
+        "name": "Perfect Leggings - Tier XII",
+        "price": 5300000
+    },
+    {
+        "name": "Zombie Leggings",
+        "price": 185000
+    },
+    {
+        "name": "Perfect Boots - Tier VII",
+        "price": 3000000
+    },
+    {
+        "name": "Open Shop",
+        "price": 400000
+    },
+    {
+        "name": "Atominizer",
+        "price": 2300000
+    },
+    {
+        "name": "Diver's Mask",
+        "price": 1300000
+    },
+    {
+        "name": "Legendary Jellyfish",
+        "price": 33999900
+    },
+    {
+        "name": "Epic Guardian",
+        "price": 2900000
+    },
+    {
+        "name": "Hyper Cleaver",
+        "price": 700000
+    },
+    {
+        "name": "Staff of the Rising Sun",
+        "price": 360000
+    },
+    {
+        "name": "Master Skull - Tier 3",
+        "price": 2198000
+    },
+    {
+        "name": "Common Squid",
+        "price": 289999
+    },
+    {
+        "name": "Bouncy Leggings",
+        "price": 600000
+    },
+    {
+        "name": "Precursor Eye",
+        "price": 25000000
+    },
+    {
+        "name": "Uncommon Magma Cube",
+        "price": 48000
+    },
+    {
+        "name": "Uncommon Ocelot",
+        "price": 1000000
+    },
+    {
+        "name": "Inferno Fuel Block",
+        "price": 20000
+    },
+    {
+        "name": "OrcaBlue Whale",
+        "price": 56900000
+    },
+    {
+        "name": "Scoville Belt",
+        "price": 5798998
+    },
+    {
+        "name": "Great Spook Gloves",
+        "price": 2800000
+    },
+    {
+        "name": "Beach Chair",
+        "price": 10000
+    },
+    {
+        "name": "Potato Spreading",
+        "price": 60000
+    },
+    {
+        "name": "Fire Fury Staff",
+        "price": 4480000
+    },
+    {
+        "name": "Travel Scroll to The Barn",
+        "price": 110000
+    },
+    {
+        "name": "Wood Chest+",
+        "price": 135000
+    },
+    {
+        "name": "Epic Megalodon",
+        "price": 650000
+    },
+    {
+        "name": "Epic Jerry",
+        "price": 149000
+    },
+    {
+        "name": "Pet Skin_jerry_handsome",
+        "price": 7200000
+    },
+    {
+        "name": "Pet Skin_black_cat_purranormal",
+        "price": 1800000
+    },
+    {
+        "name": "Gold Horse Armor",
+        "price": 12800000
+    },
+    {
+        "name": "Mawdredge Dagger",
+        "price": 8900000
+    },
+    {
+        "name": "Killer Minion Skin",
+        "price": 500000
+    },
+    {
+        "name": "Icicle Skin",
+        "price": 100000000
+    },
+    {
+        "name": "Sandcastle Minion Skin",
+        "price": 80000
+    },
+    {
+        "name": "Mercenary Axe",
+        "price": 70000
+    },
+    {
+        "name": "Hypixel Sandcastle",
+        "price": 10000
+    },
+    {
+        "name": "Vampire Witch Mask",
+        "price": 18000000
+    },
+    {
+        "name": "Small Pool",
+        "price": 300000
+    },
+    {
+        "name": "Aspiring Leap",
+        "price": 69420
+    },
+    {
+        "name": "Tropical Bird 2 Minion Skin",
+        "price": 1250000
+    },
+    {
+        "name": "Sea Creature Artifact",
+        "price": 300000
+    },
+    {
+        "name": "Mercenary Boots",
+        "price": 23894
+    },
+    {
+        "name": "Blast o' Lantern",
+        "price": 100000
+    },
+    {
+        "name": "Skull Vase",
+        "price": 990000
+    },
+    {
+        "name": "Rabbit Hutch",
+        "price": 150000
+    },
+    {
+        "name": "Flaming Fist",
+        "price": 6900000
+    },
+    {
+        "name": "Mummy Candle",
+        "price": 89000
+    },
+    {
+        "name": "Zombie Grave",
+        "price": 1500000
+    },
+    {
+        "name": "Blaze Helmet",
+        "price": 1750000
+    },
+    {
+        "name": "Pet Skin_sheep_chroma_wooly",
+        "price": 15500000
+    },
+    {
+        "name": "Legendary Snowman",
+        "price": 15800000
+    },
+    {
+        "name": "Scarleton Premium",
+        "price": 299000
+    },
+    {
+        "name": "Ancestral Spade",
+        "price": 10000
+    },
+    {
+        "name": "Golden Jerry Artifact",
+        "price": 78777777
+    },
+    {
+        "name": "Exp Share Core",
+        "price": 1795000
+    },
+    {
+        "name": "Travel Scroll to Mushroom Island",
+        "price": 200000
+    },
+    {
+        "name": "Epic Hound",
+        "price": 150000
+    },
+    {
+        "name": "Pure White Dye",
+        "price": 169000000
+    },
+    {
+        "name": "Perfect Boots - Tier IV",
+        "price": 2500000
+    },
+    {
+        "name": "Diamond Livid Head",
+        "price": 84999000
+    },
+    {
+        "name": "Dirt Bottle",
+        "price": 90000
+    },
+    {
+        "name": "Ghostly Boots",
+        "price": 77777
+    },
+    {
+        "name": "Enderpack Skin",
+        "price": 16000000
+    },
+    {
+        "name": "Chocolate Century Cake",
+        "price": 1600000
+    },
+    {
+        "name": "Radiant Power Orb",
+        "price": 69999
+    },
+    {
+        "name": "Century Cake of the Next Dungeon Floor",
+        "price": 2900000
+    },
+    {
+        "name": "Luminous Bracelet",
+        "price": 159000
+    },
+    {
+        "name": "Rare Silverfish",
+        "price": 48000
+    },
+    {
+        "name": "Chicken Coop",
+        "price": 9000000
+    },
+    {
+        "name": "Sea Emperor Century Cake",
+        "price": 1400000
+    },
+    {
+        "name": "Tropical Bird 1 Minion Skin",
+        "price": 100000
+    },
+    {
+        "name": "Pocket Sack-in-a-Sack",
+        "price": 4590000
+    },
+    {
+        "name": "Draconic Artifact",
+        "price": 45000000
+    },
+    {
+        "name": "Century Cake of Hype",
+        "price": 3100000
+    },
+    {
+        "name": "Great Spook Ring",
+        "price": 10000000
+    },
+    {
+        "name": "Jasper Crystal",
+        "price": 44999999
+    },
+    {
+        "name": "Blue Cheese Goblin Omelette",
+        "price": 147999999
+    },
+    {
+        "name": "Titanium Ring",
+        "price": 3790000
+    },
+    {
+        "name": "Spooky Disc",
+        "price": 2500000
+    },
+    {
+        "name": "Ember Ash Chestplate",
+        "price": 6000000
+    },
+    {
+        "name": "Pet Skin_tiger_golden",
+        "price": 8400000
+    },
+    {
+        "name": "Ember Boots",
+        "price": 500000
+    },
+    {
+        "name": "Master Skull - Tier 5",
+        "price": 33800000
+    },
+    {
+        "name": "Gemstone Fuel Tank",
+        "price": 33000000
+    },
+    {
+        "name": "Island NPC",
+        "price": 190000
+    },
+    {
+        "name": "Beach Ball Minion Skin",
+        "price": 150000
+    },
+    {
+        "name": "Blaze Leggings",
+        "price": 2970000
+    },
+    {
+        "name": "Challenging Rod",
+        "price": 157000
+    },
+    {
+        "name": "Legendary Horse",
+        "price": 1200000
+    },
+    {
+        "name": "Crab Hat of Celebration",
+        "price": 12222222
+    },
+    {
+        "name": "Weapon Rack",
+        "price": 998999
+    },
+    {
+        "name": "Furnace+",
+        "price": 108000
+    },
+    {
+        "name": "Fancy Tuxedo Oxfords",
+        "price": 5500000
+    },
+    {
+        "name": "Thunder Chestplate",
+        "price": 1999998
+    },
+    {
+        "name": "Melon Minion Skin",
+        "price": 100000
+    },
+    {
+        "name": "Ice Cream Minion Skin",
+        "price": 250000
+    },
+    {
+        "name": "Etherwarp Conduit",
+        "price": 13000000
+    },
+    {
+        "name": "Hyper Catalyst Upgrade",
+        "price": 178000
+    },
+    {
+        "name": "Blue Egged Skin",
+        "price": 14000000
+    },
+    {
+        "name": "Ember Chestplate",
+        "price": 1250000
+    },
+    {
+        "name": "Catacombs Expert Ring",
+        "price": 31900000
+    },
+    {
+        "name": "Firedust Dagger",
+        "price": 1400000
+    },
+    {
+        "name": "Portal to Jungle Island",
+        "price": 99999
+    },
+    {
+        "name": "Epic Bee",
+        "price": 999999
+    },
+    {
+        "name": "§4Sin§5seeker Scythe",
+        "price": 7340000
+    },
+    {
+        "name": "Rock the Fish",
+        "price": 13000000
+    },
+    {
+        "name": "Abiphone XII Mega Color",
+        "price": 14000000
+    },
+    {
+        "name": "Necron Dye",
+        "price": 32000000
+    },
+    {
+        "name": "Present Minion Skin",
+        "price": 200000
+    },
+    {
+        "name": "Emerald Armor Chestplate",
+        "price": 1000000
+    },
+    {
+        "name": "Ender Chest+",
+        "price": 140000
+    },
+    {
+        "name": "Bat Firework",
+        "price": 100000
+    },
+    {
+        "name": "Shen's Regalia",
+        "price": 277000000
+    },
+    {
+        "name": "Beacon",
+        "price": 500000
+    },
+    {
+        "name": "Dusty Travel Scroll to the Kuudra Skull",
+        "price": 3300000
+    },
+    {
+        "name": "Uncommon Droplet Wisp",
+        "price": 950000
+    },
+    {
+        "name": "Boots of the Pack",
+        "price": 869000
+    },
+    {
+        "name": "Ferocity Enrichment",
+        "price": 2800000
+    },
+    {
+        "name": "Hay Bed",
+        "price": 1000000
+    },
+    {
+        "name": "Cola Cooler",
+        "price": 110000
+    },
+    {
+        "name": "True Warden",
+        "price": 50000000
+    },
+    {
+        "name": "Small Holiday Tree",
+        "price": 219000
+    },
+    {
+        "name": "Rare Magma Cube",
+        "price": 100000
+    },
+    {
+        "name": "Skeletor Chestplate",
+        "price": 19000
+    },
+    {
+        "name": "Legendary Zombie",
+        "price": 3990000
+    },
+    {
+        "name": "Baby Skin",
+        "price": 210000000
+    },
+    {
+        "name": "Zombie Lord Leggings",
+        "price": 450000
+    },
+    {
+        "name": "Jasper Drill X",
+        "price": 20500000
+    },
+    {
+        "name": "Skeletor Leggings",
+        "price": 60000
+    },
+    {
+        "name": "Critical Damage Enrichment",
+        "price": 2750000
+    },
+    {
+        "name": "Demonslayer Gauntlet",
+        "price": 47000000
+    },
+    {
+        "name": "Lucky Clover Core",
+        "price": 7500000
+    },
+    {
+        "name": "Defense Enrichment",
+        "price": 2700000
+    },
+    {
+        "name": "Epic Mooshroom Cow",
+        "price": 1850000
+    },
+    {
+        "name": "Spirit Mask",
+        "price": 16750000
+    },
+    {
+        "name": "Perfect Leggings - Tier IV",
+        "price": 2500000
+    },
+    {
+        "name": "Perfect Boots - Tier III",
+        "price": 1500000
+    },
+    {
+        "name": "Bunny Minion Skin",
+        "price": 175000
+    },
+    {
+        "name": "Cyclops Minion Skin",
+        "price": 450000
+    },
+    {
+        "name": "Diamond Scarf Head",
+        "price": 90999999
+    },
+    {
+        "name": "Pet Skin_bee_rgbee",
+        "price": 7800000
+    },
+    {
+        "name": "Valkyrie",
+        "price": 950000000
+    },
+    {
+        "name": "Biofuel",
+        "price": 149999
+    },
+    {
+        "name": "Perfect Boots - Tier I",
+        "price": 409600
+    },
+    {
+        "name": "Deathripper Dagger",
+        "price": 525000000
+    },
+    {
+        "name": "Leggings of the Rising Sun",
+        "price": 250000
+    },
+    {
+        "name": "Pyrochaos Dagger",
+        "price": 550000000
+    },
+    {
+        "name": "Halloween Candles",
+        "price": 90000
+    },
+    {
+        "name": "Trick or Treat Bag",
+        "price": 24990
+    },
+    {
+        "name": "Arrow Swapper",
+        "price": 59999
+    },
+    {
+        "name": "Health Enrichment",
+        "price": 2800000
+    },
+    {
+        "name": "Pet Skin_dolphin_snubnose_green",
+        "price": 8499000
+    },
+    {
+        "name": "Wizard Wand",
+        "price": 250000000
+    },
+    {
+        "name": "Inflatable Jerry",
+        "price": 10000
+    },
+    {
+        "name": "Slayer© Energy Drink",
+        "price": 190000
+    },
+    {
+        "name": "Skeleton Lord Boots",
+        "price": 400000
+    },
+    {
+        "name": "Pet Skin_enderman_neon",
+        "price": 8700000
+    },
+    {
+        "name": "End Stone Sword",
+        "price": 75000
+    },
+    {
+        "name": "Purple Jerry Talisman",
+        "price": 19500000
+    },
+    {
+        "name": "Uncommon Squid",
+        "price": 390000
+    },
+    {
+        "name": "Tepid Green Tea",
+        "price": 10000
+    },
+    {
+        "name": "Spongy Shoes",
+        "price": 250000
+    },
+    {
+        "name": "Obsidian:8",
+        "price": 70000
+    },
+    {
+        "name": "Great Spook Talisman",
+        "price": 4400000
+    },
+    {
+        "name": "Winter Disc",
+        "price": 1500
+    },
+    {
+        "name": "Stereo Pants",
+        "price": 44000
+    },
+    {
+        "name": "Titanium-Plated Drill Engine",
+        "price": 53900000
+    },
+    {
+        "name": "Common Endermite",
+        "price": 2500000
+    },
+    {
+        "name": "Thunder Leggings",
+        "price": 1750000
+    },
+    {
+        "name": "Neon RedSheep",
+        "price": 300000000
+    },
+    {
+        "name": "Horseman's Candle",
+        "price": 500000
+    },
+    {
+        "name": "Festive Jerry Minion Skin",
+        "price": 1000000
+    },
+    {
+        "name": "Crooked Artifact",
+        "price": 41999999
+    },
+    {
+        "name": "Pet Skin_phoenix_ice",
+        "price": 8980000
+    },
+    {
+        "name": "Lady Bug Minion Skin",
+        "price": 1990000
+    },
+    {
+        "name": "Diver's Trunks",
+        "price": 1300000
+    },
+    {
+        "name": "Carrot Patch",
+        "price": 30000
+    },
+    {
+        "name": "Plumber's Sponge",
+        "price": 19900
+    },
+    {
+        "name": "Bejeweled Handle",
+        "price": 260000
+    },
+    {
+        "name": "Bubblegum",
+        "price": 5900000
+    },
+    {
+        "name": "Pet Skin_dolphin_snubnose_red",
+        "price": 6550000
+    },
+    {
+        "name": "Shimmering Light Trousers",
+        "price": 4888777
+    },
+    {
+        "name": "Ice Knight Statue",
+        "price": 1000000
+    },
+    {
+        "name": "Shimmering Light Tunic",
+        "price": 5390000
+    },
+    {
+        "name": "Shimmering Light Hood",
+        "price": 3050000
+    },
+    {
+        "name": "Legendary Giraffe",
+        "price": 13500000
+    },
+    {
+        "name": "Mineral Leggings",
+        "price": 998000
+    },
+    {
+        "name": "Uncommon Monkey",
+        "price": 50000
+    },
+    {
+        "name": "Gabagool the Fish",
+        "price": 330000000
+    },
+    {
+        "name": "Common Mithril Golem",
+        "price": 3000000
+    },
+    {
+        "name": "Puffer Fish Skin",
+        "price": 48700000
+    },
+    {
+        "name": "GreenElephant",
+        "price": 61800000
+    },
+    {
+        "name": "Neon GreenSheep",
+        "price": 174000000
+    },
+    {
+        "name": "Lapis Chest+",
+        "price": 400000
+    },
+    {
+        "name": "Travel Scroll to the End",
+        "price": 300000
+    },
+    {
+        "name": "Pet Skin_armadillo_enchanted",
+        "price": 38000000
+    },
+    {
+        "name": "Flycatcher",
+        "price": 15925000
+    },
+    {
+        "name": "Taurus Helmet",
+        "price": 350000
+    },
+    {
+        "name": "Inferno Fuel_glowstone_dust",
+        "price": 300000
+    },
+    {
+        "name": "Decent Coffee",
+        "price": 99999
+    },
+    {
+        "name": "Stool",
+        "price": 200000
+    },
+    {
+        "name": "Uncommon Elephant",
+        "price": 45000
+    },
+    {
+        "name": "Skeleton Statue",
+        "price": 79000
+    },
+    {
+        "name": "Extra Large Gemstone Sack",
+        "price": 50000000
+    },
+    {
+        "name": "Amethyst Power Scroll",
+        "price": 999000
+    },
+    {
+        "name": "Chestplate of the Rising Sun",
+        "price": 300000
+    },
+    {
+        "name": "Travel Scroll to the Crystal Hollows",
+        "price": 2000000
+    },
+    {
+        "name": "Ice Dinner Table",
+        "price": 300000
+    },
+    {
+        "name": "Witch's Broomstick",
+        "price": 20000
+    },
+    {
+        "name": "Undead Minion Skin",
+        "price": 100000
+    },
+    {
+        "name": "Wither Relic",
+        "price": 63300000
+    },
+    {
+        "name": "Necron Disc",
+        "price": 999000
+    },
+    {
+        "name": "Uncommon Chicken",
+        "price": 290000
+    },
+    {
+        "name": "Fish Minion Skin",
+        "price": 200000
+    },
+    {
+        "name": "Ice Lolly Minion Skin",
+        "price": 60000
+    },
+    {
+        "name": "Ice Sofa",
+        "price": 30000
+    },
+    {
+        "name": "Pet Skin_blaze_frozen",
+        "price": 13800000
+    },
+    {
+        "name": "Pet Skin_ocelot_snow_tiger",
+        "price": 10500000
+    },
+    {
+        "name": "Anvil:2",
+        "price": 5555555
+    },
+    {
+        "name": "Tactical Insertion",
+        "price": 234567890
+    },
+    {
+        "name": "Spiked Atrocity",
+        "price": 33900000
+    },
+    {
+        "name": "Flake the Fish",
+        "price": 799999
+    },
+    {
+        "name": "Bat Person Helmet",
+        "price": 700000
+    },
+    {
+        "name": "Ember Leggings",
+        "price": 1200000
+    },
+    {
+        "name": "Elegant Tuxedo Jacket",
+        "price": 41000000
+    },
+    {
+        "name": "Ember Helmet",
+        "price": 788888
+    },
+    {
+        "name": "Bedrock",
+        "price": 23000000
+    },
+    {
+        "name": "Pet Skin_sheep_white_wooly",
+        "price": 7000000
+    },
+    {
+        "name": "Armor Stand",
+        "price": 100000
+    },
+    {
+        "name": "Hay Bale",
+        "price": 96000
+    },
+    {
+        "name": "Bat Person Ring",
+        "price": 2980000
+    },
+    {
+        "name": "Perfect Chestplate - Tier III",
+        "price": 2600000
+    },
+    {
+        "name": "RadiantEndermite",
+        "price": 30490000
+    },
+    {
+        "name": "GorillaMonkey",
+        "price": 17690000
+    },
+    {
+        "name": "Pet Skin_dolphin_snubnose_purple",
+        "price": 6499998
+    },
+    {
+        "name": "Draconic Ring",
+        "price": 15299990
+    },
+    {
+        "name": "Rare Pig",
+        "price": 130000
+    },
+    {
+        "name": "Magma Lord Chestplate",
+        "price": 13800000
+    },
+    {
+        "name": "Magma Lord Helmet",
+        "price": 19000000
+    },
+    {
+        "name": "Subzero Inverter",
+        "price": 10000000
+    },
+    {
+        "name": "Pet Skin_hound_beagle",
+        "price": 12800000
+    },
+    {
+        "name": "Pet Skin_mooshroom_cow_moocelium",
+        "price": 10500000
+    },
+    {
+        "name": "Zog Anvil",
+        "price": 800000
+    },
+    {
+        "name": "Fungi Cutter",
+        "price": 1200000
+    },
+    {
+        "name": "Diamond Thorn Head",
+        "price": 140000000
+    },
+    {
+        "name": "Divan's Alloy",
+        "price": 820000000
+    },
+    {
+        "name": "Death Bow",
+        "price": 5200000
+    },
+    {
+        "name": "Mithril Drill SX-R326",
+        "price": 11700000
+    },
+    {
+        "name": "Pond Island",
+        "price": 150000
+    },
+    {
+        "name": "Monster Egg:120",
+        "price": 600000
+    },
+    {
+        "name": "Chum Rod",
+        "price": 400000
+    },
+    {
+        "name": "Ender Portal_frame",
+        "price": 440000
+    },
+    {
+        "name": "Common Elephant",
+        "price": 99000
+    },
+    {
+        "name": "Common Giraffe",
+        "price": 69000
+    },
+    {
+        "name": "Scarecrow",
+        "price": 190000
+    },
+    {
+        "name": "Golden Gift",
+        "price": 275000
+    },
+    {
+        "name": "Sled",
+        "price": 99999
+    },
+    {
+        "name": "Stacked Pumpkins",
+        "price": 40000
+    },
+    {
+        "name": "Saddle",
+        "price": 180000
+    },
+    {
+        "name": "Shark Minion Skin",
+        "price": 700000
+    },
+    {
+        "name": "Edible Mace",
+        "price": 2600000
+    },
+    {
+        "name": "Experiment the Fish",
+        "price": 100000
+    },
+    {
+        "name": "Pet Skin_golden_dragon_anubis",
+        "price": 16990000
+    },
+    {
+        "name": "Pet Skin_dolphin_snubfin",
+        "price": 6099999
+    },
+    {
+        "name": "Portal to the Museum",
+        "price": 4500000
+    },
+    {
+        "name": "Strength Enrichment",
+        "price": 2800000
+    },
+    {
+        "name": "Synthesizer v2",
+        "price": 20000000
+    },
+    {
+        "name": "Bat Person Chestplate",
+        "price": 650000
+    },
+    {
+        "name": "Crochet Tiger Plushie",
+        "price": 220000
+    },
+    {
+        "name": "Shiny Rod",
+        "price": 800000
+    },
+    {
+        "name": "Halloween Scarecrow",
+        "price": 38000
+    },
+    {
+        "name": "Flower Bed",
+        "price": 80000
+    },
+    {
+        "name": "Archfiend Dice",
+        "price": 9000000
+    },
+    {
+        "name": "Burststopper Artifact",
+        "price": 198000000
+    },
+    {
+        "name": "Whipped Magma Cream",
+        "price": 614400
+    },
+    {
+        "name": "Festive Zombie Minion Skin",
+        "price": 200000
+    },
+    {
+        "name": "Plasma Nucleus",
+        "price": 265000000
+    },
+    {
+        "name": "Pure Black Dye",
+        "price": 144000000
+    },
+    {
+        "name": "Uncommon Endermite",
+        "price": 6942069
+    },
+    {
+        "name": "Epic Giraffe",
+        "price": 2999000
+    },
+    {
+        "name": "Water",
+        "price": 700000
+    },
+    {
+        "name": "Neon RedEnder Dragon",
+        "price": 82500000
+    },
+    {
+        "name": "Bag of Cash",
+        "price": 31000000
+    },
+    {
+        "name": "Sponge Chestplate",
+        "price": 950000
+    },
+    {
+        "name": "Snow",
+        "price": 60000
+    },
+    {
+        "name": "Rare Bee",
+        "price": 400000
+    },
+    {
+        "name": "Farm Armor Chestplate",
+        "price": 179999
+    },
+    {
+        "name": "Farm Armor Helmet",
+        "price": 269999
+    },
+    {
+        "name": "Pet Skin_parrot_gold_macaw",
+        "price": 13700000
+    },
+    {
+        "name": "Berserker Leggings",
+        "price": 10000000
+    },
+    {
+        "name": "Puppy Skin",
+        "price": 41000000
+    },
+    {
+        "name": "WatcherGuardian",
+        "price": 245000000
+    },
+    {
+        "name": "Flower Pot",
+        "price": 27000
+    },
+    {
+        "name": "Synthesizer v3",
+        "price": 55000000
+    },
+    {
+        "name": "Nether Artifact",
+        "price": 38980000
+    },
+    {
+        "name": "Fishing Rod:16",
+        "price": 7500000
+    },
+    {
+        "name": "Shady Ring",
+        "price": 13000000
+    },
+    {
+        "name": "Diamond Bonzo Head",
+        "price": 80000000
+    },
+    {
+        "name": "Bingo Artifact",
+        "price": 260000000
+    },
+    {
+        "name": "Master Skull - Tier 7",
+        "price": 530000000
+    },
+    {
+        "name": "Ice Fireplace",
+        "price": 150000
+    },
+    {
+        "name": "Crystal Ball",
+        "price": 540000
+    },
+    {
+        "name": "Wind Chimes",
+        "price": 500000
+    },
+    {
+        "name": "Easter Basket",
+        "price": 400000
+    },
+    {
+        "name": "Desert Island",
+        "price": 50000
+    },
+    {
+        "name": "Cluck the Fish",
+        "price": 9399999
+    },
+    {
+        "name": "Cheap Coffee",
+        "price": 49999
+    },
+    {
+        "name": "MonochromeElephant",
+        "price": 27899000
+    },
+    {
+        "name": "The Art of Peace",
+        "price": 52499000
+    },
+    {
+        "name": "Perfect Chestplate - Tier IV",
+        "price": 3000000
+    },
+    {
+        "name": "Roofed Forest Island",
+        "price": 70000
+    },
+    {
+        "name": "Candle Arch",
+        "price": 500000
+    },
+    {
+        "name": "Candy Bowl",
+        "price": 99000
+    },
+    {
+        "name": "Pumpkin Minion Skin",
+        "price": 250000
+    },
+    {
+        "name": "Candle Table",
+        "price": 200000
+    },
+    {
+        "name": "Pet Skin_rock_blinking",
+        "price": 50000000
+    },
+    {
+        "name": "Sun Minion Skin",
+        "price": 139000
+    },
+    {
+        "name": "Basketball Minion Skin",
+        "price": 190000
+    },
+    {
+        "name": "Pet Skin_rock_surprised",
+        "price": 50000000
+    },
+    {
+        "name": "Seal of the Family",
+        "price": 72000000
+    },
+    {
+        "name": "Watcher Disc",
+        "price": 700000
+    },
+    {
+        "name": "Lava Shell Necklace",
+        "price": 4000000
+    },
+    {
+        "name": "PastelEnder Dragon",
+        "price": 34000000
+    },
+    {
+        "name": "Coffin",
+        "price": 189000
+    },
+    {
+        "name": "Admiral Skin",
+        "price": 17000000
+    },
+    {
+        "name": "Crafting Table+",
+        "price": 300001
+    },
+    {
+        "name": "Mini Sandcastle",
+        "price": 700000
+    },
+    {
+        "name": "Dingy",
+        "price": 300000
+    },
+    {
+        "name": "Surfboard",
+        "price": 999999
+    },
+    {
+        "name": "GoldenMonkey",
+        "price": 93000000
+    },
+    {
+        "name": "Crimson Skin",
+        "price": 17500000
+    },
+    {
+        "name": "IvoryBlack Cat",
+        "price": 22999999
+    },
+    {
+        "name": "Sponge Leggings",
+        "price": 1000000
+    },
+    {
+        "name": "Red Thornleaf Tea",
+        "price": 650000
+    },
+    {
+        "name": "DarkWither Skeleton",
+        "price": 136444444
+    },
+    {
+        "name": "Log 2:2",
+        "price": 3000000
+    },
+    {
+        "name": "Tic Tac Toe",
+        "price": 195999
+    },
+    {
+        "name": "Inferno Fuel_magma_cream",
+        "price": 2000000
+    },
+    {
+        "name": "Steel Chestplate",
+        "price": 6000000
+    },
+    {
+        "name": "Dungeon Disc",
+        "price": 1000000
+    },
+    {
+        "name": "Sea Creature Chance Enrichment",
+        "price": 2800000
+    },
+    {
+        "name": "Spooky Leggings",
+        "price": 700000
+    },
+    {
+        "name": "Neon YellowSheep",
+        "price": 156969696
+    },
+    {
+        "name": "Stone:9",
+        "price": 24999999
+    },
+    {
+        "name": "Ember Ash Helmet",
+        "price": 1950000
+    },
+    {
+        "name": "Scarecrow Minion Skin",
+        "price": 265000
+    },
+    {
+        "name": "Golden Treat",
+        "price": 1889000
+    },
+    {
+        "name": "Food Trough",
+        "price": 150000
+    },
+    {
+        "name": "Eternal Hoof",
+        "price": 10250000
+    },
+    {
+        "name": "Rare Giraffe",
+        "price": 450000
+    },
+    {
+        "name": "Pet Skin_squid_glow",
+        "price": 20000000
+    },
+    {
+        "name": "Common Horse",
+        "price": 969000
+    },
+    {
+        "name": "Cactus Knife",
+        "price": 1700000
+    },
+    {
+        "name": "Bingo Ring",
+        "price": 102000000
+    },
+    {
+        "name": "Everburning Flame",
+        "price": 49999000
+    },
+    {
+        "name": "Crab",
+        "price": 666000
+    },
+    {
+        "name": "Gingerbread House",
+        "price": 1000000
+    },
+    {
+        "name": "Mythic Flying Fish",
+        "price": 188000000
+    },
+    {
+        "name": "Bow:96",
+        "price": 4400000
+    },
+    {
+        "name": "Leather Boots:58",
+        "price": 7890000
+    },
+    {
+        "name": "Stocking",
+        "price": 30000
+    },
+    {
+        "name": "Bird House",
+        "price": 100000
+    },
+    {
+        "name": "Egg Pile",
+        "price": 150000
+    },
+    {
+        "name": "Baby ChickChicken",
+        "price": 60000000
+    },
+    {
+        "name": "Bitter Iced Tea",
+        "price": 20000
+    },
+    {
+        "name": "Skeleton Skull",
+        "price": 1500000
+    },
+    {
+        "name": "Portal to the Void Sepulture",
+        "price": 6600000
+    },
+    {
+        "name": "Sapling:7",
+        "price": 20000000
+    },
+    {
+        "name": "Emerald Armor Helmet",
+        "price": 1190000
+    },
+    {
+        "name": "Radioactive Vial",
+        "price": 179000000
+    },
+    {
+        "name": "Undead Bow",
+        "price": 169000
+    },
+    {
+        "name": "Hermit Crab Minion Skin",
+        "price": 200000
+    },
+    {
+        "name": "Pet Skin_tiger_saber_tooth",
+        "price": 7900000
+    },
+    {
+        "name": "Nether Wart Island",
+        "price": 110111
+    },
+    {
+        "name": "Step:13",
+        "price": 400000
+    },
+    {
+        "name": "Portal to Savanna Woodland",
+        "price": 190000
+    },
+    {
+        "name": "Ember Ash Leggings",
+        "price": 15000000
+    },
+    {
+        "name": "Life Preserver",
+        "price": 40000
+    },
+    {
+        "name": "Toil Log",
+        "price": 4000000
+    },
+    {
+        "name": "Grizzly Bait",
+        "price": 325000
+    },
+    {
+        "name": "Mauve Skin",
+        "price": 17000000
+    },
+    {
+        "name": "Abiphone XIII Pro Giga",
+        "price": 48900000
+    },
+    {
+        "name": "Grandfather Clock",
+        "price": 1000000
+    },
+    {
+        "name": "Spooky Chestplate",
+        "price": 700000
+    },
+    {
+        "name": "Spooky Helmet",
+        "price": 680000
+    },
+    {
+        "name": "Sulphur Bow",
+        "price": 2400000
+    },
+    {
+        "name": "WhiteSheep",
+        "price": 999999999
+    },
+    {
+        "name": "Red Sandstone:5",
+        "price": 50000000
+    },
+    {
+        "name": "Sandstone:5",
+        "price": 50000000
+    },
+    {
+        "name": "Leaves 2:2",
+        "price": 25000000
+    },
+    {
+        "name": "Prismarine:5",
+        "price": 25000000
+    },
+    {
+        "name": "Yellow Flower:15",
+        "price": 25000000
+    },
+    {
+        "name": "Snow:1",
+        "price": 25000000
+    },
+    {
+        "name": "Uncommon Skeleton",
+        "price": 10000000
+    },
+    {
+        "name": "Quartz Block:7",
+        "price": 4200000
+    },
+    {
+        "name": "Dirt:9",
+        "price": 4500000
+    },
+    {
+        "name": "Diamond Horse Armor",
+        "price": 18999999
+    },
+    {
+        "name": "Emerald Armor Leggings",
+        "price": 1700000
+    },
+    {
+        "name": "True Essence",
+        "price": 299000
+    },
+    {
+        "name": "Volleyball Court",
+        "price": 169000
+    },
+    {
+        "name": "Abiphone XII Mega",
+        "price": 12000000
+    },
+    {
+        "name": "Beach Ball",
+        "price": 168999
+    },
+    {
+        "name": "Soulflow Supercell",
+        "price": 35899000
+    },
+    {
+        "name": "Monster Egg",
+        "price": 19999998
+    },
+    {
+        "name": "Brick Red Dye",
+        "price": 750000000
+    },
+    {
+        "name": "Perfect Chestplate - Tier V",
+        "price": 4100000
+    },
+    {
+        "name": "Chestplate of Growth",
+        "price": 900000
+    },
+    {
+        "name": "Rare Mithril Golem",
+        "price": 1300000
+    },
+    {
+        "name": "Fancy Tuxedo Jacket",
+        "price": 10499900
+    },
+    {
+        "name": "RoseRabbit",
+        "price": 32500000
+    },
+    {
+        "name": "Magical Milk Bucket",
+        "price": 200000
+    },
+    {
+        "name": "Inferno Fuel_nether_stalk",
+        "price": 299000
+    },
+    {
+        "name": "BabyMegalodon",
+        "price": 6999999
+    },
+    {
+        "name": "Neon BlueEnder Dragon",
+        "price": 76900000
+    },
+    {
+        "name": "Portal to the Forgotten Skull",
+        "price": 7700000
+    },
+    {
+        "name": "Portal to the Dark Auction",
+        "price": 21000000
+    },
+    {
+        "name": "Pandora's Box",
+        "price": 400000000
+    },
+    {
+        "name": "Wand of Strength",
+        "price": 1200000
+    },
+    {
+        "name": "Viking's Tear",
+        "price": 60000
+    },
+    {
+        "name": "Portal to the Top of the Nest",
+        "price": 3000000
+    },
+    {
+        "name": "Portal to Arachne's Sanctuary",
+        "price": 18000000
+    },
+    {
+        "name": "Wreath",
+        "price": 200000
+    },
+    {
+        "name": "Garland",
+        "price": 140000
+    },
+    {
+        "name": "Gold Claws",
+        "price": 4950000
+    },
+    {
+        "name": "Bunny Jerry",
+        "price": 800000
+    },
+    {
+        "name": "AquamarineRabbit",
+        "price": 30999000
+    },
+    {
+        "name": "Brewing+",
+        "price": 1000000
+    },
+    {
+        "name": "Nether Brick_stairs:7",
+        "price": 9900000
+    },
+    {
+        "name": "Helmet of Growth",
+        "price": 3000000
+    },
+    {
+        "name": "Bunny",
+        "price": 90000
+    },
+    {
+        "name": "Floral Lamppost",
+        "price": 800000
+    },
+    {
+        "name": "Neon BlueSheep",
+        "price": 290000000
+    },
+    {
+        "name": "Hay Block:3",
+        "price": 6000000
+    },
+    {
+        "name": "Bat the Fish",
+        "price": 300000
+    },
+    {
+        "name": "Easter Egg Minion Skin",
+        "price": 500000
+    },
+    {
+        "name": "SpookyEnderman",
+        "price": 139999999
+    },
+    {
+        "name": "Green ElfJerry",
+        "price": 219000000
+    },
+    {
+        "name": "Pet Skin_armadillo_seafoam",
+        "price": 51900000
+    },
+    {
+        "name": "Leather Boots:34",
+        "price": 11990000
+    },
+    {
+        "name": "Worm the Fish",
+        "price": 34000000
+    },
+    {
+        "name": "Pumpkin Launcher",
+        "price": 4000000
+    },
+    {
+        "name": "Pet Skin_rock_sus",
+        "price": 50998000
+    },
+    {
+        "name": "Pet Skin_rock_sweating",
+        "price": 50699000
+    },
+    {
+        "name": "Obsidian:6",
+        "price": 20000000
+    },
+    {
+        "name": "PurpleElephant",
+        "price": 79000000
+    },
+    {
+        "name": "X PEDESTAL",
+        "price": 80000
+    },
+    {
+        "name": "Ghost Book",
+        "price": 25000
+    },
+    {
+        "name": "Diamond Professor Head",
+        "price": 124999990
+    },
+    {
+        "name": "Basket of Hope from the Great Potato War",
+        "price": 749999999
+    },
+    {
+        "name": "Epic Horse",
+        "price": 369000
+    },
+    {
+        "name": "Frosty Snowball",
+        "price": 5000000
+    },
+    {
+        "name": "All Skills Exp Super-Boost",
+        "price": 4100000
+    },
+    {
+        "name": "Deck Chair",
+        "price": 299999
+    },
+    {
+        "name": "Red ElfJerry",
+        "price": 265000000
+    },
+    {
+        "name": "Beach Chair+",
+        "price": 99999
+    },
+    {
+        "name": "Rare Elephant",
+        "price": 230000
+    },
+    {
+        "name": "Travel Scroll to Arachne's Sanctuary",
+        "price": 14567890
+    },
+    {
+        "name": "Clownfish Minion Skin",
+        "price": 999999
+    },
+    {
+        "name": "Vampire Mask",
+        "price": 20800000
+    },
+    {
+        "name": "All Skills Exp Boost",
+        "price": 110000
+    },
+    {
+        "name": "Ice Chair",
+        "price": 120000
+    },
+    {
+        "name": "Beach Umbrella",
+        "price": 50000
+    },
+    {
+        "name": "Skull Chest++",
+        "price": 800000
+    },
+    {
+        "name": "DerpyRock",
+        "price": 800000000
+    },
+    {
+        "name": "Inferno Hypergolic_nether_stalk",
+        "price": 18650000
+    },
+    {
+        "name": "Reinforced Skin",
+        "price": 99000000
+    },
+    {
+        "name": "Pink Donut Minion Skin",
+        "price": 28000000
+    },
+    {
+        "name": "RedElephant",
+        "price": 71999999
+    },
+    {
+        "name": "FossilizedSilverfish",
+        "price": 20999995
+    },
+    {
+        "name": "Pet Skin_bal_inferno",
+        "price": 29000000
+    },
+    {
+        "name": "Snowglobe Skin",
+        "price": 90000000
+    },
+    {
+        "name": "ZombieSkeleton Horse",
+        "price": 48000000
+    },
+    {
+        "name": "Pink Bunny Minion Skin",
+        "price": 2000000
+    },
+    {
+        "name": "Potato",
+        "price": 1999900
+    },
+    {
+        "name": "Redstone Key",
+        "price": 20000000
+    },
+    {
+        "name": "Penguin Minion Skin",
+        "price": 3100000
+    },
+    {
+        "name": "Rat Jetpack",
+        "price": 64000000
+    },
+    {
+        "name": "Carrot",
+        "price": 5000000
+    },
+    {
+        "name": "Blazetekk™ Ham Radio",
+        "price": 600000000
+    },
+    {
+        "name": "Personal Harp",
+        "price": 849500
+    },
+    {
+        "name": "Hammock",
+        "price": 99999
+    },
+    {
+        "name": "Sharp Rock",
+        "price": 1000000
+    },
+    {
+        "name": "Scylla",
+        "price": 905000000
+    },
+    {
+        "name": "Pufferfish Minion Skin",
+        "price": 29999000
+    },
+    {
+        "name": "Obsidian:10",
+        "price": 2000000
+    },
+    {
+        "name": "Dctr's Space Helmet",
+        "price": 1790000000
+    },
+    {
+        "name": "Astraea",
+        "price": 1509999999
+    },
+    {
+        "name": "Stationary Water",
+        "price": 700000
+    },
+    {
+        "name": "Light BlueSheep",
+        "price": 999999999
+    },
+    {
+        "name": "Pet Skin_ender_dragon_undead",
+        "price": 8000000
+    },
+    {
+        "name": "Grown-upBaby Yeti",
+        "price": 150000000
+    },
+    {
+        "name": "Mythic Rat",
+        "price": 61000000
+    },
+    {
+        "name": "ThinkingRock",
+        "price": 1400000000
+    },
+    {
+        "name": "PrettyRabbit",
+        "price": 333333333
+    },
+    {
+        "name": "Sand:5",
+        "price": 5000000
+    },
+    {
+        "name": "FortifiedSilverfish",
+        "price": 159000000
+    },
+    {
+        "name": "Step:15",
+        "price": 2969420
+    },
+    {
+        "name": "BlueElephant",
+        "price": 300000000
+    },
+    {
+        "name": "Hay Block:1",
+        "price": 7000000
+    },
+    {
+        "name": "Log 2:3",
+        "price": 1400000
+    },
+    {
+        "name": "Green Egged Skin",
+        "price": 18000000
+    },
+    {
+        "name": "Amalgamated Crimsonite (Old)",
+        "price": 4788888
+    },
+    {
+        "name": "Abiphone XIV Enormous",
+        "price": 106500000
+    },
+    {
+        "name": "Step:11",
+        "price": 10000000
+    },
+    {
+        "name": "Zombie Skull",
+        "price": 39999999
+    },
+    {
+        "name": "CoolRock",
+        "price": 599000000
+    },
+    {
+        "name": "OrangeElephant",
+        "price": 468000000
+    },
+    {
+        "name": "Reindeer Minion Skin",
+        "price": 8000000
+    },
+    {
+        "name": "Iron Chest+",
+        "price": 1000000
+    },
+    {
+        "name": "Mummy Minion Skin",
+        "price": 31999000
+    },
+    {
+        "name": "Gemstone",
+        "price": 40000000
+    },
+    {
+        "name": "Sand:7",
+        "price": 12000000
+    },
+    {
+        "name": "Sand:9",
+        "price": 60000000
+    },
+    {
+        "name": "Common Spider",
+        "price": 5000000
+    },
+    {
+        "name": "Spider Egg Mixin",
+        "price": 600000
+    },
+    {
+        "name": "Opal Power Scroll",
+        "price": 6390000
+    },
+    {
+        "name": "Great White Tooth Meal",
+        "price": 20000000
+    },
+    {
+        "name": "French Bread",
+        "price": 23999999
+    },
+    {
+        "name": "Wild Strawberry Dye",
+        "price": 49500000
+    },
+    {
+        "name": "Ember Ash Boots",
+        "price": 45000000
+    },
+    {
+        "name": "Flame Dye",
+        "price": 200000000
+    },
+    {
+        "name": "Berserker Helmet",
+        "price": 9000000
+    },
+    {
+        "name": "Dark Purple Dye",
+        "price": 790000000
+    },
+    {
+        "name": "Leather Boots:47",
+        "price": 9500000
+    },
+    {
+        "name": "Festive Skeleton Minion Skin",
+        "price": 8999000
+    },
+    {
+        "name": "Soulflow Engine",
+        "price": 20000000
+    }
+]

@@ -1,21 +1,14 @@
 import * as dotenv from "dotenv"
-import auctionMappings from "./auction-data.json" assert {type: 'json'}
-import { numberFormatRegex } from "./reggies.js"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
-import fetch from "node-fetch"
 import { removeExcessWhitespace } from "./utils.js"
 import { getBazaarItemPrices } from "./commands/bazaar.js"
+import { getLowestBin } from "./commands/auction.js"
 
 dotenv.config()
 
 const discordBot = new DiscordBot(process.env.DISCORD_TOKEN, process.env.GUILD_CHANNEL_ID)
 const minecraftBot = new MinecraftController()
-
-let cachedLowestBins = {}
-let lastBinUpdate = 0
-
-
 
 discordBot.on("message", async (message) => {
   const nick = message.member.displayName
@@ -114,33 +107,6 @@ async function prepareCommandResponse(content, rank) {
   }
 }
 
-function getLowestBin(args) {
-  let name = args.join("_").toUpperCase()
-  let lbin = "unknown"
-
-  for (const [key, value] of Object.entries(cachedLowestBins)) {
-    for (const alias of key.split(",")) {
-      if (alias.includes(name)) {
-        name = key
-        lbin = value
-        break
-      }
-    }
-  }
-
-  if (lbin === "unknown") return "Item not found."
-  return `Lowest BIN for ${name} is ${lbin}`
-}
-
-function remapLowestBins(lbins) {
-  const remapped = {}
-  for (let [key, value] of Object.entries(lbins)) {
-    key = auctionMappings[key] ?? key
-    remapped[key] = value.toString().replace(numberFormatRegex, ",")
-  }
-  return remapped
-}
-
 // taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
 function secsToTime(num) {
   var hours = Math.floor(num / 3600);
@@ -174,30 +140,3 @@ function getRainData() {
   }
   return message
 }
-
-(async function updateBinCache() {
-  const isFirstRun = lastBinUpdate === 0
-  const startTime = Date.now()
-  try {
-    // initializing last update time from hypixel api
-
-    const binResponse = await fetch(`https://api.hypixel.net/skyblock/auctions`)
-    if (binResponse.status === 200) {
-      const binJson = await binResponse.json()
-      lastBinUpdate = binJson["lastUpdated"]
-    }
-
-    const auctionResponse = await fetch(`https://moulberry.codes/lowestbin.json`)
-    if (auctionResponse.status === 200) {
-      cachedLowestBins = remapLowestBins(await auctionResponse.json())
-    }
-  } catch (e) {
-    console.error("Error fetching auction data.")
-    console.error(e)
-  }
-
-  // for the first time we check last update and set it to update during the next update run
-  const timeUntilNextUpdate = isFirstRun ? Date.now() - lastBinUpdate : 60000 - Date.now() - startTime
-  if (isFirstRun) setTimeout(updateBinCache, timeUntilNextUpdate)
-  else setTimeout(updateBinCache, 60000);
-})();

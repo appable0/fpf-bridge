@@ -7,6 +7,7 @@
     "fastest-levenshtein": "^1.0.16",
     "jaro-winkler": "^0.2.8",
     "mineflayer": "^4.5.1",
+    "prismarine-nbt": "^2.2.1",
     "sharp": "^0.31.2"
   }
 }
