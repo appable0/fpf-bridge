@@ -2,10 +2,12 @@ import fetch from "node-fetch"
 import jaroDistance from "jaro-winkler"
 import { titleCase } from "../utils.js"
 import { readFileSync } from "fs"
+import exp from "constants"
 
 let cachedLowestBins = {}
 let lastBinUpdate = 0
 
+// get full names from api data + additional data
 const auctionAliases = JSON.parse(readFileSync("./data/auctionAliases.json", "utf-8"))
 const itemResponse = await fetch(`https://api.hypixel.net/resources/skyblock/items`)
 const itemResults = await itemResponse.json()
@@ -24,11 +26,13 @@ let itemRemappings = Object.entries(auctionAliases).map(([id, aliases]) => {
 })
 
 const remapped = Object.values({...itemApiNames, ...itemRemappings})
-let expandedNames = []
+const fullExpandedNames = []
 remapped.forEach(product => {
-  expandedNames.push(...([product.name, ...product.aliases].map(alias => { return {id: product.id, name: product.name, alias: alias.toUpperCase()} })))
+  fullExpandedNames.push(...([product.name, ...product.aliases].map(alias => { return {id: product.id, name: product.name, alias: alias.toUpperCase()} })))
 })
 
+// names that are actually in lbin, rather than items that can't actually be sold
+let expandedNames = fullExpandedNames
 
 function closestAuctionProduct(phrase) {
   let uppercase = phrase.toUpperCase()
@@ -47,7 +51,6 @@ export function getLowestBin(args) {
   return `Lowest BIN for ${bestName} is ${formatter.format(lowestBin)}`
 }
 
-
 (async function updateBinCache() {
   const isFirstRun = lastBinUpdate === 0
   const startTime = Date.now()
@@ -62,6 +65,8 @@ export function getLowestBin(args) {
     const auctionResponse = await fetch(`https://moulberry.codes/lowestbin.json`)
     if (auctionResponse.status === 200) {
       cachedLowestBins = await auctionResponse.json()
+      let binNames = Object.keys(cachedLowestBins)
+      expandedNames = fullExpandedNames.filter(nameData => binNames.includes(nameData.id))
     }
   } catch (e) {
     console.error("Error fetching auction data.")
