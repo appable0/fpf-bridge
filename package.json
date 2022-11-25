@@ -5,6 +5,7 @@
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
     "fastest-levenshtein": "^1.0.16",
+    "humanize-duration": "^3.27.3",
     "jaro-winkler": "^0.2.8",
     "mineflayer": "^4.5.1",
     "prismarine-nbt": "^2.2.1",

@@ -4,6 +4,7 @@ import { MinecraftController } from "./MinecraftController.js"
 import { removeExcessWhitespace } from "./utils.js"
 import { getBazaarItemPrices } from "./commands/bazaar.js"
 import { getLowestBin } from "./commands/auction.js"
+import { getElectionData } from "./commands/election.js"
 
 dotenv.config()
 
@@ -71,7 +72,7 @@ async function prepareCommandResponse(content, rank) {
   const commandName = command.substring(process.env.PREFIX.length)
   switch (commandName) {
     case "help": {
-      return "Available commands: d_help, d_ping, d_lbin, d_bz, d_rain, d_rlb(admin only)"
+      return "Available commands: _help, _ping, _lbin, _bz, _rain, _election, _rlb(admin only)"
     }
 
     case "ping": {
@@ -90,6 +91,11 @@ async function prepareCommandResponse(content, rank) {
 
     case "rain": {
       return getRainData()
+    }
+
+    case "mayor":
+    case "election": {
+      return getElectionData(args)
     }
 
     case "rlb": {
