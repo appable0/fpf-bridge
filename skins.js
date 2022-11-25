@@ -24,6 +24,12 @@ INSERT OR REPLACE INTO Skins
 VALUES (:username, :skin, :lastUpdated)
 `)
 
+const nameInDB = db.prepare(`
+SELECT username
+FROM Skins
+WHERE username = ?
+`)
+
 export async function skin(username) {
   const result = cachedSkinSelect.get(username)
   if (result != null && Date.now() - result.lastUpdated < 600000) return result.skin
@@ -57,4 +63,8 @@ export async function skin(username) {
     return result?.skin
   }
 
+}
+
+export function nameIsInDb(username) {
+  return nameInDB.get(username) != null
 }

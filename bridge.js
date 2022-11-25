@@ -5,6 +5,7 @@ import { removeExcessWhitespace } from "./utils.js"
 import { getBazaarItemPrices } from "./commands/bazaar.js"
 import { getLowestBin } from "./commands/auction.js"
 import { getElectionData } from "./commands/election.js"
+import { getRainData } from "./commands/rain.js"
 
 dotenv.config()
 
@@ -65,14 +66,15 @@ minecraftBot.on("botJoined", () => {
 
 async function prepareCommandResponse(content, rank) {
   let normalizedContent = removeExcessWhitespace(content)
-  if (!normalizedContent.startsWith(process.env.PREFIX)) return
+  const p = process.env.PREFIX
+  if (!normalizedContent.startsWith(p)) return
   const [command, ...args] = normalizedContent.split(" ")
   console.log(`${(new Date()).toISOString()} - BRIDGE: Preparing command response for ${normalizedContent}`)
 
-  const commandName = command.substring(process.env.PREFIX.length)
+  const commandName = command.substring(p.length)
   switch (commandName) {
     case "help": {
-      return "Available commands: _help, _ping, _lbin, _bz, _rain, _election, _rlb(admin only)"
+      return `Available commands: ${p}help, ${p}ping, ${p}lbin, ${p}bz, ${p}rain, ${p}election/mayor, ${p}rlb(admin only)`
     }
 
     case "ping": {
@@ -111,38 +113,4 @@ async function prepareCommandResponse(content, rank) {
       return "Unknown command, try d_help"
     }
   }
-}
-
-// taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
-function secsToTime(num) {
-  var hours = Math.floor(num / 3600);
-  var minutes = Math.floor((num - (hours * 3600)) / 60);
-  var seconds = num - (hours * 3600) - (minutes * 60);
-  if (hours < 10) { hours = "0" + hours; }
-  if (minutes < 10) { minutes = "0" + minutes; }
-  if (seconds < 10) { seconds = "0" + seconds; }
-  return hours + ':' + minutes + ':' + seconds;
-}
-
-// taken from https://github.com/mat9369/skyblock-rain-timer/blob/main/index.html
-function getRainData() {
-  const UTCPrevThunderstorm = 1668474356000;
-  const UTCNow = new Date().getTime();
-  const base = Math.floor((UTCNow - UTCPrevThunderstorm) / 1000);
-  const thunderstorm = base % ((3850 + 1000) * 4);
-  const rain = thunderstorm % (3850 + 1000);
-
-  let message = ""
-
-  if (rain <= 3850) {
-    message = `Raining: No, time until rain: ${secsToTime(3850 - rain)}`
-  } else {
-    message = `Raining: Yes, rain time left: ${secsToTime(3850 + 1000 - rain)}, time until rain: ${secsToTime(3850 + 1000 - rain + 3850)}`
-  }
-  if (thunderstorm < (3850 * 4 + 1000 * 3)) {
-    message += ` || Thundering: No, time until thunder: ${secsToTime(3850 * 4 + 1000 * 3 - thunderstorm)}`
-  } else {
-    message += ` || Thundering: Yes, thunder time left: ${secsToTime(3850 * 4 + 1000 * 4 - thunderstorm)}, time until thunder: ${secsToTime(3850 * 4 + 1000 * 4 - thunderstorm + 3850 * 4 + 1000 * 3)}`
-  }
-  return message
 }

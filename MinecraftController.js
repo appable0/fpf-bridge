@@ -1,6 +1,7 @@
 import { MinecraftBot } from "./MinecraftBot.js"
 import { limboRegex, guildMessageRegex, mcJoinedRegex, mcLeftRegex } from "./reggies.js"
 import { EventEmitter } from "events"
+import { acceptFraggerInvite } from "./commands/frag.js"
 
 const timeout = 1000
 
@@ -21,6 +22,8 @@ export class MinecraftController extends EventEmitter {
 
   async onChat(message) {
     console.log(`${(new Date()).toISOString()} - CONTROLLER: Chat message received: ${message}`)
+    const party = acceptFraggerInvite(message)
+    if (party != null) this.chatRaw(party)
     if (limboRegex.test(message)) {
       this.emit("botJoined")
       this.ready = true
