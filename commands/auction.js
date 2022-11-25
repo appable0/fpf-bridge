@@ -5,7 +5,6 @@ import { readFileSync } from "fs"
 import exp from "constants"
 
 let cachedLowestBins = {}
-let lastBinUpdate = 0
 
 // get full names from api data + additional data
 const auctionAliases = JSON.parse(readFileSync("./data/auctionAliases.json", "utf-8"))
@@ -13,7 +12,7 @@ const itemResponse = await fetch(`https://api.hypixel.net/resources/skyblock/ite
 const itemResults = await itemResponse.json()
 
 let itemApiNames = Object.fromEntries(itemResults.items.map(itemData => {
-  return [itemData.id, {id: itemData.id, name: itemData.name, aliases: []}]
+  return [itemData.id, { id: itemData.id, name: itemData.name, aliases: [] }]
 }))
 
 let itemRemappings = Object.entries(auctionAliases).map(([id, aliases]) => {
@@ -25,10 +24,10 @@ let itemRemappings = Object.entries(auctionAliases).map(([id, aliases]) => {
   }
 })
 
-const remapped = Object.values({...itemApiNames, ...itemRemappings})
+const remapped = Object.values({ ...itemApiNames, ...itemRemappings })
 const fullExpandedNames = []
 remapped.forEach(product => {
-  fullExpandedNames.push(...([product.name, ...product.aliases].map(alias => { return {id: product.id, name: product.name, alias: alias.toUpperCase()} })))
+  fullExpandedNames.push(...([product.name, ...product.aliases].map(alias => { return { id: product.id, name: product.name, alias: alias.toUpperCase() } })))
 })
 
 // names that are actually in lbin, rather than items that can't actually be sold
@@ -37,9 +36,9 @@ let expandedNames = fullExpandedNames
 function closestAuctionProduct(phrase) {
   let uppercase = phrase.toUpperCase()
   let perfectMatches = expandedNames.filter(product => product.alias.includes(uppercase))
-  let bestMatch = (perfectMatches.length == 1) 
-    ? perfectMatches[0] 
-    : expandedNames.sort((a, b) => jaroDistance(uppercase, b.alias) - jaroDistance(uppercase, a.alias))[0] 
+  let bestMatch = (perfectMatches.length == 1)
+    ? perfectMatches[0]
+    : expandedNames.sort((a, b) => jaroDistance(uppercase, b.alias) - jaroDistance(uppercase, a.alias))[0]
   return { id: bestMatch.id, name: bestMatch.name }
 }
 
@@ -52,10 +51,8 @@ export function getLowestBin(args) {
 }
 
 (async function updateBinCache() {
-  const isFirstRun = lastBinUpdate === 0
-  const startTime = Date.now()
+  let lastBinUpdate = 0
   try {
-    // initializing last update time from hypixel api
     const binResponse = await fetch(`https://api.hypixel.net/skyblock/auctions`)
     if (binResponse.status === 200) {
       const binJson = await binResponse.json()
@@ -73,9 +70,7 @@ export function getLowestBin(args) {
     console.error(e)
   }
 
-  // for the first time we check last update and set it to update during the next update run
-  const timeUntilNextUpdate = isFirstRun ? Date.now() - lastBinUpdate : 60000 - Date.now() - startTime
-  if (isFirstRun) setTimeout(updateBinCache, timeUntilNextUpdate)
-  else setTimeout(updateBinCache, 60000);
+  // hypixel updates the api site a bit later than the actual auction data, ~8s is what I've seen
+  setTimeout(updateBinCache, Math.max(0, lastBinUpdate + 68500 - Date.now()))
 })();
 
