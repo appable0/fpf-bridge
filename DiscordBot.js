@@ -43,7 +43,7 @@ export class DiscordBot extends EventEmitter {
       message.name, 
       author, 
       message.content, 
-      {text: message.guildRank ?? ""}, 
+      {text: message.guildRank ?? null}, 
       hypixelRankColor(message.hypixelRank)
     )
   }
