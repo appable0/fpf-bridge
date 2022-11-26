@@ -44,7 +44,7 @@ minecraftBot.on("guildChatReceived", async (guildChatMessage) => {
   const commandResponse = await prepareCommandResponse(guildChatMessage.content, guildChatMessage.guildRank)
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
-    discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse)
+    discordBot.sendEmbedWithAuthor(process.env.MC_USERNAME, process.env.MC_USERNAME, commandResponse, {text: null}, [85, 85, 255])
   }
 })
 
