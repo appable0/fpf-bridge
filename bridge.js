@@ -110,7 +110,8 @@ async function prepareCommandResponse(content, rank) {
     }
 
     default: {
-      return "Unknown command, try d_help"
+      return `Unknown command, try ${p}help`
     }
   }
 }
+

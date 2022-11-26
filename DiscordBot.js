@@ -4,7 +4,7 @@ import { skin } from "./skins.js"
 import { imageLinkRegex } from "./reggies.js"
 const { Client: Client, GatewayIntentBits: GatewayIntentBits, EmbedBuilder: EmbedBuilder, AttachmentBuilder: AttachmentBuilder } = Discord
 import { EventEmitter } from "events"
-
+import { hypixelRankColor } from "./utils.js"
 
 export class DiscordBot extends EventEmitter {
   constructor(token, channelId) {
@@ -22,45 +22,45 @@ export class DiscordBot extends EventEmitter {
 
 
   async onMcJoined(member) {
-    this.sendEmbedWithAuthor(member, member, "**joined.**")
+    this.sendEmbedWithAuthor(member, member, "**joined.**", null, "Green")
   }
 
   async onMcLeft(member) {
-    this.sendEmbedWithAuthor(member, member, "**left.**")
+    this.sendEmbedWithAuthor(member, member, "**left.**", null, "Red")
   }
 
-  async onBotJoined() {
-    this.sendEmbed("Status", ":white_check_mark: Bridge online.", null)
+  onBotJoined() {
+    this.sendEmbed("Status", ":white_check_mark: Bridge online.", null, "Green")
   }
 
-  async onBotLeft(reason) {
-    this.sendEmbed("Status", ":x: Bridge offline.", reason)
+  onBotLeft(reason) {
+    this.sendEmbed("Status", ":x: Bridge offline.", reason, "Red")
   }
 
   async onGuildChat(message) {
     let author = `${message.name}`
-    if (message.hypixelRank != null) {
-      author = `[${message.hypixelRank}] ${author}`
-    }
-    if (message.guildRank != null) {
-      author += ` [${message.guildRank}]`
-    }
-
-    this.sendEmbedWithAuthor(message.name, author, message.content)
+    this.sendEmbedWithAuthor(
+      message.name, 
+      author, 
+      message.content, 
+      {text: message.guildRank ?? ""}, 
+      hypixelRankColor(message.hypixelRank)
+    )
   }
 
-  sendEmbed(title, content, footer) {
+  sendEmbed(title, content, footer, color) {
     if (!this.client.isReady) return
     let channel = this.client.channels.cache.get(this.channelId)
     let embed = new EmbedBuilder()
       .setTitle(title)
+      .setColor(color)
       .setDescription(content)
       .setFooter({ text: footer })
       .setTimestamp()
     channel.send({ embeds: [embed] })
   }
 
-  async sendEmbedWithAuthor(username, author, content) {
+  async sendEmbedWithAuthor(username, author, content, footer, color) {
     if (!this.client.isReady) return
     const channel = this.client.channels.cache.get(this.channelId)
     try {
@@ -79,6 +79,8 @@ export class DiscordBot extends EventEmitter {
           iconURL: "attachment://attachment.png"
         })
         .setTimestamp()
+        .setColor(color)
+        .setFooter(footer)
       if (foundImage) {
         embed.setImage(image[0])
       }

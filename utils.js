@@ -16,3 +16,20 @@ export function secsToTime(num) {
   if (seconds < 10) { seconds = "0" + seconds; }
   return hours + ':' + minutes + ':' + seconds;
 }
+
+export function hypixelRankColor(rank) {
+  switch (rank) {
+    case undefined:
+      return [170, 170, 170]
+    case "VIP":
+    case "VIP+":
+      return [85, 255, 85]
+    case "MVP":
+    case "MVP+":
+      return [85, 255, 255]
+    case "MVP++":
+      return [255, 170, 0]
+    default:
+      return [85, 85, 255]
+  }
+}
