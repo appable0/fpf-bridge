@@ -1,14 +1,15 @@
 import { MinecraftBot } from "./MinecraftBot.js"
-import { limboRegex, guildMessageRegex, mcJoinedRegex, mcLeftRegex } from "./reggies.js"
+import { limboRegex, guildMessageRegex, mcJoinedRegex, mcLeftRegex } from "../reggies.js"
 import { EventEmitter } from "events"
-import { acceptFraggerInvite } from "./commands/frag.js"
+import { acceptFraggerInvite } from "../commands/frag.js"
 
 const timeout = 1000
 
 export class MinecraftController extends EventEmitter {
-  constructor() {
+  constructor(username) {
     super()
-    this.bot = new MinecraftBot(this)
+    this.username = username
+    this.bot = new MinecraftBot(this, username)
     this.bot.connect()
 
     this.messageQueue = []

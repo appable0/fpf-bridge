@@ -4,8 +4,9 @@ import mineflayer from "mineflayer"
  * Very lightweight wrapper around Mineflayer bot that allows for disconnect and reconnect without dropping listeners.
  */
 export class MinecraftBot {
-  constructor(manager) {
+  constructor(manager, username) {
     this.manager = manager
+    this.username = username
   }
 
   connect() {
@@ -14,7 +15,7 @@ export class MinecraftBot {
     this.client = mineflayer.createBot({
       host: "mc.hypixel.net",
       port: 25565,
-      username: process.env.MC_USERNAME,
+      username: this.username,
       auth: "microsoft",
       version: "1.17.1",
       checkTimeoutInterval: 10000
