@@ -1,7 +1,7 @@
 import * as dotenv from "dotenv"
 import { DiscordBot } from "./DiscordBot.js"
 import { MinecraftController } from "./MinecraftController.js"
-import { removeExcessWhitespace } from "./utils.js"
+import { removeExcessWhitespace, randRange } from "./utils.js"
 import { getBazaarItemPrices } from "./commands/bazaar.js"
 import { getLowestBin } from "./commands/auction.js"
 import { getElectionData } from "./commands/election.js"
@@ -31,7 +31,8 @@ discordBot.on("message", async (message) => {
   }
 
   minecraftBot.chatFromDiscord(nick, content)
-  const commandResponse = await prepareCommandResponse(content, "Comm" /*this is just for testing cuz we only have access, need to use discord role*/)
+  const hasRole = message.member.roles.cache.some(role => role.id === '1022372012041195521' /*Admin role*/)
+  const commandResponse = await prepareCommandResponse(content, hasRole ? "Comm" : "")
 
   if (commandResponse != null) {
     minecraftBot.chatBot(commandResponse)
@@ -74,7 +75,7 @@ async function prepareCommandResponse(content, rank) {
   const commandName = command.substring(p.length)
   switch (commandName) {
     case "help": {
-      return `Available commands: ${p}help, ${p}ping, ${p}lbin, ${p}bz, ${p}rain, ${p}election/mayor, ${p}rlb(admin only)`
+      return `Available commands: ${p}help, ${p}ping, ${p}lbin <item>, ${p}bz <item>, ${p}rain, ${p}election/mayor, ${p}rlb(admin only), ${p}8ball, ${p}pick <args>`
     }
 
     case "ping": {
@@ -103,10 +104,38 @@ async function prepareCommandResponse(content, rank) {
     case "rlb": {
       if (rank === "Comm" || rank === "GM") {
         minecraftBot.bot.disconnect()
+        return null
       } else {
         return "No permission"
       }
-      return null
+    }
+
+    case "8ball": {
+      if (args.length === 0) {
+        return "You didn't ask anything"
+      }
+      const value = randRange(1, 5)
+      switch (value) {
+        case 1: {
+          return "Yes"
+        }
+        case 2: {
+          return "No"
+        }
+        case 3: {
+          return "Maybe"
+        }
+        case 4: {
+          return "Ask again later"
+        }
+        case 5: {
+          return "Why are you asking me this"
+        }
+      }
+    }
+
+    case "pick": {
+      return "I choose " + args[randRange(0, args.length - 1)]
     }
 
     default: {

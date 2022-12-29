@@ -56,7 +56,7 @@ export class DiscordBot extends EventEmitter {
       .setColor(color)
       .setDescription(content)
       .setFooter({ text: footer })
-      .setTimestamp()
+      .setTimestamp(Date.now())
     channel.send({ embeds: [embed] })
   }
 

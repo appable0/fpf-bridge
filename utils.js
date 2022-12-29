@@ -33,3 +33,9 @@ export function hypixelRankColor(rank) {
       return [85, 85, 255]
   }
 }
+
+export function randRange(min, max) {
+  min = Math.ceil(min);
+  max = Math.max(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
