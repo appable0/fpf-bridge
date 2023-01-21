@@ -16,10 +16,17 @@ const minecraftBot = new MinecraftController()
 discordBot.on("message", async (message) => {
   const nick = message.member.displayName
   let content = cleanContent(message.cleanContent)
+
+  const stickers = message.stickers?.map(sticker => `<${sticker.name}>`)?.join(" ")
+  if (stickers != null) {
+    content += ` ${stickers}`
+  }
+
   const attachment = message.attachments.at(0)
   if (attachment != null) {
     content += ` ${attachment.url}`
   }
+  
 
   if (content.startsWith("d.")) {
     content = content.replace(/^.{2}/g, 'd_')
