@@ -1,70 +1,79 @@
-import fetch from "node-fetch"
 import Database from "better-sqlite3"
+import fetch from "node-fetch"
 import sharp from "sharp"
-const db = new Database("bridge.db")
 
-const SUCCESS = 200
+const db = new Database("./data/members.db")
+const steve = "LyANKx4NLx8PKBwLJBgIJhoKKx4NKh0NKx4NKx4NKx4NMyQRQioSPyoVLB4OKBwLKx4NtolsvY5yxpaAvYtyvY50rHZaNCUSqn1mtIRtqn1mrYBtnHJcu4lynGlMnGlMtIRt////Uj2JtXtnu4lyUj2J////qn1mnGNGs3tit4JyakAwakAwvohsompHgFM0kF5Dll9Ad0I1d0I1d0I1d0I1j14+gVM5b0UsbUMqgVM5gVM5ek4zg1U7g1U7ek4z"
+const timeout = 60
 
-db.prepare(`
-CREATE TABLE IF NOT EXISTS Skins (
+db.exec(`
+CREATE TABLE IF NOT EXISTS Members (
   username TEXT PRIMARY KEY,
-  skin BLOB,
+  skin TEXT NOT NULL,
   lastUpdated INTEGER NOT NULL
 )
-`).run()
+`)
 
-const cachedSkinSelect = db.prepare(`
+const skinSelect = db.prepare(`
 SELECT skin, lastUpdated
-FROM Skins
+FROM Members
 WHERE username = ?
 `)
 
 const insertSkin = db.prepare(`
-INSERT OR REPLACE INTO Skins 
+INSERT OR REPLACE INTO Members 
 VALUES (:username, :skin, :lastUpdated)
 `)
 
-const nameInDB = db.prepare(`
-SELECT username
-FROM Skins
-WHERE username = ?
-`)
+async function updateSkin(username) {
+  const skin = await getMinecraftAvatar(username)
+  if (!skin) return
+  insertSkin.run({ username: username, skin: skin, lastUpdated: Date.now() })
+  return skin
+}
 
-export async function skin(username) {
-  const result = cachedSkinSelect.get(username)
-  if (result != null && Date.now() - result.lastUpdated < 600000) return result.skin
-
+async function getMinecraftAvatar(username) {
   try {
-    // Getting the UUID of a player.
     const uuidResponse = await fetch(`https://api.mojang.com/users/profiles/minecraft/${username}`)
-    if (uuidResponse.status !== SUCCESS) return result?.skin
-
-    // Getting the skin from the UUID.
-    const profile = await uuidResponse.json()
-    const profileResponse = await fetch(`https://sessionserver.mojang.com/session/minecraft/profile/${profile.id}`)
-    if (profileResponse.status !== SUCCESS) return result?.skin
-
+    if (uuidResponse.status != 200) {
+      throw new Error(`Mojang API returned code ${uuidResponse.status} while getting the UUID of ${username}.`)
+    }
+    const uuid = (await uuidResponse.json()).id
+    const profileResponse = await fetch(`https://sessionserver.mojang.com/session/minecraft/profile/${uuid}`)
+    if (profileResponse.status !== 200) {
+      throw new Error(`Mojang API returned code ${profileResponse.status} while getting profile data for ${uuid}.`)
+    }
     const content = await profileResponse.json()
     const textureUrl = JSON.parse(Buffer.from(content.properties[0].value, "base64").toString("ascii")).textures.SKIN.url
     const textureResponse = await fetch(textureUrl)
-    const buffer = await textureResponse.buffer()
+    const buffer = new Uint8ClampedArray(await textureResponse.arrayBuffer())
     const helmet = await sharp(buffer).extract({ left: 40, top: 8, width: 8, height: 8 }).toBuffer()
-    const skin = await sharp(buffer).extract({ left: 8, top: 8, width: 8, height: 8 }).composite([{ input: helmet }]).png().toBuffer()
-
-    insertSkin.run({
-      username: username,
-      skin: skin,
-      lastUpdated: Date.now()
-    })
-
-    return skin
-
+    const data = await sharp(buffer)
+      .extract({ left: 8, top: 8, width: 8, height: 8 })
+      .composite([{ input: helmet }])
+      .removeAlpha()
+      .raw()
+      .toBuffer()
+    return data.toString("base64")
   } catch (e) {
-    return result?.skin
+    console.warn(e)
   }
+} 
 
+async function getSkinPng(data) {
+  const array = new Uint8ClampedArray(Buffer.from(data, "base64"))
+  return await sharp(array, {raw: {width: 8, height: 8, channels: 3}})
+    .resize(128, 128, { kernel: sharp.kernel.nearest })
+    .png()
+    .toBuffer()
 }
 
-export function nameIsInDb(username) {
-  return nameInDB.get(username) != null
+export async function getSkin(username) {
+  let { skin, lastUpdated } = skinSelect.get(username) ?? {}
+  if (!skin) {
+    skin = await updateSkin(username)
+  } else if ((Date.now() - lastUpdated) > timeout) {
+    setImmediate(() => updateSkin(username))
+  }
+  return getSkinPng(skin ?? steve)
 }

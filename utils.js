@@ -1,3 +1,7 @@
+import emojiRegex from "emoji-regex"
+import { emojiToName } from "gemoji"
+const emojiPattern = emojiRegex()
+
 export function removeExcessWhitespace(string) {
   return string.trim().replace(/\s+/g, " ")
 }
@@ -38,4 +42,14 @@ export function randRange(min, max) {
   min = Math.ceil(min);
   max = Math.max(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+export function cleanContent(content) {
+  return content
+    .replaceAll(emojiPattern, substring => ` :${emojiToName[substring.replace(/[\u{1F3FB}-\u{1F3FF}]/ug, '')] ?? "unknown_emoji"}: `)
+    .replace(/\s+/g, " ")
+    .replace(/<(?:a)?(:\w{2,}:)\d{17,19}>/g, "$1")
+    .replaceAll("ez", "e\u{200D}z")
+    .trim()
+    .slice(0, 256)
 }

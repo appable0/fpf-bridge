@@ -6,6 +6,7 @@ import { getBazaarItemPrices } from "./commands/bazaar.js"
 import { getLowestBin } from "./commands/auction.js"
 import { getElectionData } from "./commands/election.js"
 import { getRainData } from "./commands/rain.js"
+import { cleanContent } from "./utils.js"
 
 dotenv.config()
 
@@ -14,7 +15,7 @@ const minecraftBot = new MinecraftController()
 
 discordBot.on("message", async (message) => {
   const nick = message.member.displayName
-  let content = message.cleanContent
+  let content = cleanContent(message.cleanContent)
   const attachment = message.attachments.at(0)
   if (attachment != null) {
     content += ` ${attachment.url}`
